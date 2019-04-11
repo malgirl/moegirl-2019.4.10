@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Redflagicon","pageid":255907,"wikitext":{"*":"<includeonly>{{#vardefine: strCaption|{{{Caption|{{{caption|}}}}}}}}[[File:Red flag waving.svg|{{{size|20px}}}|link=|alt={{#var:strCaption}}{{#if:{{#var:strCaption}}|{{!}}{{#var:strCaption}}|}}]]</includeonly><noinclude>{{Documentation}}</noinclude>"}}}

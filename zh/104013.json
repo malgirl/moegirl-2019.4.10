@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Or","pageid":297200,"wikitext":{"*":"<includeonly>{{#vardefine:mark|}}{{#fornumargs: num | value\n|{{#if:{{#var:value}}|{{#vardefine:mark|{{#var:mark|{{#var:num}}}}}}}}\n}}{{#if:{{#var:mark}}|{{{{{#var:mark}}|}}}|{{{default|}}}}}</includeonly><noinclude>\n{{Documentation}}\n[[\u5206\u7c7b:\u8f85\u52a9\u6a21\u677f]]\n</noinclude>"}}}

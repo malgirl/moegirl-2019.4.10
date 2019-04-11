@@ -1,0 +1,1 @@
+{"parse":{"title":"User:\u4e0d\u6d01\u8005/\u6e21\u9e26","pageid":211289,"wikitext":{"*":"<includeonly>{{#Widget:Moving words}}<span class=\"loader\" style=\"color:{{{color|#19a5bc}}};font-size:{{{font-size|20px}}};\">{{#forargs:span\n  | key\n  | val\n  |<nowiki/>{{{1|\n}}}{{Moving words/brick|span= {{#var:val|}}|word= {{{word{{#var:key|}}|}}}}}\n}}</span></includeonly>"}}}

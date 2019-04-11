@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Sin","pageid":238205,"wikitext":{"*":"{{#switch:{{{2|deg}}}\n|#default={{#expr:sin({{{1|0}}})}}\n|rad={{#expr:sin({{{1|0}}})}}\n|deg={{#expr:sin({{{1|0}}} * pi div 180)}}\n}}"}}}

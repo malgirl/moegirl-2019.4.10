@@ -1,0 +1,1 @@
+{"parse":{"title":"User:\u84dd\u7fbd\u6c47/common.js","pageid":112890,"wikitext":{"*":"mw.loader.load('User:AnnAngela/js/SendWelcomeMessage.js');\n\nmw.loader.load('User:AnnAngela/js/navbox-link.js');\n\nmw.loader.load('MediaWiki:Gadget-editTopSection.js');"}}}

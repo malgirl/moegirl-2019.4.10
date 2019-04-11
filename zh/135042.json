@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Unstrip","pageid":265092,"wikitext":{"*":"-- This module provides a frontend to the mw.text.unstrip and unstripNoWiki functions\nlocal p = {}\n\nfunction p.unstrip(frame)\n\treturn mw.text.unstrip(frame.args[1] or '')\nend\n\nfunction p.unstripNoWiki(frame)\n\treturn mw.text.unstripNoWiki(frame.args[1] or '')\nend\n\nreturn p"}}}

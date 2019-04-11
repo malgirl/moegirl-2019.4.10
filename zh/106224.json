@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u6298\u53e0\u5c5e\u6027","pageid":293312,"wikitext":{"*":"<includeonly>class=\"mw-collapsible {{#ifeq:{{{2|on}}}|off|mw-collapsed|}} {{{class|}}}\" id=\"mw-customcollapsible-{{{1|null}}}\" style=\"transition:.5s all linear;{{{css|}}}\"</includeonly><noinclude>{{doc}}</noinclude>"}}}

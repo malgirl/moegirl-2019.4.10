@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Flagicon image","pageid":294530,"wikitext":{"*":"<includeonly><span class=\"flagicon\">[[File:{{#if:{{{1|}}}|{{{1}}}|Flag placeholder.svg}}|{{{size|23x15px}}}|{{{border|{{#if:{{{1|}}}|border}}}}} |alt=|link=]]</span></includeonly><noinclude>{{documentation}}[[Category:\u9875\u4e2d\u6a21\u677f]]</noinclude>"}}}

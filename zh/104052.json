@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Pgref","pageid":307250,"wikitext":{"*":"<nowiki>[[</nowiki>{{#if:{{{2|}}}|{{\n#switch:{{ns:{{{1|}}}}}|Category|File=[[:{{{1}}}:{{{2}}}]]|#default=[[{{{1}}}:{{{2}}}]]}}|[[{{{1}}}]]}}<nowiki>]]</nowiki><noinclude>\n{{Documentation}}\n[[Category:\u5185\u90e8\u94fe\u63a5\u6a21\u677f]]\n</noinclude>"}}}

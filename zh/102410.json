@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Scribunto-doc-page-does-not-exist","pageid":304186,"wikitext":{"*":"{{#ifeq:{{#titleparts:{{PAGENAME}}|1}}|CGroup|{{CGroupViewer}}|''\u6b64\u6a21\u5757\u7684\u6587\u6863\u53ef\u4ee5\u5728[[$1]]\u521b\u5efa''}}"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Gadget-Searchbox-popout.js","pageid":63927,"wikitext":{"*":"// \u641c\u7d22\u680f\u5f39\u51fa\n$(function () {\n    $('input#searchInput').focus(function () {\n        $('#simpleSearch').animate({ width: 339 }, 339);\n    }).blur(function () {\n        $('#simpleSearch').animate({ width: 226 }, 339);\n    });\n});"}}}

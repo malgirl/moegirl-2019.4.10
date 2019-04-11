@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u4f2a\u968f\u673a\u6570","pageid":237651,"wikitext":{"*":"<includeonly>{{#invoke:string|sub|{{\u5706\u5468\u73871000}}|{{#expr:({{#time:s}}*{{{2|11}}}+{{{3|3}}})mod{{{4|1000}}}}}|{{#expr:({{#time:s}}*{{{2|11}}}+{{{3|3}}})mod{{{4|1000}}}+{{#expr:{{{1|1}}}-1}}}}}}</includeonly>\n<noinclude>{{doc}}</noinclude>"}}}

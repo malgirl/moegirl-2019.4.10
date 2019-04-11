@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u4ea4\u53c9\u989c\u8272N","pageid":197665,"wikitext":{"*":"{{#fornumargs:num|arg|\n  {{#if:{{#vardefineecho:usecolor| {{{c{{#expr:({{#var:num}} - 1) mod {{{N|2}}} + 1}}|}}} }}\n  | {{color\n    |1={{#var:usecolor}}\n    |2={{#var:arg}}\n    }}\n  | {{#var:arg}}\n  }}\n}}<noinclude>{{doc}}[[\u5206\u7c7b:\u683c\u5f0f\u6a21\u677f]]</noinclude>"}}}

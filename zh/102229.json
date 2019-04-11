@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Gadget-wikEd.js","pageid":798,"wikitext":{"*":"// install [[Wikipedia:User:Cacycle/wikEd]] in-browser text editor\nmw.loader.load('//en.wikipedia.org/w/index.php?title=User:Cacycle/wikEd.js&action=raw&ctype=text/javascript');"}}}

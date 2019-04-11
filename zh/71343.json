@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Bbrabbit/js/hide.js","pageid":197455,"wikitext":{"*":"if(window.location.href.indexOf(\"%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91%E7%9A%84%E9%BB%91%E7%A7%91%E6%8A%80\")>-1)\n{\n\tdocument.getElementById(\"unchecked\").style.display = \"none\";\n\tdocument.getElementById(\"checked\").style.display = \"\";\n \n}"}}}

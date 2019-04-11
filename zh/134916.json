@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Array","pageid":157096,"wikitext":{"*":"local p = {}\n\nfunction p.parse(string)\n\tlocal ret = mw.text.split(string:gsub('@@','\\1'),'@')\n\tfor i, v in pairs(ret) do\n\t\tret[i] = v:gsub('\\1','@')\n\tend\n\treturn ret\nend\n\nreturn p"}}}

@@ -1,0 +1,4718 @@
+{
+    "batchcomplete": "", 
+    "query": {
+        "dbrepllag": [
+            {
+                "host": "", 
+                "lag": -1
+            }
+        ], 
+        "extensions": [
+            {
+                "author": "Fish Thirteen, The Little Moe New LLC", 
+                "description": "Show advertisement in the page header and page footer in Moegirlpedia", 
+                "name": "MoegirlAD", 
+                "type": "parserhook", 
+                "url": "https://github.com/FishThirteen/MoegirlAD", 
+                "vcs-date": "2017-07-13T13:37:37Z", 
+                "vcs-system": "git", 
+                "vcs-version": "f8bd48d181f2c5900e692b5e9265a6e62a383777", 
+                "version": 0.42
+            }, 
+            {
+                "author": "[https://www.sergeychernyshev.com Sergey Chernyshev], Yaron Koren, ...", 
+                "descriptionmsg": "widgets-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Widgets", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Widgets", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Widgets", 
+                "vcs-date": "2018-04-11T12:08:15Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Widgets/+/72d1e24629e1866f9b9842a15a9c5f777b9ff1e6", 
+                "vcs-version": "72d1e24629e1866f9b9842a15a9c5f777b9ff1e6", 
+                "version": "1.3.0"
+            }, 
+            {
+                "author": "David M. Sledge, [http://www.mediawiki.org/wiki/User:Danwe Daniel Werner]", 
+                "descriptionmsg": "loops-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Loops", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Loops", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Loops", 
+                "vcs-date": "2018-03-14T13:00:10Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Loops/+/56162f2cb79f5c8d25622134d4088bf163601a47", 
+                "vcs-version": "56162f2cb79f5c8d25622134d4088bf163601a47", 
+                "version": "0.5.1"
+            }, 
+            {
+                "author": "Jim R. Wilson (wilson.jim.r<at>gmail.com), Vitaliy Filippov (vitalif<at>mail.ru)", 
+                "description": "Adds a parser function for search and replace using regular expressions.", 
+                "name": "RegexParserFunctions", 
+                "type": "parserhook", 
+                "url": "http://wiki.4intra.net/RegexParserFunctions", 
+                "version": "2015-12-02"
+            }, 
+            {
+                "author": "Brion Vibber", 
+                "descriptionmsg": "charinsert-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/CharInsert", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "CharInsert", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CharInsert", 
+                "vcs-date": "2018-04-13T22:20:38Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CharInsert/+/b5f34be424a64063a240e1524ae6f41e5ea3f4e6", 
+                "vcs-version": "b5f34be424a64063a240e1524ae6f41e5ea3f4e6"
+            }, 
+            {
+                "author": "Tim Starling", 
+                "descriptionmsg": "imagemap_desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/ImageMap", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "ImageMap", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ImageMap", 
+                "vcs-date": "2018-05-05T04:39:21Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ImageMap/+/6ca1ad79b0afb0d7b80f4ffccd844cc557e22db9", 
+                "vcs-version": "6ca1ad79b0afb0d7b80f4ffccd844cc557e22db9"
+            }, 
+            {
+                "author": "\u00c6var Arnfj\u00f6r\u00f0 Bjarmason, Andrew Garrett, Brion Vibber, Ed Sanders, Marius Hoch, Steve Sanbeg, Trevor Parscal, ...", 
+                "credits": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/Credits/Cite", 
+                "descriptionmsg": "cite-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Cite", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Cite", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Cite", 
+                "vcs-date": "2018-04-17T20:24:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Cite/+/20e26df4fc2cc3dbd65c01b2a2873ea1f8f5916f", 
+                "vcs-version": "20e26df4fc2cc3dbd65c01b2a2873ea1f8f5916f"
+            }, 
+            {
+                "author": "Nikola Smolenski, Brion Vibber, Steve Sanbeg", 
+                "descriptionmsg": "poem-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Poem", 
+                "license-name": "CC0-1.0", 
+                "name": "Poem", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Poem", 
+                "vcs-date": "2018-05-05T20:04:02Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Poem/+/c4098df5ea8132826164f71c0c18b54ae8450edf", 
+                "vcs-version": "c4098df5ea8132826164f71c0c18b54ae8450edf"
+            }, 
+            {
+                "author": "Ross McClure, Jack Phoenix, ...", 
+                "descriptionmsg": "randomselection-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/RandomSelection", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "RandomSelection", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:RandomSelection", 
+                "vcs-date": "2018-03-10T02:56:33Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/RandomSelection/+/c4c799f11b2e5ca41b5382331f418fa8bc8d869b", 
+                "vcs-version": "c4c799f11b2e5ca41b5382331f418fa8bc8d869b", 
+                "version": "2.2.2"
+            }, 
+            {
+                "author": "Erik Moeller, Leonardo Pimenta, Rob Church, Trevor Parscal, DaSch", 
+                "descriptionmsg": "inputbox-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/InputBox", 
+                "license-name": "MIT", 
+                "name": "InputBox", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:InputBox", 
+                "vcs-date": "2018-05-05T04:46:27Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/InputBox/+/dfec2613ddd6b2bfc6cf291be74429b5bfebea89", 
+                "vcs-version": "dfec2613ddd6b2bfc6cf291be74429b5bfebea89", 
+                "version": "0.3.0"
+            }, 
+            {
+                "author": "Brad Jorsch, Marc A. Pelletier", 
+                "descriptionmsg": "templatestyles-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/TemplateStyles", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TemplateStyles", 
+                "namemsg": "templatestyles", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TemplateStyles", 
+                "vcs-date": "2018-04-18T17:14:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TemplateStyles/+/e5da5c0c186c0a1c9d67d9e8375084febda38f46", 
+                "vcs-version": "e5da5c0c186c0a1c9d67d9e8375084febda38f46", 
+                "version": "1.0"
+            }, 
+            {
+                "author": "Tim Starling, Robert Rohde, Ross McClure, Juraj Simlovic", 
+                "descriptionmsg": "pfunc_desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/ParserFunctions", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "ParserFunctions", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ParserFunctions", 
+                "vcs-date": "2018-05-05T04:35:42Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ParserFunctions/+/7ec426b9a1d5fabfa8ba79e08806c5b3f796837a", 
+                "vcs-version": "7ec426b9a1d5fabfa8ba79e08806c5b3f796837a", 
+                "version": "1.6.0"
+            }, 
+            {
+                "author": "[http://en.wikinews.org/wiki/User:Amgine Amgine], [http://en.wikinews.org/wiki/User:IlyaHaykinson IlyaHaykinson]", 
+                "descriptionmsg": "intersection-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/DynamicPageList", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "DynamicPageList", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Intersection", 
+                "vcs-date": "2018-04-14T09:25:47Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/intersection/+/15e446a825e0d1e0c1d3bf7b22bbfd238cc58385", 
+                "vcs-version": "15e446a825e0d1e0c1d3bf7b22bbfd238cc58385", 
+                "version": "1.7.0"
+            }, 
+            {
+                "author": "Daniel Kinzler", 
+                "descriptionmsg": "categorytree-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/CategoryTree", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "CategoryTree", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CategoryTree", 
+                "vcs-date": "2018-04-17T00:31:23Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CategoryTree/+/c24e5edb2fd97da91cb659f2582439a7ff791e94", 
+                "vcs-version": "c24e5edb2fd97da91cb659f2582439a7ff791e94"
+            }, 
+            {
+                "author": "Rob Adams, Tom Hempel, Xiloynaha, [https://www.mediawiki.org/wiki/User:Danwe Daniel Werner], [https://www.mediawiki.org/wiki/User:MGChecker MGChecker], ...", 
+                "descriptionmsg": "variables-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Variables", 
+                "license-name": "ISC", 
+                "name": "Variables", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Variables", 
+                "vcs-date": "2018-04-25T15:59:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Variables/+/872663b8a3075c2bdec36a16c04838f944bfa679", 
+                "vcs-version": "872663b8a3075c2bdec36a16c04838f944bfa679", 
+                "version": "2.4.0"
+            }, 
+            {
+                "author": "Victor Vasiliev, Tim Starling, Brad Jorsch", 
+                "descriptionmsg": "scribunto-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Scribunto", 
+                "license-name": "GPL-2.0-or-later AND MIT", 
+                "name": "Scribunto", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Scribunto", 
+                "vcs-date": "2018-05-15T15:24:47Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Scribunto/+/106fbf4df8f759e4e2eaa7b753fb38978f9780b4", 
+                "vcs-version": "106fbf4df8f759e4e2eaa7b753fb38978f9780b4"
+            }, 
+            {
+                "author": "Dariusz Siedlecki, Jack Phoenix, Thomas Gries", 
+                "descriptionmsg": "ajaxpoll-desc", 
+                "name": "AJAX Poll", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:AJAX_Poll", 
+                "vcs-date": "2018-07-04T14:48:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/AJAXPoll/+/97573a4e7d06f4b7819adf079834df647b6b8bff", 
+                "vcs-version": "97573a4e7d06f4b7819adf079834df647b6b8bff", 
+                "version": "1.9.0"
+            }, 
+            {
+                "author": "[https://imbushuo.net Bingxing Wang(The Little Moe New LLC)], [https://lmn.cat The Little Moe New LLC], Scott Schiller", 
+                "descriptionmsg": "sm2shim-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Sm2Shim", 
+                "license-name": "BSD-2-Clause", 
+                "name": "Sm2Shim", 
+                "type": "parserhook", 
+                "url": "https://github.com/imbushuo/MediaWiki-Sm2Shim", 
+                "vcs-date": "2017-03-04T13:05:28Z", 
+                "vcs-system": "git", 
+                "vcs-version": "4bdc9c946eed9489a7d3101f1fcd1a2c696e1bb9", 
+                "version": "3100.304.457.10400"
+            }, 
+            {
+                "author": "Timo Tijhof, Moriel Schottlender, James D. Forrester, Trevor Parscal, Bartosz Dziewo\u0144ski, Marielle Volz, ...", 
+                "descriptionmsg": "templatedata-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/TemplateData", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TemplateData", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TemplateData", 
+                "vcs-date": "2018-07-13T18:58:56Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TemplateData/+/61adb162404776c792c8adb3149d03e704746658", 
+                "vcs-version": "61adb162404776c792c8adb3149d03e704746658", 
+                "version": "0.1.2"
+            }, 
+            {
+                "author": "Adam Nielsen, ...", 
+                "descriptionmsg": "masseditregex-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/MassEditRegex", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "MassEditRegex", 
+                "namemsg": "masseditregex-extensionname", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:MassEditRegex", 
+                "vcs-date": "2018-03-21T21:32:05Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/MassEditRegex/+/fcc91e5fcecc0fb17f691b85addad622287be72a", 
+                "vcs-version": "fcc91e5fcecc0fb17f691b85addad622287be72a", 
+                "version": "8.3.0"
+            }, 
+            {
+                "author": "Tim Laqua", 
+                "descriptionmsg": "contributionscores-desc", 
+                "name": "Contribution Scores", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Contribution_Scores", 
+                "vcs-date": "2018-04-13T23:50:59Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ContributionScores/+/319a4b66aa2931341eb18a343f55250b4a0528b6", 
+                "vcs-version": "319a4b66aa2931341eb18a343f55250b4a0528b6", 
+                "version": "1.25.0"
+            }, 
+            {
+                "author": "Brad Jorsch", 
+                "descriptionmsg": "templatesandbox-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/TemplateSandbox", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TemplateSandbox", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TemplateSandbox", 
+                "vcs-date": "2018-04-14T06:59:37Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TemplateSandbox/+/ade8482eefc3cc3a650e3032e746342c32b73dbb", 
+                "vcs-version": "ade8482eefc3cc3a650e3032e746342c32b73dbb", 
+                "version": "1.1.0"
+            }, 
+            {
+                "author": "Stephanie Amanda Stevens, Alexandre Emsenhuber, Robin Pepermans, Siebrand Mazeland, Platonides, Raimond Spekking, Sam Reed, Jack Phoenix, Calimonius the Estrange, ...", 
+                "descriptionmsg": "interwiki-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Interwiki", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Interwiki", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Interwiki", 
+                "vcs-date": "2018-05-05T04:38:11Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Interwiki/+/b78d2d1d83f403241a5c882c62fcb5019fdcf5a2", 
+                "vcs-version": "b78d2d1d83f403241a5c882c62fcb5019fdcf5a2", 
+                "version": "3.1 20160307"
+            }, 
+            {
+                "author": "Andrew Garrett, Ryan Kaldari, Benny Situ, Luke Welling, Kunal Mehta, Moriel Schottlender, Jon Robson", 
+                "descriptionmsg": "echo-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Echo", 
+                "license-name": "MIT", 
+                "name": "Echo", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Echo", 
+                "vcs-date": "2018-12-27T21:15:48Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Echo/+/b56ec9b435c52a744cf7bdc3217e752df8742238", 
+                "vcs-version": "b56ec9b435c52a744cf7bdc3217e752df8742238"
+            }, 
+            {
+                "author": "Gary Guo", 
+                "descriptionmsg": "avatar_desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Avatar", 
+                "license-name": "BSD-2-Clause", 
+                "name": "Avatar", 
+                "type": "specialpage", 
+                "url": "https://github.com/nbdd0121/MW-Avatar", 
+                "vcs-date": "2018-05-19T19:53:04Z", 
+                "vcs-system": "git", 
+                "vcs-version": "8c77212b250e99d5d7706c875fbd360c4855193a", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Gary Guo", 
+                "descriptionmsg": "flowthread_desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/FlowThread", 
+                "license-name": "BSD-2-Clause", 
+                "name": "FlowThread", 
+                "type": "specialpage", 
+                "url": "https://github.com/nbdd0121/MW-FlowThread", 
+                "vcs-date": "2019-02-28T11:23:14Z", 
+                "vcs-system": "git", 
+                "vcs-version": "05ae7c7d0e37affde63cf122dd2b01a4a8edc89f", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Brion Vibber, Jeroen De Dauw", 
+                "descriptionmsg": "nuke-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Nuke", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Nuke", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Nuke", 
+                "vcs-date": "2018-05-05T04:37:59Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Nuke/+/c6ec842cc2abed2be7a83abd03781517072d3e67", 
+                "vcs-version": "c6ec842cc2abed2be7a83abd03781517072d3e67", 
+                "version": "1.3.0"
+            }, 
+            {
+                "author": "\u00c6var Arnfj\u00f6r\u00f0 Bjarmason, Aaron Schulz", 
+                "descriptionmsg": "renameuser-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Renameuser", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Renameuser", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Renameuser", 
+                "vcs-date": "2018-05-05T20:04:09Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Renameuser/+/f8e515711db88fdd2aae02b760d2e11df3d70489", 
+                "vcs-version": "f8e515711db88fdd2aae02b760d2e11df3d70489"
+            }, 
+            {
+                "author": "Yaron Koren, Niklas Laxstr\u00f6m, ...", 
+                "descriptionmsg": "replacetext-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Replace_Text", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Replace Text", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Replace_Text", 
+                "vcs-date": "2018-05-16T15:05:42Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ReplaceText/+/a027ec972c1d98e92483230e1cbf71cc08a31150", 
+                "vcs-version": "a027ec972c1d98e92483230e1cbf71cc08a31150", 
+                "version": "1.4.1"
+            }, 
+            {
+                "author": "Tim Starling, Aaron Schulz", 
+                "descriptionmsg": "checkuser-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/CheckUser", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "CheckUser", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CheckUser", 
+                "vcs-date": "2018-04-13T22:20:52Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CheckUser/+/b98e6a483c3840b52ffb79eda666496a48ae5dfc", 
+                "vcs-version": "b98e6a483c3840b52ffb79eda666496a48ae5dfc", 
+                "version": "2.4"
+            }, 
+            {
+                "author": "Tim Laqua, Thomas Gries, Matthew April", 
+                "descriptionmsg": "usermerge-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/UserMerge", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "UserMerge", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:UserMerge", 
+                "vcs-date": "2018-05-18T07:23:56Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/UserMerge/+/a641f0ce9bea6da5c9cbb79679fb6f0f6814dbb3", 
+                "vcs-version": "a641f0ce9bea6da5c9cbb79679fb6f0f6814dbb3", 
+                "version": "1.10.1"
+            }, 
+            {
+                "author": "Trevor Parscal, Roan Kattouw, ...", 
+                "descriptionmsg": "vector-skin-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Vector", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Vector", 
+                "namemsg": "skinname-vector", 
+                "type": "skin", 
+                "url": "https://www.mediawiki.org/wiki/Skin:Vector", 
+                "vcs-date": "2018-04-17T20:03:33Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/skins/Vector/+/f0327dc5558395186eddd3911508817482cd4bc4", 
+                "vcs-version": "f0327dc5558395186eddd3911508817482cd4bc4"
+            }, 
+            {
+                "author": "Derk-Jan Hartman, Trevor Parscal, Roan Kattouw, Nimish Gautam, Adam Miller", 
+                "descriptionmsg": "wikieditor-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/WikiEditor", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "WikiEditor", 
+                "type": "editor", 
+                "url": "https://www.mediawiki.org/wiki/Extension:WikiEditor", 
+                "vcs-date": "2018-05-05T20:03:48Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/WikiEditor/+/277159cd3ae6fdafb7f49db3dbfedfa023e81d35", 
+                "vcs-version": "277159cd3ae6fdafb7f49db3dbfedfa023e81d35", 
+                "version": "0.5.1"
+            }, 
+            {
+                "author": "Brion Vibber, Derk-Jan Hartman, [https://ace.c9.io/ authors of Ace]", 
+                "descriptionmsg": "codeeditor-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/CodeEditor", 
+                "license-name": "GPL-2.0-or-later AND BSD-3-Clause", 
+                "name": "CodeEditor", 
+                "type": "editor", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CodeEditor", 
+                "vcs-date": "2018-05-05T04:39:35Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CodeEditor/+/886d7971ae1b04edc463bc7e11d7f5d282ae4f10", 
+                "vcs-version": "886d7971ae1b04edc463bc7e11d7f5d282ae4f10"
+            }, 
+            {
+                "author": "Alex Monk, Bartosz Dziewo\u0144ski, Christian Williams, David Lynch, Ed Sanders, Inez Korczy\u0144ski, James D. Forrester, Moriel Schottlender, Roan Kattouw, Rob Moen, Timo Tijhof, Trevor Parscal, C. Scott Ananian, ...", 
+                "credits": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/Credits/VisualEditor", 
+                "descriptionmsg": "visualeditor-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/VisualEditor", 
+                "license-name": "MIT", 
+                "name": "VisualEditor", 
+                "type": "editor", 
+                "url": "https://www.mediawiki.org/wiki/Extension:VisualEditor", 
+                "vcs-date": "2018-05-30T22:14:33Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/VisualEditor/+/13a585a7ec0d73f06ba221b4763ba82a4ed1af66", 
+                "vcs-version": "13a585a7ec0d73f06ba221b4763ba82a4ed1af66", 
+                "version": "0.1.0"
+            }, 
+            {
+                "author": "Daniel Kinzler, Max Semenik", 
+                "descriptionmsg": "gadgets-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Gadgets", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Gadgets", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Gadgets", 
+                "vcs-date": "2018-05-05T04:39:31Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Gadgets/+/bac29aee151272c14b0675af2f4c273dc3139a1b", 
+                "vcs-version": "bac29aee151272c14b0675af2f4c273dc3139a1b"
+            }, 
+            {
+                "author": "TCB team (Wikimedia Deutschland), Addshore, Leszek Manicki, Jakob Warkotsch, Tobias Gritschacher, Christoph Jauera", 
+                "descriptionmsg": "revisionslider-desc", 
+                "name": "RevisionSlider", 
+                "namemsg": "revisionslider", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:RevisionSlider", 
+                "vcs-date": "2018-04-14T05:54:18Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/RevisionSlider/+/0ba3b58a51c0960eb6d603720e37860afd8996e1", 
+                "vcs-version": "0ba3b58a51c0960eb6d603720e37860afd8996e1", 
+                "version": "1.0.0"
+            }, 
+            {
+                "author": "Ryan Kaldari, Jan Paul Posma, Sam Reed", 
+                "credits": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/Credits/WikiLove", 
+                "descriptionmsg": "wikilove-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/WikiLove", 
+                "license-name": "MIT", 
+                "name": "WikiLove", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:WikiLove", 
+                "vcs-date": "2018-04-16T20:12:17Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/WikiLove/+/db613867ad7ca17e3a54950bf0f9941ba3c0818d", 
+                "vcs-version": "db613867ad7ca17e3a54950bf0f9941ba3c0818d", 
+                "version": "1.3.1"
+            }, 
+            {
+                "author": "Ryan Kaldari, Benjamin Chen, Wctaiwan", 
+                "descriptionmsg": "thanks-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Thanks", 
+                "license-name": "MIT", 
+                "name": "Thanks", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Thanks", 
+                "vcs-date": "2018-04-23T22:44:32Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Thanks/+/a845a4693038ad831153253769e53e099c47a190", 
+                "vcs-version": "a845a4693038ad831153253769e53e099c47a190", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Andrew Garrett", 
+                "descriptionmsg": "globalblocking-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/GlobalBlocking", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "GlobalBlocking", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:GlobalBlocking", 
+                "vcs-date": "2018-04-17T20:25:07Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/GlobalBlocking/+/6969b15d17b34a136e72396bb96c93ae9af819c7", 
+                "vcs-version": "6969b15d17b34a136e72396bb96c93ae9af819c7"
+            }, 
+            {
+                "author": "MarkTraceur (Mark Holmquist), Gilles Dubuc, Gerg\u0151 Tisza, Aaron Arcos, Zeljko Filipin, Pau Giner, theopolisme, MatmaRex, apsdehal, vldandrew, Ebrahim Byagowi, Dereckson, Brion VIBBER, Yuki Shira, Yaroslav Melnychuk, tonythomas01, Raimond Spekking, Kunal Mehta, Jeff Hall, Christian Aistleitner, Amir E. Aharoni", 
+                "credits": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/Credits/MultimediaViewer", 
+                "descriptionmsg": "multimediaviewer-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/MultimediaViewer", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "MultimediaViewer", 
+                "type": "other", 
+                "url": "https://mediawiki.org/wiki/Extension:MultimediaViewer", 
+                "vcs-date": "2018-05-11T19:57:10Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/MultimediaViewer/+/1273d3e0b2189e33fed0567f589a3e7bc4ae6d4e", 
+                "vcs-version": "1273d3e0b2189e33fed0567f589a3e7bc4ae6d4e"
+            }, 
+            {
+                "author": "[[mw:User:X-Savitar|Derick Alangi]], [[mw:User:Zoglun|Zoglun]]", 
+                "descriptionmsg": "sparkpost-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/SparkPost", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "SparkPost", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:SparkPost", 
+                "vcs-date": "2019-03-02T16:25:27Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/SparkPost/+/43685207e5d2d1dcc9186564398821e56021e044", 
+                "vcs-version": "43685207e5d2d1dcc9186564398821e56021e044", 
+                "version": "1.1"
+            }, 
+            {
+                "name": "ReCaptchaNoCaptcha", 
+                "type": "other"
+            }, 
+            {
+                "author": "Max Semenik", 
+                "descriptionmsg": "pageimages-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/PageImages", 
+                "license-name": "WTFPL", 
+                "name": "PageImages", 
+                "type": "api", 
+                "url": "https://www.mediawiki.org/wiki/Extension:PageImages", 
+                "vcs-date": "2018-04-14T05:25:26Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/PageImages/+/34b0dd5ff6eac7bf4eb1f8d7a940e959d3fa6759", 
+                "vcs-version": "34b0dd5ff6eac7bf4eb1f8d7a940e959d3fa6759"
+            }, 
+            {
+                "author": "Brion Vibber", 
+                "descriptionmsg": "antispoof-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/AntiSpoof", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "AntiSpoof", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:AntiSpoof", 
+                "vcs-date": "2018-04-14T20:13:32Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/AntiSpoof/+/48ed1f851e2d68e541bf7dbdfe73e6439c858f8c", 
+                "vcs-version": "48ed1f851e2d68e541bf7dbdfe73e6439c858f8c"
+            }, 
+            {
+                "author": "Victor Vasiliev, Fran Rogers", 
+                "descriptionmsg": "titleblacklist-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/TitleBlacklist", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TitleBlacklist", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TitleBlacklist", 
+                "vcs-date": "2018-05-05T20:04:15Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TitleBlacklist/+/1143a1f61e049e4f8e4de317e7299091a2ca0707", 
+                "vcs-version": "1143a1f61e049e4f8e4de317e7299091a2ca0707", 
+                "version": "1.5.0"
+            }, 
+            {
+                "author": "Tim Starling, John Du Hart, Daniel Kinzler", 
+                "descriptionmsg": "spam-blacklist-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/SpamBlacklist", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "SpamBlacklist", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:SpamBlacklist", 
+                "vcs-date": "2018-05-05T20:04:04Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/SpamBlacklist/+/f6fa789ad2c07a4fe89e4d1e636aea1126f26afc", 
+                "vcs-version": "f6fa789ad2c07a4fe89e4d1e636aea1126f26afc"
+            }, 
+            {
+                "author": "Andrew Garrett, River Tarnell, Victor Vasiliev, Marius Hoch", 
+                "descriptionmsg": "abusefilter-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/Abuse_Filter", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Abuse Filter", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:AbuseFilter", 
+                "vcs-date": "2018-05-01T15:49:07Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/AbuseFilter/+/e4118b1f685aa64aa0b6916623704e0195a4fc80", 
+                "vcs-version": "e4118b1f685aa64aa0b6916623704e0195a4fc80"
+            }, 
+            {
+                "author": "Brion Vibber, Florian Schmidt, Sam Reed, ...", 
+                "credits": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/Credits/ConfirmEdit", 
+                "descriptionmsg": "captcha-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/ConfirmEdit", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "ConfirmEdit", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit", 
+                "vcs-date": "2018-05-05T04:36:24Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ConfirmEdit/+/b52469cf5716165dcf55e0db103d45af045b2acc", 
+                "vcs-version": "b52469cf5716165dcf55e0db103d45af045b2acc", 
+                "version": "1.5.1"
+            }, 
+            {
+                "author": "Michael Dale, Tim Starling, James Heinrich, Jan Gerber, Brion Vibber, Derk-Jan Hartman", 
+                "descriptionmsg": "timedmediahandler-desc", 
+                "license": "/%E7%89%B9%E5%88%A5:%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1/License/TimedMediaHandler", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TimedMediaHandler", 
+                "namemsg": "timedmediahandler-extensionname", 
+                "type": "media", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TimedMediaHandler", 
+                "vcs-date": "2018-04-15T18:52:11Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TimedMediaHandler/+/e94b2321888e4b678842e09fdb2be7ff8a7cd380", 
+                "vcs-version": "e94b2321888e4b678842e09fdb2be7ff8a7cd380", 
+                "version": "0.5.0"
+            }
+        ], 
+        "fileextensions": [
+            {
+                "ext": "ogg"
+            }, 
+            {
+                "ext": "ogv"
+            }, 
+            {
+                "ext": "oga"
+            }, 
+            {
+                "ext": "flac"
+            }, 
+            {
+                "ext": "opus"
+            }, 
+            {
+                "ext": "wav"
+            }, 
+            {
+                "ext": "webm"
+            }, 
+            {
+                "ext": "mp3"
+            }, 
+            {
+                "ext": "png"
+            }, 
+            {
+                "ext": "gif"
+            }, 
+            {
+                "ext": "jpg"
+            }, 
+            {
+                "ext": "jpeg"
+            }, 
+            {
+                "ext": "webp"
+            }, 
+            {
+                "ext": "svg"
+            }, 
+            {
+                "ext": "pdf"
+            }, 
+            {
+                "ext": "ppt"
+            }, 
+            {
+                "ext": "jp2"
+            }, 
+            {
+                "ext": "doc"
+            }, 
+            {
+                "ext": "docx"
+            }, 
+            {
+                "ext": "xls"
+            }, 
+            {
+                "ext": "xlsx"
+            }, 
+            {
+                "ext": "psd"
+            }, 
+            {
+                "ext": "sai"
+            }, 
+            {
+                "ext": "swf"
+            }, 
+            {
+                "ext": "mp4"
+            }
+        ], 
+        "general": {
+            "allcentralidlookupproviders": [
+                "local"
+            ], 
+            "articlepath": "/$1", 
+            "base": "http://ja.moegirl.org/Mainpage", 
+            "case": "first-letter", 
+            "categorycollation": "uppercase", 
+            "centralidlookupprovider": "local", 
+            "citeresponsivereferences": "", 
+            "dbtype": "mysql", 
+            "dbversion": "5.5.62-0+deb8u1-log", 
+            "externalimages": [
+                ""
+            ], 
+            "fallback": [
+                {
+                    "code": "en"
+                }
+            ], 
+            "fallback8bitEncoding": "windows-1252", 
+            "favicon": "https://img.moegirl.org/favicon.ico", 
+            "fixarabicunicode": "", 
+            "fixmalayalamunicode": "", 
+            "galleryoptions": {
+                "captionLength": "", 
+                "imageHeight": 120, 
+                "imageWidth": 120, 
+                "imagesPerRow": 0, 
+                "mode": "traditional", 
+                "showBytes": "", 
+                "showDimensions": ""
+            }, 
+            "generator": "MediaWiki 1.31.1", 
+            "git-branch": "REL1_31", 
+            "git-hash": "a4c806563471b16c644186618b39b84069c0d04c", 
+            "imagelimits": [
+                {
+                    "height": 240, 
+                    "width": 320
+                }, 
+                {
+                    "height": 480, 
+                    "width": 640
+                }, 
+                {
+                    "height": 600, 
+                    "width": 800
+                }, 
+                {
+                    "height": 768, 
+                    "width": 1024
+                }, 
+                {
+                    "height": 1024, 
+                    "width": 1280
+                }
+            ], 
+            "interwikimagic": "", 
+            "invalidusernamechars": "@:", 
+            "lang": "ja", 
+            "langconversion": "", 
+            "legaltitlechars": " %!\"$&'()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+", 
+            "linkprefix": "", 
+            "linkprefixcharset": "", 
+            "linktrail": "/^([a-z]+)(.*)$/sD", 
+            "logo": "https://img.moegirl.org/jawikilogo.png", 
+            "magiclinks": [], 
+            "mainpage": "Mainpage", 
+            "maxarticlesize": 2097152, 
+            "maxuploadsize": 104857600, 
+            "minuploadchunksize": 1024, 
+            "phpsapi": "fpm-fcgi", 
+            "phpversion": "7.0.33-1~dotdeb+8.1", 
+            "script": "/index.php", 
+            "scriptpath": "", 
+            "server": "http://ja.moegirl.org", 
+            "servername": "ja.moegirl.org", 
+            "sitename": "\u840c\u3048\u3063\u5a18\u767e\u79d1\u4e8b\u5178", 
+            "thumblimits": [
+                120, 
+                150, 
+                180, 
+                200, 
+                250, 
+                300
+            ], 
+            "time": "2019-04-10T08:53:54Z", 
+            "timeoffset": 540, 
+            "timezone": "Asia/Tokyo", 
+            "titleconversion": "", 
+            "uploadsenabled": "", 
+            "variantarticlepath": false, 
+            "wikiid": "jamoegirl", 
+            "writeapi": ""
+        }, 
+        "interwikimap": [
+            {
+                "prefix": "acronym", 
+                "url": "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym=$1"
+            }, 
+            {
+                "prefix": "acwiki", 
+                "url": "http://wiki.acfun.tv/index.php/$1"
+            }, 
+            {
+                "prefix": "arxiv", 
+                "url": "http://www.arxiv.org/abs/$1"
+            }, 
+            {
+                "prefix": "biliwiki", 
+                "url": "http://biliwiki.org/$1"
+            }, 
+            {
+                "prefix": "c2find", 
+                "url": "http://c2.com/cgi/wiki?FindPage&value=$1"
+            }, 
+            {
+                "prefix": "cache", 
+                "url": "http://www.google.com/search?q=cache:$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "cm", 
+                "trans": "", 
+                "url": "https://commons.moegirl.org/$1"
+            }, 
+            {
+                "api": "https://commons.wikimedia.org/w/api.php", 
+                "local": "", 
+                "prefix": "commons", 
+                "url": "https://commons.wikimedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "dictionary", 
+                "url": "http://www.dict.org/bin/Dict?Database=*&Form=Dict1&Strategy=*&Query=$1"
+            }, 
+            {
+                "prefix": "doi", 
+                "url": "http://dx.doi.org/$1"
+            }, 
+            {
+                "api": "http://drumcorpswiki.com/api.php", 
+                "prefix": "drumcorpswiki", 
+                "url": "http://www.drumcorpswiki.com/$1"
+            }, 
+            {
+                "prefix": "dwjwiki", 
+                "url": "http://www.suberic.net/cgi-bin/dwj/wiki.cgi?$1"
+            }, 
+            {
+                "api": "http://enciclopedia.us.es/api.php", 
+                "prefix": "elibre", 
+                "url": "http://enciclopedia.us.es/index.php/$1"
+            }, 
+            {
+                "prefix": "emacswiki", 
+                "url": "http://www.emacswiki.org/cgi-bin/wiki.pl?$1"
+            }, 
+            {
+                "language": "English", 
+                "local": "", 
+                "prefix": "en", 
+                "trans": "", 
+                "url": "https://en.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "enmoe", 
+                "trans": "", 
+                "url": "https://en.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "enwiki", 
+                "url": "https://en.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "foldoc", 
+                "url": "http://foldoc.org/?$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "foundation", 
+                "trans": "", 
+                "url": "https://moegirl.org/$1"
+            }, 
+            {
+                "prefix": "foxwiki", 
+                "url": "http://fox.wikis.com/wc.dll?Wiki~$1"
+            }, 
+            {
+                "prefix": "freebsdman", 
+                "url": "http://www.FreeBSD.org/cgi/man.cgi?apropos=1&query=$1"
+            }, 
+            {
+                "prefix": "gentoo-wiki", 
+                "url": "http://gentoo-wiki.com/$1"
+            }, 
+            {
+                "prefix": "google", 
+                "url": "http://www.google.com/search?q=$1"
+            }, 
+            {
+                "prefix": "googlegroups", 
+                "url": "http://groups.google.com/groups?q=$1"
+            }, 
+            {
+                "prefix": "hammondwiki", 
+                "url": "http://www.dairiki.org/HammondWiki/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "hmoe", 
+                "url": "https://www.hmoegirl.com/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "hmoegirl", 
+                "url": "https://www.hmoegirl.com/$1"
+            }, 
+            {
+                "api": "http://www.hrwiki.org/w/api.php", 
+                "prefix": "hrwiki", 
+                "url": "http://www.hrwiki.org/wiki/$1"
+            }, 
+            {
+                "prefix": "imdb", 
+                "url": "http://www.imdb.com/find?q=$1&tt=on"
+            }, 
+            {
+                "language": "\u65e5\u672c\u8a9e", 
+                "local": "", 
+                "prefix": "ja", 
+                "trans": "", 
+                "url": "https://ja.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "jamoe", 
+                "trans": "", 
+                "url": "https://ja.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "jawiki", 
+                "url": "https://ja.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "kmwiki", 
+                "url": "http://kmwiki.wikispaces.com/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "library", 
+                "trans": "", 
+                "url": "https://library.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "linuxwiki", 
+                "url": "http://linuxwiki.de/$1"
+            }, 
+            {
+                "prefix": "lojban", 
+                "url": "http://www.lojban.org/tiki/tiki-index.php?page=$1"
+            }, 
+            {
+                "prefix": "lqwiki", 
+                "url": "http://wiki.linuxquestions.org/wiki/$1"
+            }, 
+            {
+                "prefix": "meatball", 
+                "url": "http://www.usemod.com/cgi-bin/mb.pl?$1"
+            }, 
+            {
+                "api": "https://www.mediawiki.org/w/api.php", 
+                "prefix": "mediawikiwiki", 
+                "url": "https://www.mediawiki.org/wiki/$1"
+            }, 
+            {
+                "api": "http://en.memory-alpha.org/api.php", 
+                "prefix": "memoryalpha", 
+                "url": "http://en.memory-alpha.org/wiki/$1"
+            }, 
+            {
+                "prefix": "metawiki", 
+                "url": "http://sunir.org/apps/meta.pl?$1"
+            }, 
+            {
+                "api": "https://meta.wikimedia.org/w/api.php", 
+                "prefix": "metawikimedia", 
+                "url": "https://meta.wikimedia.org/wiki/$1"
+            }, 
+            {
+                "api": "https://wiki.mozilla.org/api.php", 
+                "prefix": "mozillawiki", 
+                "url": "http://wiki.mozilla.org/$1"
+            }, 
+            {
+                "api": "https://www.mediawiki.org/w/api.php", 
+                "prefix": "mw", 
+                "url": "https://www.mediawiki.org/wiki/$1"
+            }, 
+            {
+                "prefix": "oeis", 
+                "url": "http://oeis.org/$1"
+            }, 
+            {
+                "prefix": "openwiki", 
+                "url": "http://openwiki.com/ow.asp?$1"
+            }, 
+            {
+                "prefix": "pmid", 
+                "url": "https://www.ncbi.nlm.nih.gov/pubmed/$1?dopt=Abstract"
+            }, 
+            {
+                "prefix": "pythoninfo", 
+                "url": "http://wiki.python.org/moin/$1"
+            }, 
+            {
+                "prefix": "rfc", 
+                "url": "https://tools.ietf.org/html/rfc$1"
+            }, 
+            {
+                "api": "http://s23.org/w/api.php", 
+                "prefix": "s23wiki", 
+                "url": "http://s23.org/wiki/$1"
+            }, 
+            {
+                "prefix": "seattlewireless", 
+                "url": "http://seattlewireless.net/$1"
+            }, 
+            {
+                "prefix": "senseislibrary", 
+                "url": "http://senseis.xmp.net/?$1"
+            }, 
+            {
+                "api": "http://www.shoutwiki.com/w/api.php", 
+                "prefix": "shoutwiki", 
+                "url": "http://www.shoutwiki.com/wiki/$1"
+            }, 
+            {
+                "prefix": "sourceforge", 
+                "url": "http://sourceforge.net/$1"
+            }, 
+            {
+                "prefix": "squeak", 
+                "url": "http://wiki.squeak.org/squeak/$1"
+            }, 
+            {
+                "prefix": "theopedia", 
+                "url": "http://www.theopedia.com/$1"
+            }, 
+            {
+                "api": "http://tmbw.net/wiki/api.php", 
+                "prefix": "tmbw", 
+                "url": "http://www.tmbw.net/wiki/$1"
+            }, 
+            {
+                "prefix": "tmnet", 
+                "url": "http://www.technomanifestos.net/?$1"
+            }, 
+            {
+                "prefix": "twiki", 
+                "url": "http://twiki.org/cgi-bin/view/$1"
+            }, 
+            {
+                "api": "http://en.uncyclopedia.co/w/api.php", 
+                "prefix": "uncyclopedia", 
+                "url": "http://en.uncyclopedia.co/wiki/$1"
+            }, 
+            {
+                "api": "http://wiki.beyondunreal.com/w/api.php", 
+                "prefix": "unreal", 
+                "url": "http://wiki.beyondunreal.com/$1"
+            }, 
+            {
+                "prefix": "usemod", 
+                "url": "http://www.usemod.com/cgi-bin/wiki.pl?$1"
+            }, 
+            {
+                "prefix": "wiki", 
+                "url": "http://c2.com/cgi/wiki?$1"
+            }, 
+            {
+                "prefix": "wikia", 
+                "url": "http://www.wikia.com/wiki/c:$1"
+            }, 
+            {
+                "api": "https://en.wikibooks.org/w/api.php", 
+                "prefix": "wikibooks", 
+                "url": "https://en.wikibooks.org/wiki/$1"
+            }, 
+            {
+                "api": "https://www.wikidata.org/w/api.php", 
+                "prefix": "wikidata", 
+                "url": "https://www.wikidata.org/wiki/$1"
+            }, 
+            {
+                "prefix": "wikif1", 
+                "url": "http://www.wikif1.org/$1"
+            }, 
+            {
+                "api": "http://www.wikihow.com/api.php", 
+                "prefix": "wikihow", 
+                "url": "http://www.wikihow.com/$1"
+            }, 
+            {
+                "api": "https://wikimediafoundation.org/w/api.php", 
+                "prefix": "wikimedia", 
+                "url": "https://wikimediafoundation.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikinews.org/w/api.php", 
+                "prefix": "wikinews", 
+                "url": "https://en.wikinews.org/wiki/$1"
+            }, 
+            {
+                "prefix": "wikinfo", 
+                "url": "http://wikinfo.co/English/index.php/$1"
+            }, 
+            {
+                "api": "https://en.wikipedia.org/w/api.php", 
+                "prefix": "wikipedia", 
+                "url": "https://en.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikiquote.org/w/api.php", 
+                "prefix": "wikiquote", 
+                "url": "https://en.wikiquote.org/wiki/$1"
+            }, 
+            {
+                "api": "https://wikisource.org/w/api.php", 
+                "prefix": "wikisource", 
+                "url": "https://wikisource.org/wiki/$1"
+            }, 
+            {
+                "api": "https://species.wikimedia.org/w/api.php", 
+                "prefix": "wikispecies", 
+                "url": "https://species.wikimedia.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikiversity.org/w/api.php", 
+                "prefix": "wikiversity", 
+                "url": "https://en.wikiversity.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikivoyage.org/w/api.php", 
+                "prefix": "wikivoyage", 
+                "url": "https://en.wikivoyage.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wiktionary.org/w/api.php", 
+                "prefix": "wikt", 
+                "url": "https://en.wiktionary.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wiktionary.org/w/api.php", 
+                "prefix": "wiktionary", 
+                "url": "https://en.wiktionary.org/wiki/$1"
+            }, 
+            {
+                "language": "\u4e2d\u6587", 
+                "local": "", 
+                "prefix": "zh", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhmoe", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhmoegirl", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhtest", 
+                "url": "https://zhtest.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhwiki", 
+                "url": "https://zh.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "\u6587\u5e93", 
+                "trans": "", 
+                "url": "https://library.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "\u7ef4\u57fa\u4e2d\u6587", 
+                "url": "https://zh.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "\u7ef4\u57fa\u65e5\u6587", 
+                "url": "https://ja.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "\u7ef4\u57fa\u82f1\u6587", 
+                "url": "https://en.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "\u840c\u5a18\u5171\u4eab", 
+                "trans": "", 
+                "url": "https://commons.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "\u840c\u767e", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }
+        ], 
+        "magicwords": [
+            {
+                "aliases": [
+                    "\u5f0f", 
+                    "expr"
+                ], 
+                "name": "expr"
+            }, 
+            {
+                "aliases": [
+                    "\u3082\u3057", 
+                    "if"
+                ], 
+                "name": "if"
+            }, 
+            {
+                "aliases": [
+                    "\u3082\u3057\u7b49\u3057\u3044", 
+                    "ifeq"
+                ], 
+                "name": "ifeq"
+            }, 
+            {
+                "aliases": [
+                    "\u3082\u3057\u5f0f", 
+                    "ifexpr"
+                ], 
+                "name": "ifexpr"
+            }, 
+            {
+                "aliases": [
+                    "\u3082\u3057\u30a8\u30e9\u30fc", 
+                    "iferror"
+                ], 
+                "name": "iferror"
+            }, 
+            {
+                "aliases": [
+                    "\u5207\u308a\u66ff\u3048", 
+                    "switch"
+                ], 
+                "name": "switch"
+            }, 
+            {
+                "aliases": [
+                    "#\u65e2\u5b9a", 
+                    "#default"
+                ], 
+                "name": "default"
+            }, 
+            {
+                "aliases": [
+                    "\u3082\u3057\u5b58\u5728", 
+                    "ifexist"
+                ], 
+                "name": "ifexist"
+            }, 
+            {
+                "aliases": [
+                    "\u6642\u9593", 
+                    "time"
+                ], 
+                "name": "time"
+            }, 
+            {
+                "aliases": [
+                    "\u6642\u9593\u5730\u65b9", 
+                    "timel"
+                ], 
+                "name": "timel"
+            }, 
+            {
+                "aliases": [
+                    "\u53c2\u7167\u304b\u3089\u7d76\u5bfe", 
+                    "rel2abs"
+                ], 
+                "name": "rel2abs"
+            }, 
+            {
+                "aliases": [
+                    "\u30bf\u30a4\u30c8\u30eb\u90e8\u5206", 
+                    "titleparts"
+                ], 
+                "name": "titleparts"
+            }, 
+            {
+                "aliases": [
+                    "\u9577\u3055", 
+                    "len"
+                ], 
+                "name": "len"
+            }, 
+            {
+                "aliases": [
+                    "\u4f4d\u7f6e", 
+                    "pos"
+                ], 
+                "name": "pos"
+            }, 
+            {
+                "aliases": [
+                    "\u6700\u5f8c\u306e\u4f4d\u7f6e", 
+                    "rpos"
+                ], 
+                "name": "rpos"
+            }, 
+            {
+                "aliases": [
+                    "\u5207\u308a\u53d6\u308a", 
+                    "sub"
+                ], 
+                "name": "sub"
+            }, 
+            {
+                "aliases": [
+                    "\u56de\u6570", 
+                    "count"
+                ], 
+                "name": "count"
+            }, 
+            {
+                "aliases": [
+                    "\u7f6e\u304d\u63db\u3048", 
+                    "replace"
+                ], 
+                "name": "replace"
+            }, 
+            {
+                "aliases": [
+                    "\u5206\u5272", 
+                    "explode"
+                ], 
+                "name": "explode"
+            }, 
+            {
+                "aliases": [
+                    "URL\u30c7\u30b3\u30fc\u30c9", 
+                    "\uff35\uff32\uff2c\u30c7\u30b3\u30fc\u30c9", 
+                    "urldecode"
+                ], 
+                "name": "urldecode"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u30c4\u30ea\u30fc", 
+                    "categorytree"
+                ], 
+                "name": "categorytree"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a3\u30b8\u30a7\u30c3\u30c8", 
+                    "widget"
+                ], 
+                "name": "widget"
+            }, 
+            {
+                "aliases": [
+                    "#\u8ee2\u9001", 
+                    "#\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "\uff03\u8ee2\u9001", 
+                    "\uff03\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "#REDIRECT"
+                ], 
+                "name": "redirect"
+            }, 
+            {
+                "aliases": [
+                    "__\u76ee\u6b21\u975e\u8868\u793a__", 
+                    "\uff3f\uff3f\u76ee\u6b21\u975e\u8868\u793a\uff3f\uff3f", 
+                    "__NOTOC__"
+                ], 
+                "name": "notoc"
+            }, 
+            {
+                "aliases": [
+                    "__\u30ae\u30e3\u30e9\u30ea\u30fc\u975e\u8868\u793a__", 
+                    "\uff3f\uff3f\u30ae\u30e3\u30e9\u30ea\u30fc\u975e\u8868\u793a\uff3f\uff3f", 
+                    "__NOGALLERY__"
+                ], 
+                "name": "nogallery"
+            }, 
+            {
+                "aliases": [
+                    "__\u76ee\u6b21\u5f37\u5236__", 
+                    "\uff3f\uff3f\u76ee\u6b21\u5f37\u5236\uff3f\uff3f", 
+                    "__FORCETOC__"
+                ], 
+                "name": "forcetoc"
+            }, 
+            {
+                "aliases": [
+                    "__\u76ee\u6b21__", 
+                    "\uff3f\uff3f\u76ee\u6b21\uff3f\uff3f", 
+                    "__TOC__"
+                ], 
+                "name": "toc"
+            }, 
+            {
+                "aliases": [
+                    "__\u7bc0\u7de8\u96c6\u975e\u8868\u793a__", 
+                    "__\u30bb\u30af\u30b7\u30e7\u30f3\u7de8\u96c6\u975e\u8868\u793a__", 
+                    "\uff3f\uff3f\u30bb\u30af\u30b7\u30e7\u30f3\u7de8\u96c6\u975e\u8868\u793a\uff3f\uff3f", 
+                    "__NOEDITSECTION__"
+                ], 
+                "name": "noeditsection"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u6708", 
+                    "\u5354\u5b9a\u6708", 
+                    "CURRENTMONTH", 
+                    "CURRENTMONTH2"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonth"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u67081", 
+                    "\u5354\u5b9a\u67081", 
+                    "\u5354\u5b9a\u6708\uff11", 
+                    "CURRENTMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonth1"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u6708\u540d", 
+                    "\u5354\u5b9a\u6708\u540d", 
+                    "CURRENTMONTHNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthname"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u6708\u5c5e\u683c", 
+                    "CURRENTMONTHNAMEGEN"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthnamegen"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u6708\u7701\u7565\u5f62", 
+                    "\u7701\u7565\u5354\u5b9a\u6708", 
+                    "\u5354\u5b9a\u6708\u7701\u7565", 
+                    "\u5354\u5b9a\u6708\u7701\u7565\u5f62", 
+                    "CURRENTMONTHABBREV"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthabbrev"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u65e5", 
+                    "\u5354\u5b9a\u65e5", 
+                    "CURRENTDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentday"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u65e52", 
+                    "\u5354\u5b9a\u65e52", 
+                    "\u5354\u5b9a\u65e5\uff12", 
+                    "CURRENTDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentday2"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u66dc\u65e5\u540d", 
+                    "\u5354\u5b9a\u66dc\u65e5", 
+                    "CURRENTDAYNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentdayname"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u5e74", 
+                    "\u5354\u5b9a\u5e74", 
+                    "CURRENTYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentyear"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u6642\u523b", 
+                    "\u5354\u5b9a\u6642\u9593", 
+                    "\u5354\u5b9a\u6642\u523b", 
+                    "CURRENTTIME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenttime"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u6642", 
+                    "\u5354\u5b9a\u6642", 
+                    "CURRENTHOUR"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenthour"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u6708", 
+                    "\u73fe\u5730\u6708", 
+                    "LOCALMONTH", 
+                    "LOCALMONTH2"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonth"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u67081", 
+                    "\u73fe\u5730\u67081", 
+                    "\u73fe\u5730\u6708\uff11", 
+                    "LOCALMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonth1"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u6708\u540d1", 
+                    "\u73fe\u5730\u6708\u540d", 
+                    "LOCALMONTHNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthname"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u6708\u5c5e\u683c", 
+                    "LOCALMONTHNAMEGEN"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthnamegen"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u6708\u7701\u7565\u5f62", 
+                    "\u7701\u7565\u73fe\u5730\u6708", 
+                    "LOCALMONTHABBREV"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthabbrev"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u65e5", 
+                    "\u73fe\u5730\u65e5", 
+                    "\u30ed\u30fc\u30ab\u30eb\u30c7\u30a4", 
+                    "LOCALDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "localday"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u65e52", 
+                    "\u73fe\u5730\u65e52", 
+                    "\u73fe\u5730\u65e5\uff12", 
+                    "LOCALDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "localday2"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u66dc\u65e5\u540d", 
+                    "\u73fe\u5730\u66dc\u65e5", 
+                    "\u30ed\u30fc\u30ab\u30eb\u30c7\u30a4\u30cd\u30fc\u30e0", 
+                    "LOCALDAYNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localdayname"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u5e74", 
+                    "\u73fe\u5730\u5e74", 
+                    "\u30ed\u30fc\u30ab\u30eb\u30a4\u30e4\u30fc", 
+                    "LOCALYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "localyear"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u6642\u523b", 
+                    "\u73fe\u5730\u6642\u9593", 
+                    "\u30ed\u30fc\u30ab\u30eb\u30bf\u30a4\u30e0", 
+                    "LOCALTIME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localtime"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u6642", 
+                    "\u73fe\u5730\u6642", 
+                    "LOCALHOUR"
+                ], 
+                "case-sensitive": "", 
+                "name": "localhour"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8\u6570", 
+                    "NUMBEROFPAGES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofpages"
+            }, 
+            {
+                "aliases": [
+                    "\u8a18\u4e8b\u6570", 
+                    "NUMBEROFARTICLES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofarticles"
+            }, 
+            {
+                "aliases": [
+                    "\u30d5\u30a1\u30a4\u30eb\u6570", 
+                    "NUMBEROFFILES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberoffiles"
+            }, 
+            {
+                "aliases": [
+                    "\u5229\u7528\u8005\u6570", 
+                    "NUMBEROFUSERS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofusers"
+            }, 
+            {
+                "aliases": [
+                    "\u6d3b\u52d5\u5229\u7528\u8005\u6570", 
+                    "\u6709\u52b9\u306a\u5229\u7528\u8005\u6570", 
+                    "\u6709\u52b9\u5229\u7528\u8005\u6570", 
+                    "NUMBEROFACTIVEUSERS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofactiveusers"
+            }, 
+            {
+                "aliases": [
+                    "\u7de8\u96c6\u56de\u6570", 
+                    "NUMBEROFEDITS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofedits"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8\u540d", 
+                    "PAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagename"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8\u540dE", 
+                    "\u30da\u30fc\u30b8\u540d\uff25", 
+                    "PAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u540d\u524d\u7a7a\u9593", 
+                    "NAMESPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespace"
+            }, 
+            {
+                "aliases": [
+                    "\u540d\u524d\u7a7a\u9593E", 
+                    "\u540d\u524d\u7a7a\u9593\uff25", 
+                    "NAMESPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespacee"
+            }, 
+            {
+                "aliases": [
+                    "\u540d\u524d\u7a7a\u9593\u756a\u53f7", 
+                    "NAMESPACENUMBER"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespacenumber"
+            }, 
+            {
+                "aliases": [
+                    "\u30c8\u30fc\u30af\u7a7a\u9593", 
+                    "\u30ce\u30fc\u30c8\u7a7a\u9593", 
+                    "\u4f1a\u8a71\u7a7a\u9593", 
+                    "\u30c8\u30fc\u30af\u30b9\u30da\u30fc\u30b9", 
+                    "TALKSPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkspace"
+            }, 
+            {
+                "aliases": [
+                    "\u30c8\u30fc\u30af\u7a7a\u9593E", 
+                    "\u30c8\u30fc\u30af\u7a7a\u9593\uff25", 
+                    "\u30ce\u30fc\u30c8\u7a7a\u9593E", 
+                    "\u4f1a\u8a71\u7a7a\u9593E", 
+                    "\u30ce\u30fc\u30c8\u7a7a\u9593\uff25", 
+                    "\u4f1a\u8a71\u7a7a\u9593\uff25", 
+                    "\u30c8\u30fc\u30af\u30b9\u30da\u30fc\u30b9E", 
+                    "\u30c8\u30fc\u30af\u30b9\u30da\u30fc\u30b9\uff25", 
+                    "TALKSPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkspacee"
+            }, 
+            {
+                "aliases": [
+                    "\u4e3b\u7a7a\u9593", 
+                    "\u6a19\u6e96\u7a7a\u9593", 
+                    "\u8a18\u4e8b\u7a7a\u9593", 
+                    "SUBJECTSPACE", 
+                    "ARTICLESPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectspace"
+            }, 
+            {
+                "aliases": [
+                    "\u4e3b\u7a7a\u9593E", 
+                    "\u6a19\u6e96\u7a7a\u9593E", 
+                    "\u6a19\u6e96\u7a7a\u9593\uff25", 
+                    "\u8a18\u4e8b\u7a7a\u9593E", 
+                    "\u8a18\u4e8b\u7a7a\u9593\uff25", 
+                    "SUBJECTSPACEE", 
+                    "ARTICLESPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectspacee"
+            }, 
+            {
+                "aliases": [
+                    "\u5b8c\u5168\u306a\u30da\u30fc\u30b8\u540d", 
+                    "\u30d5\u30eb\u30da\u30fc\u30b8\u540d", 
+                    "\u5b8c\u5168\u306a\u8a18\u4e8b\u540d", 
+                    "\u5b8c\u5168\u8a18\u4e8b\u540d", 
+                    "FULLPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "fullpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u5b8c\u5168\u306a\u30da\u30fc\u30b8\u540dE", 
+                    "\u30d5\u30eb\u30da\u30fc\u30b8\u540dE", 
+                    "\u30d5\u30eb\u30da\u30fc\u30b8\u540d\uff25", 
+                    "\u5b8c\u5168\u306a\u30da\u30fc\u30b8\u540d\uff25", 
+                    "FULLPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "fullpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u30b5\u30d6\u30da\u30fc\u30b8\u540d", 
+                    "\u4e0b\u4f4d\u30da\u30fc\u30b8\u540d", 
+                    "SUBPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "subpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u30b5\u30d6\u30da\u30fc\u30b8\u540dE", 
+                    "\u30b5\u30d6\u30da\u30fc\u30b8\u540d\uff25", 
+                    "\u4e0b\u4f4d\u30da\u30fc\u30b8\u540dE", 
+                    "\u4e0b\u4f4d\u30da\u30fc\u30b8\u540d\uff25", 
+                    "SUBPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u30eb\u30fc\u30c8\u30da\u30fc\u30b8\u540d", 
+                    "ROOTPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "rootpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u30eb\u30fc\u30c8\u30da\u30fc\u30b8\u540dE", 
+                    "\u30eb\u30fc\u30c8\u30da\u30fc\u30b8\u540d\uff25", 
+                    "ROOTPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "rootpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u89aa\u30da\u30fc\u30b8\u540d", 
+                    "BASEPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "basepagename"
+            }, 
+            {
+                "aliases": [
+                    "\u89aa\u30da\u30fc\u30b8\u540dE", 
+                    "\u89aa\u30da\u30fc\u30b8\u540d\uff25", 
+                    "BASEPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "basepagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u30c8\u30fc\u30af\u30da\u30fc\u30b8\u540d", 
+                    "\u4f1a\u8a71\u30da\u30fc\u30b8\u540d", 
+                    "TALKPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u30c8\u30fc\u30af\u30da\u30fc\u30b8\u540dE", 
+                    "\u4f1a\u8a71\u30da\u30fc\u30b8\u540dE", 
+                    "\u4f1a\u8a71\u30da\u30fc\u30b8\u540d\uff25", 
+                    "\u30c8\u30fc\u30af\u30da\u30fc\u30b8\u540d\uff25", 
+                    "TALKPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u4e3b\u30da\u30fc\u30b8\u540d", 
+                    "\u8a18\u4e8b\u30da\u30fc\u30b8\u540d", 
+                    "SUBJECTPAGENAME", 
+                    "ARTICLEPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u4e3b\u30da\u30fc\u30b8\u540dE", 
+                    "\u8a18\u4e8b\u30da\u30fc\u30b8\u540dE", 
+                    "\u4e3b\u30da\u30fc\u30b8\u540d\uff25", 
+                    "\u8a18\u4e8b\u30da\u30fc\u30b8\u540d\uff25", 
+                    "SUBJECTPAGENAMEE", 
+                    "ARTICLEPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30c3\u30bb\u30fc\u30b8:", 
+                    "MSG:"
+                ], 
+                "name": "msg"
+            }, 
+            {
+                "aliases": [
+                    "\u5c55\u958b:", 
+                    "\u5c55\u958b\uff1a", 
+                    "SUBST:"
+                ], 
+                "name": "subst"
+            }, 
+            {
+                "aliases": [
+                    "\u5b89\u5168\u5c55\u958b:", 
+                    "SAFESUBST:"
+                ], 
+                "name": "safesubst"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a3\u30ad\u7121\u52b9\u30e1\u30c3\u30bb\u30fc\u30b8:", 
+                    "MSGNW:"
+                ], 
+                "name": "msgnw"
+            }, 
+            {
+                "aliases": [
+                    "\u30b5\u30e0\u30cd\u30a4\u30eb", 
+                    "thumb", 
+                    "thumbnail"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_thumbnail"
+            }, 
+            {
+                "aliases": [
+                    "\u4ee3\u66ff\u753b\u50cf=$1", 
+                    "\u30b5\u30e0\u30cd\u30a4\u30eb=$1", 
+                    "thumbnail=$1", 
+                    "thumb=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_manualthumb"
+            }, 
+            {
+                "aliases": [
+                    "\u53f3", 
+                    "right"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_right"
+            }, 
+            {
+                "aliases": [
+                    "\u5de6", 
+                    "left"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_left"
+            }, 
+            {
+                "aliases": [
+                    "\u306a\u3057", 
+                    "\u7121\u3057", 
+                    "none"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_none"
+            }, 
+            {
+                "aliases": [
+                    "$1\u30d4\u30af\u30bb\u30eb", 
+                    "$1px"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_width"
+            }, 
+            {
+                "aliases": [
+                    "\u4e2d\u592e", 
+                    "center", 
+                    "centre"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_center"
+            }, 
+            {
+                "aliases": [
+                    "\u30d5\u30ec\u30fc\u30e0", 
+                    "frame", 
+                    "framed", 
+                    "enframed"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_framed"
+            }, 
+            {
+                "aliases": [
+                    "\u30d5\u30ec\u30fc\u30e0\u306a\u3057", 
+                    "frameless"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_frameless"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8=$1", 
+                    "\u30da\u30fc\u30b8 $1", 
+                    "page=$1", 
+                    "page $1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_page"
+            }, 
+            {
+                "aliases": [
+                    "\u53f3\u4e0a", 
+                    "upright", 
+                    "upright=$1", 
+                    "upright $1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_upright"
+            }, 
+            {
+                "aliases": [
+                    "\u5883\u754c", 
+                    "\u30dc\u30fc\u30c0\u30fc", 
+                    "border"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_border"
+            }, 
+            {
+                "aliases": [
+                    "\u30d9\u30fc\u30b9\u30e9\u30a4\u30f3", 
+                    "\u4e0b\u7dda", 
+                    "baseline"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_baseline"
+            }, 
+            {
+                "aliases": [
+                    "\u4e0b\u4ed8\u304d", 
+                    "sub"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_sub"
+            }, 
+            {
+                "aliases": [
+                    "\u4e0a\u4ed8\u304d", 
+                    "super", 
+                    "sup"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_super"
+            }, 
+            {
+                "aliases": [
+                    "\u4e0a\u7aef", 
+                    "top"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_top"
+            }, 
+            {
+                "aliases": [
+                    "\u6587\u4e0a\u7aef", 
+                    "text-top"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_text_top"
+            }, 
+            {
+                "aliases": [
+                    "\u4e2d\u5fc3", 
+                    "middle"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_middle"
+            }, 
+            {
+                "aliases": [
+                    "\u4e0b\u7aef", 
+                    "bottom"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_bottom"
+            }, 
+            {
+                "aliases": [
+                    "\u6587\u4e0b\u7aef", 
+                    "text-bottom"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_text_bottom"
+            }, 
+            {
+                "aliases": [
+                    "\u30ea\u30f3\u30af=$1", 
+                    "link=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_link"
+            }, 
+            {
+                "aliases": [
+                    "\u4ee3\u66ff\u6587=$1", 
+                    "alt=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_alt"
+            }, 
+            {
+                "aliases": [
+                    "\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30fc\u30b9:", 
+                    "\u30a4\u30f3\u30bf:", 
+                    "\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30fc\u30b9\uff1a", 
+                    "\u30a4\u30f3\u30bf\uff1a", 
+                    "\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30a4\u30b9:", 
+                    "\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30a4\u30b9\uff1a", 
+                    "INT:"
+                ], 
+                "name": "int"
+            }, 
+            {
+                "aliases": [
+                    "\u30b5\u30a4\u30c8\u540d", 
+                    "\u30b5\u30a4\u30c8\u30cd\u30fc\u30e0", 
+                    "SITENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "sitename"
+            }, 
+            {
+                "aliases": [
+                    "\u540d\u524d\u7a7a\u9593:", 
+                    "\u540d\u524d\u7a7a\u9593\uff1a", 
+                    "\u540d\u7a7a:", 
+                    "\u540d\u7a7a\uff1a", 
+                    "NS:"
+                ], 
+                "name": "ns"
+            }, 
+            {
+                "aliases": [
+                    "\u540d\u524d\u7a7a\u9593E:", 
+                    "NSE:"
+                ], 
+                "name": "nse"
+            }, 
+            {
+                "aliases": [
+                    "\u30ed\u30fc\u30ab\u30ebURL:", 
+                    "\u30ed\u30fc\u30ab\u30eb\uff35\uff32\uff2c\uff1a", 
+                    "LOCALURL:"
+                ], 
+                "name": "localurl"
+            }, 
+            {
+                "aliases": [
+                    "\u30ed\u30fc\u30ab\u30ebURLE:", 
+                    "\u30ed\u30fc\u30ab\u30eb\uff35\uff32\uff2c\uff25\uff1a", 
+                    "LOCALURLE:"
+                ], 
+                "name": "localurle"
+            }, 
+            {
+                "aliases": [
+                    "\u8a18\u4e8b\u30d1\u30b9", 
+                    "ARTICLEPATH"
+                ], 
+                "name": "articlepath"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8ID", 
+                    "\u30da\u30fc\u30b8\uff29\uff24", 
+                    "PAGEID"
+                ], 
+                "name": "pageid"
+            }, 
+            {
+                "aliases": [
+                    "\u30b5\u30fc\u30d0\u30fc", 
+                    "\u30b5\u30fc\u30d0", 
+                    "SERVER"
+                ], 
+                "name": "server"
+            }, 
+            {
+                "aliases": [
+                    "\u30b5\u30fc\u30d0\u30fc\u540d", 
+                    "\u30b5\u30fc\u30d0\u30fc\u30cd\u30fc\u30e0", 
+                    "\u30b5\u30fc\u30d0\u540d", 
+                    "\u30b5\u30fc\u30d0\u30cd\u30fc\u30e0", 
+                    "SERVERNAME"
+                ], 
+                "name": "servername"
+            }, 
+            {
+                "aliases": [
+                    "\u30b9\u30af\u30ea\u30d7\u30c8\u30d1\u30b9", 
+                    "SCRIPTPATH"
+                ], 
+                "name": "scriptpath"
+            }, 
+            {
+                "aliases": [
+                    "\u30b9\u30bf\u30a4\u30eb\u30d1\u30b9", 
+                    "STYLEPATH"
+                ], 
+                "name": "stylepath"
+            }, 
+            {
+                "aliases": [
+                    "\u6587\u6cd5:", 
+                    "GRAMMAR:"
+                ], 
+                "name": "grammar"
+            }, 
+            {
+                "aliases": [
+                    "\u6027\u5225:", 
+                    "\u6027\u5225\uff1a", 
+                    "GENDER:"
+                ], 
+                "name": "gender"
+            }, 
+            {
+                "aliases": [
+                    "__\u30bf\u30a4\u30c8\u30eb\u5909\u63db\u7121\u52b9__", 
+                    "__\u30bf\u30a4\u30c8\u30eb\u30b3\u30f3\u30d0\u30fc\u30c8\u62d2\u5426__", 
+                    "\uff3f\uff3f\u30bf\u30a4\u30c8\u30eb\u30b3\u30f3\u30d0\u30fc\u30c8\u62d2\u5426\uff3f\uff3f", 
+                    "__\u30bf\u30a4\u30c8\u30eb\u975e\u8868\u793a__", 
+                    "__NOTITLECONVERT__", 
+                    "__NOTC__"
+                ], 
+                "name": "notitleconvert"
+            }, 
+            {
+                "aliases": [
+                    "__\u5185\u5bb9\u5909\u63db\u7121\u52b9__", 
+                    "__\u5185\u5bb9\u5909\u63db\u6291\u5236__", 
+                    "\uff3f\uff3f\u5185\u5bb9\u5909\u63db\u6291\u5236\uff3f\uff3f", 
+                    "__NOCONTENTCONVERT__", 
+                    "__NOCC__"
+                ], 
+                "name": "nocontentconvert"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u9031", 
+                    "CURRENTWEEK"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentweek"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u66dc\u65e5\u756a\u53f7", 
+                    "CURRENTDOW"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentdow"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u9031", 
+                    "\u73fe\u5730\u9031", 
+                    "\u30ed\u30fc\u30ab\u30eb\u30a6\u30a3\u30fc\u30af", 
+                    "LOCALWEEK"
+                ], 
+                "case-sensitive": "", 
+                "name": "localweek"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u66dc\u65e5\u756a\u53f7", 
+                    "LOCALDOW"
+                ], 
+                "case-sensitive": "", 
+                "name": "localdow"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306eID", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3ID", 
+                    "\u5dee\u5206ID", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\uff29\uff24", 
+                    "\u5dee\u5206\uff29\uff24", 
+                    "REVISIONID"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionid"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u65e5", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u65e5", 
+                    "\u5dee\u5206\u65e5", 
+                    "REVISIONDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionday"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u65e52", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u65e52", 
+                    "\u5dee\u5206\u65e52", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u65e5\uff12", 
+                    "\u5dee\u5206\u65e5\uff12", 
+                    "REVISIONDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionday2"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u6708", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u6708", 
+                    "\u5dee\u5206\u6708", 
+                    "REVISIONMONTH"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionmonth"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u67081", 
+                    "REVISIONMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionmonth1"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u5e74", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u5e74", 
+                    "\u5dee\u5206\u5e74", 
+                    "REVISIONYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionyear"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "REVISIONTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisiontimestamp"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u306e\u5229\u7528\u8005", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u30e6\u30fc\u30b6\u30fc", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u30e6\u30fc\u30b6", 
+                    "\u30ea\u30d3\u30b8\u30e7\u30f3\u5229\u7528\u8005", 
+                    "\u5dee\u5206\u5229\u7528\u8005", 
+                    "REVISIONUSER"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionuser"
+            }, 
+            {
+                "aliases": [
+                    "\u8907\u6570:", 
+                    "\u8907\u6570\uff1a", 
+                    "PLURAL:"
+                ], 
+                "name": "plural"
+            }, 
+            {
+                "aliases": [
+                    "\u5b8c\u5168\u306aURL:", 
+                    "\u30d5\u30ebURL:", 
+                    "\u5b8c\u5168\u306a\uff35\uff32\uff2c\uff1a", 
+                    "\u30d5\u30eb\uff35\uff32\uff2c\uff1a", 
+                    "FULLURL:"
+                ], 
+                "name": "fullurl"
+            }, 
+            {
+                "aliases": [
+                    "\u5b8c\u5168\u306aURLE:", 
+                    "\u30d5\u30ebURLE:", 
+                    "\u5b8c\u5168\u306a\uff35\uff32\uff2c\uff25\uff1a", 
+                    "\u30d5\u30eb\uff35\uff32\uff2c\uff25\uff1a", 
+                    "FULLURLE:"
+                ], 
+                "name": "fullurle"
+            }, 
+            {
+                "aliases": [
+                    "\u5148\u982d\u5c0f\u6587\u5b57:", 
+                    "LCFIRST:"
+                ], 
+                "name": "lcfirst"
+            }, 
+            {
+                "aliases": [
+                    "\u5148\u982d\u5927\u6587\u5b57:", 
+                    "UCFIRST:"
+                ], 
+                "name": "ucfirst"
+            }, 
+            {
+                "aliases": [
+                    "\u5c0f\u6587\u5b57:", 
+                    "LC:"
+                ], 
+                "name": "lc"
+            }, 
+            {
+                "aliases": [
+                    "\u5927\u6587\u5b57:", 
+                    "UC:"
+                ], 
+                "name": "uc"
+            }, 
+            {
+                "aliases": [
+                    "\u751f:", 
+                    "RAW:"
+                ], 
+                "name": "raw"
+            }, 
+            {
+                "aliases": [
+                    "\u8868\u793a\u30bf\u30a4\u30c8\u30eb:", 
+                    "DISPLAYTITLE"
+                ], 
+                "case-sensitive": "", 
+                "name": "displaytitle"
+            }, 
+            {
+                "aliases": [
+                    "\u751f", 
+                    "R"
+                ], 
+                "case-sensitive": "", 
+                "name": "rawsuffix"
+            }, 
+            {
+                "aliases": [
+                    "__\u65b0\u3057\u3044\u7bc0\u30ea\u30f3\u30af__", 
+                    "__\u65b0\u3057\u3044\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af__", 
+                    "__\u65b0\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af__", 
+                    "\uff3f\uff3f\u65b0\u3057\u3044\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af\uff3f\uff3f", 
+                    "\uff3f\uff3f\u65b0\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af\uff3f\uff3f", 
+                    "__NEWSECTIONLINK__"
+                ], 
+                "case-sensitive": "", 
+                "name": "newsectionlink"
+            }, 
+            {
+                "aliases": [
+                    "__\u65b0\u3057\u3044\u7bc0\u30ea\u30f3\u30af\u975e\u8868\u793a__", 
+                    "__\u65b0\u3057\u3044\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af\u975e\u8868\u793a__", 
+                    "\uff3f\uff3f\u65b0\u3057\u3044\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af\u975e\u8868\u793a\uff3f\uff3f", 
+                    "__\u65b0\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af\u975e\u8868\u793a__", 
+                    "\uff3f\uff3f\u65b0\u30bb\u30af\u30b7\u30e7\u30f3\u30ea\u30f3\u30af\u975e\u8868\u793a\uff3f\uff3f", 
+                    "__NONEWSECTIONLINK__"
+                ], 
+                "case-sensitive": "", 
+                "name": "nonewsectionlink"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u30d0\u30fc\u30b8\u30e7\u30f3", 
+                    "\u30a6\u30a3\u30ad\u30d0\u30fc\u30b8\u30e7\u30f3", 
+                    "MediaWiki\u30d0\u30fc\u30b8\u30e7\u30f3", 
+                    "\u30e1\u30c7\u30a3\u30a2\u30a6\u30a3\u30ad\u30d0\u30fc\u30b8\u30e7\u30f3", 
+                    "CURRENTVERSION"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentversion"
+            }, 
+            {
+                "aliases": [
+                    "URL\u30a8\u30f3\u30b3\u30fc\u30c9:", 
+                    "\uff35\uff32\uff2c\u30a8\u30f3\u30b3\u30fc\u30c9\uff1a", 
+                    "URLENCODE:"
+                ], 
+                "name": "urlencode"
+            }, 
+            {
+                "aliases": [
+                    "\u30a2\u30f3\u30ab\u30fc\u7528\u30a8\u30f3\u30b3\u30fc\u30c9", 
+                    "ANCHORENCODE"
+                ], 
+                "name": "anchorencode"
+            }, 
+            {
+                "aliases": [
+                    "\u73fe\u5728\u306e\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "\u5354\u5b9a\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "CURRENTTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenttimestamp"
+            }, 
+            {
+                "aliases": [
+                    "\u5730\u65b9\u6642\u306e\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "\u73fe\u5730\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "\u30ed\u30fc\u30ab\u30eb\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7", 
+                    "LOCALTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "localtimestamp"
+            }, 
+            {
+                "aliases": [
+                    "\u65b9\u5411\u5370", 
+                    "DIRECTIONMARK", 
+                    "DIRMARK"
+                ], 
+                "case-sensitive": "", 
+                "name": "directionmark"
+            }, 
+            {
+                "aliases": [
+                    "#\u8a00\u8a9e:", 
+                    "\uff03\u8a00\u8a9e\uff1a", 
+                    "#LANGUAGE:"
+                ], 
+                "name": "language"
+            }, 
+            {
+                "aliases": [
+                    "\u5185\u5bb9\u8a00\u8a9e", 
+                    "\u8a18\u4e8b\u8a00\u8a9e", 
+                    "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u8a00\u8a9e", 
+                    "CONTENTLANGUAGE", 
+                    "CONTENTLANG"
+                ], 
+                "case-sensitive": "", 
+                "name": "contentlanguage"
+            }, 
+            {
+                "aliases": [
+                    "\u540d\u524d\u7a7a\u9593\u5185\u30da\u30fc\u30b8\u6570", 
+                    "PAGESINNAMESPACE:", 
+                    "PAGESINNS:"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesinnamespace"
+            }, 
+            {
+                "aliases": [
+                    "\u7ba1\u7406\u8005\u6570", 
+                    "NUMBEROFADMINS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofadmins"
+            }, 
+            {
+                "aliases": [
+                    "\u6570\u6574\u5f62", 
+                    "FORMATNUM"
+                ], 
+                "name": "formatnum"
+            }, 
+            {
+                "aliases": [
+                    "\u88dc\u5145\u5de6", 
+                    "PADLEFT"
+                ], 
+                "name": "padleft"
+            }, 
+            {
+                "aliases": [
+                    "\u88dc\u5145\u53f3", 
+                    "PADRIGHT"
+                ], 
+                "name": "padright"
+            }, 
+            {
+                "aliases": [
+                    "\u7279\u5225", 
+                    "special"
+                ], 
+                "name": "special"
+            }, 
+            {
+                "aliases": [
+                    "\u30c7\u30d5\u30a9\u30eb\u30c8\u30bd\u30fc\u30c8:", 
+                    "\u30c7\u30d5\u30a9\u30eb\u30c8\u30bd\u30fc\u30c8\uff1a", 
+                    "\u30c7\u30d5\u30a9\u30eb\u30c8\u30bd\u30fc\u30c8\u30ad\u30fc:", 
+                    "\u30c7\u30d5\u30a9\u30eb\u30c8\u30ab\u30c6\u30b4\u30ea\u30bd\u30fc\u30c8:", 
+                    "DEFAULTSORT:", 
+                    "DEFAULTSORTKEY:", 
+                    "DEFAULTCATEGORYSORT:"
+                ], 
+                "case-sensitive": "", 
+                "name": "defaultsort"
+            }, 
+            {
+                "aliases": [
+                    "\u30d5\u30a1\u30a4\u30eb\u30d1\u30b9:", 
+                    "\u30d5\u30a1\u30a4\u30eb\u30d1\u30b9\uff1a", 
+                    "FILEPATH:"
+                ], 
+                "name": "filepath"
+            }, 
+            {
+                "aliases": [
+                    "\u30bf\u30b0", 
+                    "tag"
+                ], 
+                "name": "tag"
+            }, 
+            {
+                "aliases": [
+                    "__\u30ab\u30c6\u30b4\u30ea\u975e\u8868\u793a__", 
+                    "__\u30ab\u30c6\u975e\u8868\u793a__", 
+                    "__\u975e\u8868\u793a\u30ab\u30c6__", 
+                    "__\u96a0\u3057\u30ab\u30c6\u30b4\u30ea__", 
+                    "__HIDDENCAT__"
+                ], 
+                "case-sensitive": "", 
+                "name": "hiddencat"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u5185\u30da\u30fc\u30b8\u6570", 
+                    "PAGESINCATEGORY", 
+                    "PAGESINCAT"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesincategory"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8\u30b5\u30a4\u30ba", 
+                    "PAGESIZE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesize"
+            }, 
+            {
+                "aliases": [
+                    "__\u30a4\u30f3\u30c7\u30c3\u30af\u30b9__", 
+                    "\uff3f\uff3f\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\uff3f\uff3f", 
+                    "__INDEX__"
+                ], 
+                "case-sensitive": "", 
+                "name": "index"
+            }, 
+            {
+                "aliases": [
+                    "__\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u62d2\u5426__", 
+                    "\uff3f\uff3f\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u62d2\u5426\uff3f\uff3f", 
+                    "__NOINDEX__"
+                ], 
+                "case-sensitive": "", 
+                "name": "noindex"
+            }, 
+            {
+                "aliases": [
+                    "\u30b0\u30eb\u30fc\u30d7\u4eba\u6570", 
+                    "\u30b0\u30eb\u30fc\u30d7\u6240\u5c5e\u4eba\u6570", 
+                    "NUMBERINGROUP", 
+                    "NUMINGROUP"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberingroup"
+            }, 
+            {
+                "aliases": [
+                    "__\u9759\u7684\u8ee2\u9001__", 
+                    "__\u4e8c\u91cd\u8ee2\u9001\u89e3\u6d88\u7121\u52b9__", 
+                    "\uff3f\uff3f\u4e8c\u91cd\u8ee2\u9001\u89e3\u6d88\u7121\u52b9\uff3f\uff3f", 
+                    "__\u4e8c\u91cd\u8ee2\u9001\u4fee\u6b63\u7121\u52b9__", 
+                    "\uff3f\uff3f\u4e8c\u91cd\u8ee2\u9001\u4fee\u6b63\u7121\u52b9\uff3f\uff3f", 
+                    "__STATICREDIRECT__"
+                ], 
+                "case-sensitive": "", 
+                "name": "staticredirect"
+            }, 
+            {
+                "aliases": [
+                    "\u4fdd\u8b77\u30ec\u30d9\u30eb", 
+                    "PROTECTIONLEVEL"
+                ], 
+                "case-sensitive": "", 
+                "name": "protectionlevel"
+            }, 
+            {
+                "aliases": [
+                    "\u65e5\u4ed8\u6574\u5f62", 
+                    "formatdate", 
+                    "dateformat"
+                ], 
+                "name": "formatdate"
+            }, 
+            {
+                "aliases": [
+                    "\u30d1\u30b9", 
+                    "PATH"
+                ], 
+                "name": "url_path"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a3\u30ad", 
+                    "WIKI"
+                ], 
+                "name": "url_wiki"
+            }, 
+            {
+                "aliases": [
+                    "\u30af\u30a8\u30ea", 
+                    "\u30af\u30a8\u30ea\u30fc", 
+                    "QUERY"
+                ], 
+                "name": "url_query"
+            }, 
+            {
+                "aliases": [
+                    "choose"
+                ], 
+                "name": "choose"
+            }, 
+            {
+                "aliases": [
+                    "var"
+                ], 
+                "name": "var"
+            }, 
+            {
+                "aliases": [
+                    "var_final"
+                ], 
+                "name": "var_final"
+            }, 
+            {
+                "aliases": [
+                    "vardefine"
+                ], 
+                "name": "vardefine"
+            }, 
+            {
+                "aliases": [
+                    "vardefineecho"
+                ], 
+                "name": "vardefineecho"
+            }, 
+            {
+                "aliases": [
+                    "varexists"
+                ], 
+                "name": "varexists"
+            }, 
+            {
+                "aliases": [
+                    "invoke"
+                ], 
+                "name": "invoke"
+            }, 
+            {
+                "aliases": [
+                    "noplayer"
+                ], 
+                "name": "timedmedia_noplayer"
+            }, 
+            {
+                "aliases": [
+                    "noicon"
+                ], 
+                "name": "timedmedia_noicon"
+            }, 
+            {
+                "aliases": [
+                    "thumbtime=$1"
+                ], 
+                "name": "timedmedia_thumbtime"
+            }, 
+            {
+                "aliases": [
+                    "start=$1"
+                ], 
+                "name": "timedmedia_starttime"
+            }, 
+            {
+                "aliases": [
+                    "end=$1"
+                ], 
+                "name": "timedmedia_endtime"
+            }, 
+            {
+                "aliases": [
+                    "disablecontrols=$1"
+                ], 
+                "name": "timedmedia_disablecontrols"
+            }, 
+            {
+                "aliases": [
+                    "__NOAD__"
+                ], 
+                "case-sensitive": "", 
+                "name": "noad"
+            }, 
+            {
+                "aliases": [
+                    "while"
+                ], 
+                "name": "while"
+            }, 
+            {
+                "aliases": [
+                    "dowhile"
+                ], 
+                "name": "dowhile"
+            }, 
+            {
+                "aliases": [
+                    "loop"
+                ], 
+                "name": "loop"
+            }, 
+            {
+                "aliases": [
+                    "forargs"
+                ], 
+                "name": "forargs"
+            }, 
+            {
+                "aliases": [
+                    "fornumargs"
+                ], 
+                "name": "fornumargs"
+            }, 
+            {
+                "aliases": [
+                    "cscore"
+                ], 
+                "name": "cscore"
+            }, 
+            {
+                "aliases": [
+                    "!"
+                ], 
+                "case-sensitive": "", 
+                "name": "!"
+            }, 
+            {
+                "aliases": [
+                    "lang=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_lang"
+            }, 
+            {
+                "aliases": [
+                    "class=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_class"
+            }, 
+            {
+                "aliases": [
+                    "BIDI:"
+                ], 
+                "name": "bidi"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONSIZE"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionsize"
+            }, 
+            {
+                "aliases": [
+                    "CANONICALURL:"
+                ], 
+                "name": "canonicalurl"
+            }, 
+            {
+                "aliases": [
+                    "CANONICALURLE:"
+                ], 
+                "name": "canonicalurle"
+            }, 
+            {
+                "aliases": [
+                    "NOSEP"
+                ], 
+                "name": "nocommafysuffix"
+            }, 
+            {
+                "aliases": [
+                    "PAGELANGUAGE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagelanguage"
+            }, 
+            {
+                "aliases": [
+                    "speciale"
+                ], 
+                "name": "speciale"
+            }, 
+            {
+                "aliases": [
+                    "PROTECTIONEXPIRY"
+                ], 
+                "case-sensitive": "", 
+                "name": "protectionexpiry"
+            }, 
+            {
+                "aliases": [
+                    "CASCADINGSOURCES"
+                ], 
+                "case-sensitive": "", 
+                "name": "cascadingsources"
+            }, 
+            {
+                "aliases": [
+                    "noerror"
+                ], 
+                "name": "defaultsort_noerror"
+            }, 
+            {
+                "aliases": [
+                    "noreplace"
+                ], 
+                "name": "defaultsort_noreplace"
+            }, 
+            {
+                "aliases": [
+                    "noerror"
+                ], 
+                "name": "displaytitle_noerror"
+            }, 
+            {
+                "aliases": [
+                    "noreplace"
+                ], 
+                "name": "displaytitle_noreplace"
+            }, 
+            {
+                "aliases": [
+                    "all"
+                ], 
+                "name": "pagesincategory_all"
+            }, 
+            {
+                "aliases": [
+                    "pages"
+                ], 
+                "name": "pagesincategory_pages"
+            }, 
+            {
+                "aliases": [
+                    "subcats"
+                ], 
+                "name": "pagesincategory_subcats"
+            }, 
+            {
+                "aliases": [
+                    "files"
+                ], 
+                "name": "pagesincategory_files"
+            }
+        ], 
+        "namespacealiases": [
+            {
+                "*": "\u30ce\u30fc\u30c8", 
+                "id": 1
+            }, 
+            {
+                "*": "\u5229\u7528\u8005\u2010\u4f1a\u8a71", 
+                "id": 3
+            }, 
+            {
+                "*": "\u840c\u3048\u3063\u5a18\u767e\u79d1\u4e8b\u5178\u2010\u30ce\u30fc\u30c8", 
+                "id": 5
+            }, 
+            {
+                "*": "Image", 
+                "id": 6
+            }, 
+            {
+                "*": "\u753b\u50cf", 
+                "id": 6
+            }, 
+            {
+                "*": "Image talk", 
+                "id": 7
+            }, 
+            {
+                "*": "\u30d5\u30a1\u30a4\u30eb\u2010\u30ce\u30fc\u30c8", 
+                "id": 7
+            }, 
+            {
+                "*": "\u753b\u50cf\u2010\u30ce\u30fc\u30c8", 
+                "id": 7
+            }, 
+            {
+                "*": "MediaWiki\u2010\u30ce\u30fc\u30c8", 
+                "id": 9
+            }, 
+            {
+                "*": "Template\u2010\u30ce\u30fc\u30c8", 
+                "id": 11
+            }, 
+            {
+                "*": "Help\u2010\u30ce\u30fc\u30c8", 
+                "id": 13
+            }, 
+            {
+                "*": "Category\u2010\u30ce\u30fc\u30c8", 
+                "id": 15
+            }
+        ], 
+        "namespaces": {
+            "-1": {
+                "*": "\u7279\u5225", 
+                "canonical": "Special", 
+                "case": "first-letter", 
+                "id": -1
+            }, 
+            "-2": {
+                "*": "\u30e1\u30c7\u30a3\u30a2", 
+                "canonical": "Media", 
+                "case": "first-letter", 
+                "id": -2
+            }, 
+            "0": {
+                "*": "", 
+                "case": "first-letter", 
+                "content": "", 
+                "id": 0, 
+                "subpages": ""
+            }, 
+            "1": {
+                "*": "\u30c8\u30fc\u30af", 
+                "canonical": "Talk", 
+                "case": "first-letter", 
+                "id": 1, 
+                "subpages": ""
+            }, 
+            "10": {
+                "*": "\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                "canonical": "Template", 
+                "case": "first-letter", 
+                "id": 10, 
+                "subpages": ""
+            }, 
+            "11": {
+                "*": "\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "Template talk", 
+                "case": "first-letter", 
+                "id": 11, 
+                "subpages": ""
+            }, 
+            "12": {
+                "*": "\u30d8\u30eb\u30d7", 
+                "canonical": "Help", 
+                "case": "first-letter", 
+                "id": 12, 
+                "subpages": ""
+            }, 
+            "13": {
+                "*": "\u30d8\u30eb\u30d7\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "Help talk", 
+                "case": "first-letter", 
+                "id": 13, 
+                "subpages": ""
+            }, 
+            "14": {
+                "*": "\u30ab\u30c6\u30b4\u30ea", 
+                "canonical": "Category", 
+                "case": "first-letter", 
+                "id": 14
+            }, 
+            "15": {
+                "*": "\u30ab\u30c6\u30b4\u30ea\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "Category talk", 
+                "case": "first-letter", 
+                "id": 15, 
+                "subpages": ""
+            }, 
+            "2": {
+                "*": "\u5229\u7528\u8005", 
+                "canonical": "User", 
+                "case": "first-letter", 
+                "id": 2, 
+                "subpages": ""
+            }, 
+            "2300": {
+                "*": "Gadget", 
+                "canonical": "Gadget", 
+                "case": "first-letter", 
+                "id": 2300
+            }, 
+            "2301": {
+                "*": "Gadget talk", 
+                "canonical": "Gadget talk", 
+                "case": "first-letter", 
+                "id": 2301
+            }, 
+            "2302": {
+                "*": "Gadget definition", 
+                "canonical": "Gadget definition", 
+                "case": "case-sensitive", 
+                "defaultcontentmodel": "GadgetDefinition", 
+                "id": 2302
+            }, 
+            "2303": {
+                "*": "Gadget definition talk", 
+                "canonical": "Gadget definition talk", 
+                "case": "case-sensitive", 
+                "id": 2303
+            }, 
+            "274": {
+                "*": "Widget", 
+                "canonical": "Widget", 
+                "case": "first-letter", 
+                "id": 274
+            }, 
+            "275": {
+                "*": "Widget talk", 
+                "canonical": "Widget talk", 
+                "case": "first-letter", 
+                "id": 275, 
+                "subpages": ""
+            }, 
+            "3": {
+                "*": "\u5229\u7528\u8005\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "User talk", 
+                "case": "first-letter", 
+                "id": 3, 
+                "subpages": ""
+            }, 
+            "4": {
+                "*": "\u840c\u3048\u3063\u5a18\u767e\u79d1\u4e8b\u5178", 
+                "canonical": "Project", 
+                "case": "first-letter", 
+                "id": 4, 
+                "subpages": ""
+            }, 
+            "5": {
+                "*": "\u840c\u3048\u3063\u5a18\u767e\u79d1\u4e8b\u5178\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "Project talk", 
+                "case": "first-letter", 
+                "id": 5, 
+                "subpages": ""
+            }, 
+            "6": {
+                "*": "\u30d5\u30a1\u30a4\u30eb", 
+                "canonical": "File", 
+                "case": "first-letter", 
+                "id": 6
+            }, 
+            "7": {
+                "*": "\u30d5\u30a1\u30a4\u30eb\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "File talk", 
+                "case": "first-letter", 
+                "id": 7, 
+                "subpages": ""
+            }, 
+            "710": {
+                "*": "TimedText", 
+                "canonical": "TimedText", 
+                "case": "first-letter", 
+                "id": 710
+            }, 
+            "711": {
+                "*": "TimedText talk", 
+                "canonical": "TimedText talk", 
+                "case": "first-letter", 
+                "id": 711
+            }, 
+            "8": {
+                "*": "MediaWiki", 
+                "canonical": "MediaWiki", 
+                "case": "first-letter", 
+                "id": 8, 
+                "subpages": ""
+            }, 
+            "828": {
+                "*": "\u30e2\u30b8\u30e5\u30fc\u30eb", 
+                "canonical": "Module", 
+                "case": "first-letter", 
+                "id": 828, 
+                "subpages": ""
+            }, 
+            "829": {
+                "*": "\u30e2\u30b8\u30e5\u30fc\u30eb\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "Module talk", 
+                "case": "first-letter", 
+                "id": 829, 
+                "subpages": ""
+            }, 
+            "9": {
+                "*": "MediaWiki\u30fb\u30c8\u30fc\u30af", 
+                "canonical": "MediaWiki talk", 
+                "case": "first-letter", 
+                "id": 9, 
+                "subpages": ""
+            }
+        }, 
+        "rightsinfo": {
+            "text": "Creative Commons Attribution Share Alike", 
+            "url": ""
+        }, 
+        "skins": [
+            {
+                "*": "\u30d9\u30af\u30bf\u30fc", 
+                "code": "vector", 
+                "default": ""
+            }, 
+            {
+                "*": "Fallback", 
+                "code": "fallback", 
+                "unusable": ""
+            }, 
+            {
+                "*": "ApiOutput", 
+                "code": "apioutput", 
+                "unusable": ""
+            }
+        ], 
+        "specialpagealiases": [
+            {
+                "aliases": [
+                    "\u8ff7\u5b50\u306e\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "\u58ca\u308c\u305f\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "BrokenRedirects"
+                ], 
+                "realname": "BrokenRedirects"
+            }, 
+            {
+                "aliases": [
+                    "\u6709\u52b9\u306a\u30da\u30fc\u30b8\u3078\u306e\u30ea\u30f3\u30af\u304c\u306a\u3044\u30da\u30fc\u30b8", 
+                    "\u884c\u304d\u6b62\u307e\u308a\u30da\u30fc\u30b8", 
+                    "DeadendPages"
+                ], 
+                "realname": "Deadendpages"
+            }, 
+            {
+                "aliases": [
+                    "\u4e8c\u91cd\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "\u4e8c\u91cd\u8ee2\u9001", 
+                    "DoubleRedirects"
+                ], 
+                "realname": "DoubleRedirects"
+            }, 
+            {
+                "aliases": [
+                    "\u9577\u3044\u30da\u30fc\u30b8", 
+                    "LongPages"
+                ], 
+                "realname": "Longpages"
+            }, 
+            {
+                "aliases": [
+                    "\u66f4\u65b0\u3055\u308c\u3066\u3044\u306a\u3044\u30da\u30fc\u30b8", 
+                    "AncientPages"
+                ], 
+                "realname": "Ancientpages"
+            }, 
+            {
+                "aliases": [
+                    "\u5b64\u7acb\u3057\u3066\u3044\u308b\u30da\u30fc\u30b8", 
+                    "LonelyPages", 
+                    "OrphanedPages"
+                ], 
+                "realname": "Lonelypages"
+            }, 
+            {
+                "aliases": [
+                    "\u7de8\u96c6\u5c65\u6b74\u306e\u5c11\u306a\u3044\u30da\u30fc\u30b8", 
+                    "\u7248\u306e\u5c11\u306a\u3044\u9805\u76ee", 
+                    "\u7248\u306e\u5c11\u306a\u3044\u30da\u30fc\u30b8", 
+                    "FewestRevisions"
+                ], 
+                "realname": "Fewestrevisions"
+            }, 
+            {
+                "aliases": [
+                    "\u8a00\u8a9e\u9593\u30ea\u30f3\u30af\u3092\u6301\u305f\u306a\u3044\u30da\u30fc\u30b8", 
+                    "\u8a00\u8a9e\u9593\u30ea\u30f3\u30af\u306e\u306a\u3044\u30da\u30fc\u30b8", 
+                    "WithoutInterwiki"
+                ], 
+                "realname": "Withoutinterwiki"
+            }, 
+            {
+                "aliases": [
+                    "\u4fdd\u8b77\u3055\u308c\u3066\u3044\u308b\u30da\u30fc\u30b8", 
+                    "ProtectedPages"
+                ], 
+                "realname": "Protectedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u4f5c\u6210\u4fdd\u8b77\u3055\u308c\u3066\u3044\u308b\u30da\u30fc\u30b8\u540d", 
+                    "ProtectedTitles"
+                ], 
+                "realname": "Protectedtitles"
+            }, 
+            {
+                "aliases": [
+                    "\u77ed\u3044\u30da\u30fc\u30b8", 
+                    "ShortPages"
+                ], 
+                "realname": "Shortpages"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u672a\u5c0e\u5165\u306e\u30ab\u30c6\u30b4\u30ea", 
+                    "UncategorizedCategories"
+                ], 
+                "realname": "Uncategorizedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u672a\u5c0e\u5165\u306e\u30d5\u30a1\u30a4\u30eb", 
+                    "UncategorizedFiles", 
+                    "UncategorizedImages"
+                ], 
+                "realname": "Uncategorizedimages"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u672a\u5c0e\u5165\u306e\u30da\u30fc\u30b8", 
+                    "UncategorizedPages"
+                ], 
+                "realname": "Uncategorizedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u672a\u5c0e\u5165\u306e\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                    "UncategorizedTemplates"
+                ], 
+                "realname": "Uncategorizedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u4f7f\u308f\u308c\u3066\u3044\u306a\u3044\u30ab\u30c6\u30b4\u30ea", 
+                    "\u672a\u4f7f\u7528\u30ab\u30c6\u30b4\u30ea", 
+                    "UnusedCategories"
+                ], 
+                "realname": "Unusedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u4f7f\u308f\u308c\u3066\u3044\u306a\u3044\u30d5\u30a1\u30a4\u30eb", 
+                    "\u672a\u4f7f\u7528\u30d5\u30a1\u30a4\u30eb", 
+                    "\u672a\u4f7f\u7528\u753b\u50cf", 
+                    "UnusedFiles", 
+                    "UnusedImages"
+                ], 
+                "realname": "Unusedimages"
+            }, 
+            {
+                "aliases": [
+                    "\u4f7f\u308f\u308c\u3066\u3044\u306a\u3044\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                    "\u672a\u4f7f\u7528\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                    "UnusedTemplates"
+                ], 
+                "realname": "Unusedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a9\u30c3\u30c1\u3055\u308c\u3066\u3044\u306a\u3044\u30da\u30fc\u30b8", 
+                    "UnwatchedPages"
+                ], 
+                "realname": "Unwatchedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u5b58\u5728\u3057\u306a\u3044\u30ab\u30c6\u30b4\u30ea\u3078\u306e\u30ea\u30f3\u30af", 
+                    "\u8d64\u30ea\u30f3\u30af\u30ab\u30c6\u30b4\u30ea", 
+                    "WantedCategories"
+                ], 
+                "realname": "Wantedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u30d5\u30a1\u30a4\u30eb\u30da\u30fc\u30b8\u304c\u5b58\u5728\u3057\u306a\u3044\u30d5\u30a1\u30a4\u30eb", 
+                    "\u8d64\u30ea\u30f3\u30af\u30d5\u30a1\u30a4\u30eb", 
+                    "WantedFiles"
+                ], 
+                "realname": "Wantedfiles"
+            }, 
+            {
+                "aliases": [
+                    "\u5b58\u5728\u3057\u306a\u3044\u30da\u30fc\u30b8\u3078\u306e\u30ea\u30f3\u30af", 
+                    "\u8d64\u30ea\u30f3\u30af", 
+                    "WantedPages", 
+                    "BrokenLinks"
+                ], 
+                "realname": "Wantedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u5b58\u5728\u3057\u306a\u3044\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3078\u306e\u30ea\u30f3\u30af", 
+                    "\u8d64\u30ea\u30f3\u30af\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                    "WantedTemplates"
+                ], 
+                "realname": "Wantedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8\u4e00\u89a7", 
+                    "\u5168\u30da\u30fc\u30b8", 
+                    "AllPages"
+                ], 
+                "realname": "Allpages"
+            }, 
+            {
+                "aliases": [
+                    "\u524d\u65b9\u4e00\u81f4\u30da\u30fc\u30b8\u4e00\u89a7", 
+                    "\u59cb\u70b9\u6307\u5b9a\u30da\u30fc\u30b8\u4e00\u89a7", 
+                    "PrefixIndex"
+                ], 
+                "realname": "Prefixindex"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea", 
+                    "\u30ab\u30c6\u30b4\u30ea\u4e00\u89a7", 
+                    "Categories"
+                ], 
+                "realname": "Categories"
+            }, 
+            {
+                "aliases": [
+                    "\u30ea\u30c0\u30a4\u30ec\u30af\u30c8\u4e00\u89a7", 
+                    "\u30ea\u30c0\u30a4\u30ec\u30af\u30c8\u306e\u4e00\u89a7", 
+                    "\u30ea\u30c0\u30a4\u30ec\u30af\u30c8\u30ea\u30b9\u30c8", 
+                    "ListRedirects"
+                ], 
+                "realname": "Listredirects"
+            }, 
+            {
+                "aliases": [
+                    "\u30d7\u30ed\u30d1\u30c6\u30a3\u304c\u3042\u308b\u30da\u30fc\u30b8", 
+                    "PagesWithProp", 
+                    "Pageswithprop", 
+                    "PagesByProp", 
+                    "Pagesbyprop"
+                ], 
+                "realname": "PagesWithProp"
+            }, 
+            {
+                "aliases": [
+                    "\u8ffd\u8de1\u30ab\u30c6\u30b4\u30ea", 
+                    "TrackingCategories"
+                ], 
+                "realname": "TrackingCategories"
+            }, 
+            {
+                "aliases": [
+                    "\u30ed\u30b0\u30a4\u30f3", 
+                    "UserLogin", 
+                    "Login"
+                ], 
+                "realname": "Userlogin"
+            }, 
+            {
+                "aliases": [
+                    "\u30ed\u30b0\u30a2\u30a6\u30c8", 
+                    "UserLogout", 
+                    "Logout"
+                ], 
+                "realname": "Userlogout"
+            }, 
+            {
+                "aliases": [
+                    "\u30a2\u30ab\u30a6\u30f3\u30c8\u4f5c\u6210", 
+                    "\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u4f5c\u6210", 
+                    "CreateAccount"
+                ], 
+                "realname": "CreateAccount"
+            }, 
+            {
+                "aliases": [
+                    "LinkAccounts"
+                ], 
+                "realname": "LinkAccounts"
+            }, 
+            {
+                "aliases": [
+                    "UnlinkAccounts"
+                ], 
+                "realname": "UnlinkAccounts"
+            }, 
+            {
+                "aliases": [
+                    "ChangeCredentials"
+                ], 
+                "realname": "ChangeCredentials"
+            }, 
+            {
+                "aliases": [
+                    "RemoveCredentials"
+                ], 
+                "realname": "RemoveCredentials"
+            }, 
+            {
+                "aliases": [
+                    "\u6d3b\u52d5\u4e2d\u306e\u5229\u7528\u8005", 
+                    "\u6d3b\u52d5\u4e2d\u306e\u5229\u7528\u8005\u4e00\u89a7", 
+                    "ActiveUsers"
+                ], 
+                "realname": "Activeusers"
+            }, 
+            {
+                "aliases": [
+                    "\u6295\u7a3f\u30d6\u30ed\u30c3\u30af", 
+                    "\u30d6\u30ed\u30c3\u30af", 
+                    "Block", 
+                    "BlockIP", 
+                    "BlockUser"
+                ], 
+                "realname": "Block"
+            }, 
+            {
+                "aliases": [
+                    "\u30d6\u30ed\u30c3\u30af\u89e3\u9664", 
+                    "Unblock"
+                ], 
+                "realname": "Unblock"
+            }, 
+            {
+                "aliases": [
+                    "\u30d6\u30ed\u30c3\u30af\u4e00\u89a7", 
+                    "\u30d6\u30ed\u30c3\u30af\u306e\u4e00\u89a7", 
+                    "BlockList", 
+                    "ListBlocks", 
+                    "IPBlockList"
+                ], 
+                "realname": "BlockList"
+            }, 
+            {
+                "aliases": [
+                    "AutoblockList", 
+                    "ListAutoblocks"
+                ], 
+                "realname": "AutoblockList"
+            }, 
+            {
+                "aliases": [
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u5909\u66f4", 
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u5909\u66f4", 
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u518d\u767a\u884c", 
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u518d\u767a\u884c", 
+                    "ChangePassword", 
+                    "ResetPass", 
+                    "ResetPassword"
+                ], 
+                "realname": "ChangePassword"
+            }, 
+            {
+                "aliases": [
+                    "BotPasswords"
+                ], 
+                "realname": "BotPasswords"
+            }, 
+            {
+                "aliases": [
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u518d\u8a2d\u5b9a", 
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u518d\u8a2d\u5b9a", 
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u306e\u30ea\u30bb\u30c3\u30c8", 
+                    "\u30d1\u30b9\u30ef\u30fc\u30c9\u30ea\u30bb\u30c3\u30c8", 
+                    "PasswordReset"
+                ], 
+                "realname": "PasswordReset"
+            }, 
+            {
+                "aliases": [
+                    "\u524a\u9664\u3055\u308c\u305f\u6295\u7a3f\u8a18\u9332", 
+                    "\u524a\u9664\u3055\u308c\u305f\u6295\u7a3f\u5c65\u6b74", 
+                    "\u524a\u9664\u6b74", 
+                    "DeletedContributions"
+                ], 
+                "realname": "DeletedContributions"
+            }, 
+            {
+                "aliases": [
+                    "\u500b\u4eba\u8a2d\u5b9a", 
+                    "\u30aa\u30d7\u30b7\u30e7\u30f3", 
+                    "Preferences"
+                ], 
+                "realname": "Preferences"
+            }, 
+            {
+                "aliases": [
+                    "\u30c8\u30fc\u30af\u30f3\u306e\u518d\u8a2d\u5b9a", 
+                    "ResetTokens"
+                ], 
+                "realname": "ResetTokens"
+            }, 
+            {
+                "aliases": [
+                    "\u6295\u7a3f\u8a18\u9332", 
+                    "Contributions", 
+                    "Contribs"
+                ], 
+                "realname": "Contributions"
+            }, 
+            {
+                "aliases": [
+                    "\u5229\u7528\u8005\u30b0\u30eb\u30fc\u30d7\u6a29\u9650", 
+                    "\u5229\u7528\u8005\u30b0\u30eb\u30fc\u30d7\u306e\u6a29\u9650\u4e00\u89a7", 
+                    "\u5229\u7528\u8005\u6a29\u9650\u4e00\u89a7", 
+                    "ListGroupRights", 
+                    "UserGroupRights"
+                ], 
+                "realname": "Listgrouprights"
+            }, 
+            {
+                "aliases": [
+                    "ListGrants"
+                ], 
+                "realname": "Listgrants"
+            }, 
+            {
+                "aliases": [
+                    "\u767b\u9332\u5229\u7528\u8005\u4e00\u89a7", 
+                    "\u767b\u9332\u5229\u7528\u8005\u306e\u4e00\u89a7", 
+                    "ListUsers", 
+                    "UserList"
+                ], 
+                "realname": "Listusers"
+            }, 
+            {
+                "aliases": [
+                    "\u7ba1\u7406\u8005\u4e00\u89a7", 
+                    "ListAdmins"
+                ], 
+                "realname": "Listadmins"
+            }, 
+            {
+                "aliases": [
+                    "\u30dc\u30c3\u30c8\u4e00\u89a7", 
+                    "Bot\u4e00\u89a7", 
+                    "ListBots"
+                ], 
+                "realname": "Listbots"
+            }, 
+            {
+                "aliases": [
+                    "\u5229\u7528\u8005\u6a29\u9650", 
+                    "\u5229\u7528\u8005\u6a29\u9650\u306e\u5909\u66f4", 
+                    "UserRights", 
+                    "MakeSysop", 
+                    "MakeBot"
+                ], 
+                "realname": "Userrights"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a9\u30c3\u30c1\u30ea\u30b9\u30c8\u306e\u7de8\u96c6", 
+                    "\u30a6\u30a9\u30c3\u30c1\u30ea\u30b9\u30c8\u7de8\u96c6", 
+                    "EditWatchlist"
+                ], 
+                "realname": "EditWatchlist"
+            }, 
+            {
+                "aliases": [
+                    "\u65b0\u7740\u30d5\u30a1\u30a4\u30eb", 
+                    "\u65b0\u3057\u3044\u30d5\u30a1\u30a4\u30eb\u306e\u4e00\u89a7", 
+                    "\u65b0\u7740\u753b\u50cf\u5c55\u793a\u5ba4", 
+                    "NewFiles", 
+                    "NewImages"
+                ], 
+                "realname": "Newimages"
+            }, 
+            {
+                "aliases": [
+                    "\u30ed\u30b0", 
+                    "\u8a18\u9332", 
+                    "Log", 
+                    "Logs"
+                ], 
+                "realname": "Log"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a9\u30c3\u30c1\u30ea\u30b9\u30c8", 
+                    "Watchlist"
+                ], 
+                "realname": "Watchlist"
+            }, 
+            {
+                "aliases": [
+                    "\u65b0\u3057\u3044\u30da\u30fc\u30b8", 
+                    "NewPages"
+                ], 
+                "realname": "Newpages"
+            }, 
+            {
+                "aliases": [
+                    "\u6700\u8fd1\u306e\u66f4\u65b0", 
+                    "\u6700\u8fd1\u66f4\u65b0\u3057\u305f\u30da\u30fc\u30b8", 
+                    "RecentChanges"
+                ], 
+                "realname": "Recentchanges"
+            }, 
+            {
+                "aliases": [
+                    "\u95a2\u9023\u30da\u30fc\u30b8\u306e\u66f4\u65b0\u72b6\u6cc1", 
+                    "\u30ea\u30f3\u30af\u5148\u306e\u66f4\u65b0\u72b6\u6cc1", 
+                    "RecentChangesLinked", 
+                    "RelatedChanges"
+                ], 
+                "realname": "Recentchangeslinked"
+            }, 
+            {
+                "aliases": [
+                    "\u30bf\u30b0\u4e00\u89a7", 
+                    "Tags"
+                ], 
+                "realname": "Tags"
+            }, 
+            {
+                "aliases": [
+                    "\u30d5\u30a1\u30a4\u30eb\u4e00\u89a7", 
+                    "\u30d5\u30a1\u30a4\u30eb\u30ea\u30b9\u30c8", 
+                    "ListFiles", 
+                    "FileList", 
+                    "ImageList"
+                ], 
+                "realname": "Listfiles"
+            }, 
+            {
+                "aliases": [
+                    "\u30d1\u30b9\u306e\u53d6\u5f97", 
+                    "FilePath"
+                ], 
+                "realname": "Filepath"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30c7\u30a3\u30a2\u7d71\u8a08", 
+                    "MediaStatistics"
+                ], 
+                "realname": "MediaStatistics"
+            }, 
+            {
+                "aliases": [
+                    "MIME\u691c\u7d22", 
+                    "MIME\u30bf\u30a4\u30d7\u691c\u7d22", 
+                    "MIMESearch"
+                ], 
+                "realname": "MIMEsearch"
+            }, 
+            {
+                "aliases": [
+                    "\u91cd\u8907\u30d5\u30a1\u30a4\u30eb\u691c\u7d22", 
+                    "FileDuplicateSearch"
+                ], 
+                "realname": "FileDuplicateSearch"
+            }, 
+            {
+                "aliases": [
+                    "\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9", 
+                    "Upload"
+                ], 
+                "realname": "Upload"
+            }, 
+            {
+                "aliases": [
+                    "\u672a\u516c\u958b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9", 
+                    "UploadStash"
+                ], 
+                "realname": "UploadStash"
+            }, 
+            {
+                "aliases": [
+                    "\u91cd\u8907\u30d5\u30a1\u30a4\u30eb\u4e00\u89a7", 
+                    "ListDuplicatedFiles", 
+                    "ListFileDuplicates"
+                ], 
+                "realname": "ListDuplicatedFiles"
+            }, 
+            {
+                "aliases": [
+                    "ApiSandbox"
+                ], 
+                "realname": "ApiSandbox"
+            }, 
+            {
+                "aliases": [
+                    "\u7d71\u8a08", 
+                    "Statistics", 
+                    "Stats"
+                ], 
+                "realname": "Statistics"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30c3\u30bb\u30fc\u30b8\u4e00\u89a7", 
+                    "\u30b7\u30b9\u30c6\u30e0\u30e1\u30c3\u30bb\u30fc\u30b8\u306e\u4e00\u89a7", 
+                    "\u8868\u793a\u30e1\u30c3\u30bb\u30fc\u30b8\u306e\u4e00\u89a7", 
+                    "\u5168\u30e1\u30c3\u30bb\u30fc\u30b8", 
+                    "AllMessages"
+                ], 
+                "realname": "Allmessages"
+            }, 
+            {
+                "aliases": [
+                    "\u30d0\u30fc\u30b8\u30e7\u30f3\u60c5\u5831", 
+                    "\u30d0\u30fc\u30b8\u30e7\u30f3", 
+                    "Version"
+                ], 
+                "realname": "Version"
+            }, 
+            {
+                "aliases": [
+                    "\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u30ed\u30c3\u30af", 
+                    "LockDB"
+                ], 
+                "realname": "Lockdb"
+            }, 
+            {
+                "aliases": [
+                    "\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u30ed\u30c3\u30af\u89e3\u9664", 
+                    "\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u89e3\u9664", 
+                    "UnlockDB"
+                ], 
+                "realname": "Unlockdb"
+            }, 
+            {
+                "aliases": [
+                    "\u5916\u90e8\u30ea\u30f3\u30af\u691c\u7d22", 
+                    "LinkSearch"
+                ], 
+                "realname": "LinkSearch"
+            }, 
+            {
+                "aliases": [
+                    "\u304a\u307e\u304b\u305b\u8868\u793a", 
+                    "Random", 
+                    "RandomPage"
+                ], 
+                "realname": "Randompage"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u5185\u304a\u307e\u304b\u305b\u8868\u793a", 
+                    "RandomInCategory"
+                ], 
+                "realname": "RandomInCategory"
+            }, 
+            {
+                "aliases": [
+                    "\u304a\u307e\u304b\u305b\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "\u304a\u307e\u304b\u305b\u8ee2\u9001", 
+                    "RandomRedirect"
+                ], 
+                "realname": "Randomredirect"
+            }, 
+            {
+                "aliases": [
+                    "RandomRootpage"
+                ], 
+                "realname": "Randomrootpage"
+            }, 
+            {
+                "aliases": [
+                    "GoToInterwiki"
+                ], 
+                "realname": "GoToInterwiki"
+            }, 
+            {
+                "aliases": [
+                    "\u88ab\u30ea\u30f3\u30af\u306e\u591a\u3044\u30ab\u30c6\u30b4\u30ea", 
+                    "MostLinkedCategories", 
+                    "MostUsedCategories"
+                ], 
+                "realname": "Mostlinkedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u88ab\u30ea\u30f3\u30af\u306e\u591a\u3044\u30d5\u30a1\u30a4\u30eb", 
+                    "\u4f7f\u7528\u7b87\u6240\u306e\u591a\u3044\u30d5\u30a1\u30a4\u30eb", 
+                    "MostLinkedFiles", 
+                    "MostFiles", 
+                    "MostImages"
+                ], 
+                "realname": "Mostimages"
+            }, 
+            {
+                "aliases": [
+                    "\u30a6\u30a3\u30ad\u9593\u30ea\u30f3\u30af\u306e\u591a\u3044\u30da\u30fc\u30b8", 
+                    "MostInterwikis"
+                ], 
+                "realname": "Mostinterwikis"
+            }, 
+            {
+                "aliases": [
+                    "\u88ab\u30ea\u30f3\u30af\u306e\u591a\u3044\u30da\u30fc\u30b8", 
+                    "MostLinkedPages", 
+                    "MostLinked"
+                ], 
+                "realname": "Mostlinked"
+            }, 
+            {
+                "aliases": [
+                    "\u4f7f\u7528\u7b87\u6240\u306e\u591a\u3044\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                    "\u88ab\u30ea\u30f3\u30af\u306e\u591a\u3044\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8", 
+                    "MostTranscludedPages", 
+                    "MostLinkedTemplates", 
+                    "MostUsedTemplates"
+                ], 
+                "realname": "Mostlinkedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u306e\u591a\u3044\u30da\u30fc\u30b8", 
+                    "\u30ab\u30c6\u30b4\u30ea\u306e\u591a\u3044\u9805\u76ee", 
+                    "MostCategories"
+                ], 
+                "realname": "Mostcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u7de8\u96c6\u5c65\u6b74\u306e\u591a\u3044\u30da\u30fc\u30b8", 
+                    "\u7248\u306e\u591a\u3044\u9805\u76ee", 
+                    "\u7248\u306e\u591a\u3044\u30da\u30fc\u30b8", 
+                    "MostRevisions"
+                ], 
+                "realname": "Mostrevisions"
+            }, 
+            {
+                "aliases": [
+                    "\u30da\u30fc\u30b8\u306e\u6bd4\u8f03", 
+                    "ComparePages"
+                ], 
+                "realname": "ComparePages"
+            }, 
+            {
+                "aliases": [
+                    "\u30c7\u30fc\u30bf\u66f8\u304d\u51fa\u3057", 
+                    "\u30c7\u30fc\u30bf\u30fc\u66f8\u304d\u51fa\u3057", 
+                    "\u30a8\u30af\u30b9\u30dd\u30fc\u30c8", 
+                    "Export"
+                ], 
+                "realname": "Export"
+            }, 
+            {
+                "aliases": [
+                    "\u30c7\u30fc\u30bf\u53d6\u308a\u8fbc\u307f", 
+                    "\u30c7\u30fc\u30bf\u30fc\u53d6\u308a\u8fbc\u307f", 
+                    "\u30a4\u30f3\u30dd\u30fc\u30c8", 
+                    "Import"
+                ], 
+                "realname": "Import"
+            }, 
+            {
+                "aliases": [
+                    "\u5fa9\u5143", 
+                    "\u5fa9\u5e30", 
+                    "Undelete"
+                ], 
+                "realname": "Undelete"
+            }, 
+            {
+                "aliases": [
+                    "\u30ea\u30f3\u30af\u5143", 
+                    "WhatLinksHere"
+                ], 
+                "realname": "Whatlinkshere"
+            }, 
+            {
+                "aliases": [
+                    "\u5c65\u6b74\u7d71\u5408", 
+                    "MergeHistory"
+                ], 
+                "realname": "MergeHistory"
+            }, 
+            {
+                "aliases": [
+                    "\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3092\u5c55\u958b", 
+                    "ExpandTemplates"
+                ], 
+                "realname": "ExpandTemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u6587\u732e\u8cc7\u6599", 
+                    "\u66f8\u7c4d\u60c5\u5831\u6e90", 
+                    "BookSources"
+                ], 
+                "realname": "Booksources"
+            }, 
+            {
+                "aliases": [
+                    "ApiHelp"
+                ], 
+                "realname": "ApiHelp"
+            }, 
+            {
+                "aliases": [
+                    "\u767d\u7d19\u30da\u30fc\u30b8", 
+                    "BlankPage"
+                ], 
+                "realname": "Blankpage"
+            }, 
+            {
+                "aliases": [
+                    "\u5dee\u5206", 
+                    "Diff"
+                ], 
+                "realname": "Diff"
+            }, 
+            {
+                "aliases": [
+                    "EditTags"
+                ], 
+                "realname": "EditTags"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30fc\u30eb\u9001\u4fe1", 
+                    "\u30a6\u30a3\u30ad\u30e1\u30fc\u30eb", 
+                    "EmailUser", 
+                    "Email"
+                ], 
+                "realname": "Emailuser"
+            }, 
+            {
+                "aliases": [
+                    "\u79fb\u52d5", 
+                    "\u30da\u30fc\u30b8\u306e\u79fb\u52d5", 
+                    "MovePage"
+                ], 
+                "realname": "Movepage"
+            }, 
+            {
+                "aliases": [
+                    "\u81ea\u5206\u306e\u6295\u7a3f\u8a18\u9332", 
+                    "MyContributions"
+                ], 
+                "realname": "Mycontributions"
+            }, 
+            {
+                "aliases": [
+                    "\u81ea\u5206\u306e\u8a00\u8a9e", 
+                    "MyLanguage"
+                ], 
+                "realname": "MyLanguage"
+            }, 
+            {
+                "aliases": [
+                    "\u5229\u7528\u8005\u30da\u30fc\u30b8", 
+                    "\u30de\u30a4\u30da\u30fc\u30b8", 
+                    "\u30de\u30a4\u30fb\u30da\u30fc\u30b8", 
+                    "MyPage"
+                ], 
+                "realname": "Mypage"
+            }, 
+            {
+                "aliases": [
+                    "\u30c8\u30fc\u30af\u30da\u30fc\u30b8", 
+                    "\u4f1a\u8a71\u30da\u30fc\u30b8", 
+                    "\u30de\u30a4\u30c8\u30fc\u30af", 
+                    "\u30de\u30a4\u30fb\u30c8\u30fc\u30af", 
+                    "MyTalk"
+                ], 
+                "realname": "Mytalk"
+            }, 
+            {
+                "aliases": [
+                    "\u81ea\u5206\u306e\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u8a18\u9332", 
+                    "MyUploads", 
+                    "MyFiles"
+                ], 
+                "realname": "Myuploads"
+            }, 
+            {
+                "aliases": [
+                    "\u81ea\u5206\u306e\u5168\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9", 
+                    "AllMyUploads", 
+                    "AllMyFiles"
+                ], 
+                "realname": "AllMyUploads"
+            }, 
+            {
+                "aliases": [
+                    "\u56fa\u5b9a\u30ea\u30f3\u30af", 
+                    "\u30d1\u30fc\u30de\u30ea\u30f3\u30af", 
+                    "PermanentLink", 
+                    "PermaLink"
+                ], 
+                "realname": "PermanentLink"
+            }, 
+            {
+                "aliases": [
+                    "\u8ee2\u9001", 
+                    "\u30ea\u30c0\u30a4\u30ec\u30af\u30c8", 
+                    "Redirect"
+                ], 
+                "realname": "Redirect"
+            }, 
+            {
+                "aliases": [
+                    "\u7248\u6307\u5b9a\u524a\u9664", 
+                    "\u7279\u5b9a\u7248\u524a\u9664", 
+                    "RevisionDelete"
+                ], 
+                "realname": "Revisiondelete"
+            }, 
+            {
+                "aliases": [
+                    "RunJobs"
+                ], 
+                "realname": "RunJobs"
+            }, 
+            {
+                "aliases": [
+                    "\u7279\u5225\u30da\u30fc\u30b8\u4e00\u89a7", 
+                    "SpecialPages"
+                ], 
+                "realname": "Specialpages"
+            }, 
+            {
+                "aliases": [
+                    "PageData"
+                ], 
+                "realname": "PageData"
+            }, 
+            {
+                "aliases": [
+                    "\u691c\u7d22", 
+                    "Search"
+                ], 
+                "realname": "Search"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306e\u78ba\u8a8d", 
+                    "ConfirmEmail"
+                ], 
+                "realname": "Confirmemail"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30fc\u30eb\u7121\u52b9\u5316", 
+                    "\u30e1\u30fc\u30eb\u7121\u52b9", 
+                    "InvalidateEmail"
+                ], 
+                "realname": "Invalidateemail"
+            }, 
+            {
+                "aliases": [
+                    "\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306e\u5909\u66f4", 
+                    "ChangeEmail"
+                ], 
+                "realname": "ChangeEmail"
+            }, 
+            {
+                "aliases": [
+                    "ChangeContentModel"
+                ], 
+                "realname": "ChangeContentModel"
+            }, 
+            {
+                "aliases": [
+                    "\u30ac\u30b8\u30a7\u30c3\u30c8", 
+                    "Gadgets"
+                ], 
+                "realname": "Gadgets"
+            }, 
+            {
+                "aliases": [
+                    "GadgetUsage"
+                ], 
+                "realname": "GadgetUsage"
+            }, 
+            {
+                "aliases": [
+                    "\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u30b5\u30f3\u30c9\u30dc\u30c3\u30af\u30b9", 
+                    "TemplateSandbox"
+                ], 
+                "realname": "TemplateSandbox"
+            }, 
+            {
+                "aliases": [
+                    "\u30ab\u30c6\u30b4\u30ea\u30c4\u30ea\u30fc", 
+                    "CategoryTree"
+                ], 
+                "realname": "CategoryTree"
+            }, 
+            {
+                "aliases": [
+                    "\u30a4\u30f3\u30bf\u30fc\u30a6\u30a3\u30ad", 
+                    "Interwiki"
+                ], 
+                "realname": "Interwiki"
+            }, 
+            {
+                "aliases": [
+                    "\u901a\u77e5", 
+                    "Notifications"
+                ], 
+                "realname": "Notifications"
+            }, 
+            {
+                "aliases": [
+                    "DisplayNotificationsConfiguration"
+                ], 
+                "realname": "DisplayNotificationsConfiguration"
+            }, 
+            {
+                "aliases": [
+                    "NotificationsMarkRead"
+                ], 
+                "realname": "NotificationsMarkRead"
+            }, 
+            {
+                "aliases": [
+                    "Thanks"
+                ], 
+                "realname": "Thanks"
+            }, 
+            {
+                "aliases": [
+                    "\u30a2\u30d0\u30bf\u30fc\u3092\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9", 
+                    "UploadAvatar"
+                ], 
+                "realname": "UploadAvatar"
+            }, 
+            {
+                "aliases": [
+                    "\u30a2\u30d0\u30bf\u30fc\u3092\u691c\u67fb", 
+                    "ViewAvatar"
+                ], 
+                "realname": "ViewAvatar"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadExport"
+                ], 
+                "realname": "FlowThreadExport"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadImport"
+                ], 
+                "realname": "FlowThreadImport"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadManage"
+                ], 
+                "realname": "FlowThreadManage"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadLink"
+                ], 
+                "realname": "FlowThreadLink"
+            }, 
+            {
+                "aliases": [
+                    "\u307e\u3068\u3081\u3066\u524a\u9664", 
+                    "Nuke"
+                ], 
+                "realname": "Nuke"
+            }, 
+            {
+                "aliases": [
+                    "\u5229\u7528\u8005\u540d\u5909\u66f4", 
+                    "\u5229\u7528\u8005\u540d\u306e\u5909\u66f4", 
+                    "RenameUser"
+                ], 
+                "realname": "Renameuser"
+            }, 
+            {
+                "aliases": [
+                    "\u6587\u5b57\u5217\u7f6e\u63db", 
+                    "\u6587\u5b57\u5217\u306e\u7f6e\u63db", 
+                    "ReplaceText"
+                ], 
+                "realname": "ReplaceText"
+            }, 
+            {
+                "aliases": [
+                    "\u30c1\u30a7\u30c3\u30af\u30e6\u30fc\u30b6\u30fc", 
+                    "\u30c1\u30a7\u30c3\u30af\u30e6\u30fc\u30b6", 
+                    "\u5229\u7528\u8005\u8abf\u67fb", 
+                    "CheckUser"
+                ], 
+                "realname": "CheckUser"
+            }, 
+            {
+                "aliases": [
+                    "\u30c1\u30a7\u30c3\u30af\u30e6\u30fc\u30b6\u30fc\u8a18\u9332", 
+                    "\u5229\u7528\u8005\u8abf\u67fb\u8a18\u9332", 
+                    "CheckUserLog"
+                ], 
+                "realname": "CheckUserLog"
+            }, 
+            {
+                "aliases": [
+                    "\u5229\u7528\u8005\u306e\u7d71\u5408", 
+                    "UserMerge"
+                ], 
+                "realname": "UserMerge"
+            }, 
+            {
+                "aliases": [
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30d6\u30ed\u30c3\u30af", 
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30fb\u30d6\u30ed\u30c3\u30af", 
+                    "GlobalBlock"
+                ], 
+                "realname": "GlobalBlock"
+            }, 
+            {
+                "aliases": [
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30d6\u30ed\u30c3\u30af\u4e00\u89a7", 
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30fb\u30d6\u30ed\u30c3\u30af\u4e00\u89a7", 
+                    "GlobalBlockList"
+                ], 
+                "realname": "GlobalBlockList"
+            }, 
+            {
+                "aliases": [
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30d6\u30ed\u30c3\u30af\u30db\u30ef\u30a4\u30c8\u30ea\u30b9\u30c8", 
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30d6\u30ed\u30c3\u30af\u72b6\u614b", 
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30d6\u30ed\u30c3\u30af\u7121\u52b9", 
+                    "GlobalBlockWhitelist", 
+                    "GlobalBlockStatus", 
+                    "DisableGlobalBlock"
+                ], 
+                "realname": "GlobalBlockStatus"
+            }, 
+            {
+                "aliases": [
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30d6\u30ed\u30c3\u30af\u89e3\u9664", 
+                    "\u30b0\u30ed\u30fc\u30d0\u30eb\u30fb\u30d6\u30ed\u30c3\u30af\u89e3\u9664", 
+                    "GlobalUnblock", 
+                    "RemoveGlobalBlock"
+                ], 
+                "realname": "RemoveGlobalBlock"
+            }, 
+            {
+                "aliases": [
+                    "\u4e0d\u6b63\u5229\u7528\u8a18\u9332", 
+                    "AbuseLog"
+                ], 
+                "realname": "AbuseLog"
+            }, 
+            {
+                "aliases": [
+                    "\u4e0d\u6b63\u5229\u7528\u30d5\u30a3\u30eb\u30bf\u30fc", 
+                    "AbuseFilter"
+                ], 
+                "realname": "AbuseFilter"
+            }, 
+            {
+                "aliases": [
+                    "OrphanedTimedText"
+                ], 
+                "realname": "OrphanedTimedText"
+            }, 
+            {
+                "aliases": [
+                    "TimedMediaHandler"
+                ], 
+                "realname": "TimedMediaHandler"
+            }, 
+            {
+                "aliases": [
+                    "\u753b\u50cf\u8a8d\u8a3c", 
+                    "Captcha"
+                ], 
+                "realname": "Captcha"
+            }, 
+            {
+                "aliases": [
+                    "CollabPad", 
+                    "Collab_Pad"
+                ], 
+                "realname": "CollabPad"
+            }, 
+            {
+                "aliases": [
+                    "\u6b63\u898f\u8868\u73fe\u3067\u4e00\u62ec\u7de8\u96c6", 
+                    "MassEditRegex"
+                ], 
+                "realname": "MassEditRegex"
+            }, 
+            {
+                "aliases": [
+                    "\u8ca2\u732e\u30b9\u30b3\u30a2", 
+                    "\u8ca2\u732e\u5f97\u70b9", 
+                    "ContributionScores"
+                ], 
+                "realname": "ContributionScores"
+            }
+        ], 
+        "statistics": {
+            "activeusers": 1, 
+            "admins": 11, 
+            "articles": 172, 
+            "edits": 2071, 
+            "images": 18, 
+            "jobs": 0, 
+            "pages": 760, 
+            "users": 125
+        }, 
+        "usergroups": [
+            {
+                "name": "*", 
+                "rights": [
+                    "createaccount", 
+                    "read", 
+                    "writeapi", 
+                    "viewmywatchlist", 
+                    "editmywatchlist", 
+                    "viewmyprivateinfo", 
+                    "editmyprivateinfo", 
+                    "editmyoptions", 
+                    "ajaxpoll-vote", 
+                    "ajaxpoll-view-results", 
+                    "abusefilter-log-detail", 
+                    "abusefilter-view", 
+                    "abusefilter-log"
+                ]
+            }, 
+            {
+                "name": "user", 
+                "number": 125, 
+                "rights": [
+                    "read", 
+                    "edit", 
+                    "createpage", 
+                    "createtalk", 
+                    "writeapi", 
+                    "upload", 
+                    "reupload-shared", 
+                    "minoredit", 
+                    "editmyusercss", 
+                    "editmyuserjson", 
+                    "editmyuserjs", 
+                    "purge", 
+                    "sendemail", 
+                    "applychangetags", 
+                    "changetags", 
+                    "editcontentmodel", 
+                    "comment", 
+                    "ajaxpoll-vote", 
+                    "ajaxpoll-view-results", 
+                    "avatarupload", 
+                    "spamblacklistlog"
+                ]
+            }, 
+            {
+                "name": "autoconfirmed", 
+                "rights": [
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "upload_by_url", 
+                    "movefile", 
+                    "move", 
+                    "move-categorypages", 
+                    "move-rootuserpages", 
+                    "move-subpages", 
+                    "skipcaptcha", 
+                    "transcode-reset"
+                ]
+            }, 
+            {
+                "name": "bot", 
+                "number": 14, 
+                "rights": [
+                    "bot", 
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "nominornewtalk", 
+                    "autopatrol", 
+                    "suppressredirect", 
+                    "apihighlimits", 
+                    "writeapi", 
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "add": [
+                    "patroller", 
+                    "goodeditor"
+                ], 
+                "name": "sysop", 
+                "number": 11, 
+                "remove": [
+                    "goodeditor"
+                ], 
+                "rights": [
+                    "block", 
+                    "createaccount", 
+                    "delete", 
+                    "bigdelete", 
+                    "deletedhistory", 
+                    "deletedtext", 
+                    "undelete", 
+                    "editinterface", 
+                    "editusercss", 
+                    "edituserjson", 
+                    "edituserjs", 
+                    "import", 
+                    "importupload", 
+                    "move", 
+                    "move-subpages", 
+                    "move-rootuserpages", 
+                    "move-categorypages", 
+                    "patrol", 
+                    "autopatrol", 
+                    "protect", 
+                    "editprotected", 
+                    "rollback", 
+                    "upload", 
+                    "reupload", 
+                    "reupload-shared", 
+                    "unwatchedpages", 
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "ipblock-exempt", 
+                    "blockemail", 
+                    "markbotedits", 
+                    "apihighlimits", 
+                    "browsearchive", 
+                    "noratelimit", 
+                    "movefile", 
+                    "unblockself", 
+                    "suppressredirect", 
+                    "mergehistory", 
+                    "managechangetags", 
+                    "deletechangetags", 
+                    "patrolleredit", 
+                    "editwidgets", 
+                    "interwiki", 
+                    "ajaxpoll-view-results-before-vote", 
+                    "masseditregex", 
+                    "passwordreset", 
+                    "abusefilter-modify", 
+                    "abusefilter-private", 
+                    "abusefilter-modify-restricted", 
+                    "abusefilter-revert", 
+                    "avataradmin", 
+                    "commentadmin", 
+                    "commentadmin-restricted", 
+                    "nuke", 
+                    "replacetext", 
+                    "override-antispoof", 
+                    "tboverride", 
+                    "titleblacklistlog", 
+                    "globalblock-whitelist", 
+                    "abusefilter-log-detail", 
+                    "transcode-reset", 
+                    "transcode-status", 
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "name": "bureaucrat", 
+                "number": 3, 
+                "rights": [
+                    "userrights", 
+                    "noratelimit", 
+                    "usermerge", 
+                    "renameuser", 
+                    "override-antispoof"
+                ]
+            }, 
+            {
+                "name": "suppress", 
+                "number": 1, 
+                "rights": [
+                    "deleterevision", 
+                    "deletelogentry", 
+                    "hideuser", 
+                    "suppressrevision", 
+                    "suppressionlog", 
+                    "commentadmin"
+                ]
+            }, 
+            {
+                "add": [
+                    "goodeditor"
+                ], 
+                "name": "patroller", 
+                "number": 23, 
+                "remove": [
+                    "goodeditor"
+                ], 
+                "rights": [
+                    "rollback", 
+                    "autopatrol", 
+                    "patrol", 
+                    "skipcaptcha", 
+                    "noratelimit", 
+                    "patrolleredit", 
+                    "commentadmin-restricted"
+                ]
+            }, 
+            {
+                "name": "goodeditor", 
+                "number": 136, 
+                "rights": [
+                    "autopatrol"
+                ]
+            }, 
+            {
+                "name": "developer", 
+                "number": 1, 
+                "rights": [
+                    "siteadmin", 
+                    "createpage", 
+                    "createtalk", 
+                    "edit", 
+                    "upload", 
+                    "abusefilter-modify", 
+                    "abusefilter-private", 
+                    "abusefilter-modify-restricted", 
+                    "abusefilter-revert", 
+                    "editwidgets", 
+                    "editinterface"
+                ]
+            }, 
+            {
+                "name": "widgeteditor", 
+                "number": 8, 
+                "rights": [
+                    "editwidgets"
+                ]
+            }, 
+            {
+                "name": "emailconfirmed", 
+                "number": 0, 
+                "rights": [
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "name": "checkuser", 
+                "number": 1, 
+                "rights": [
+                    "checkuser", 
+                    "checkuser-log"
+                ]
+            }, 
+            {
+                "name": "steward", 
+                "number": 0, 
+                "rights": [
+                    "globalblock"
+                ]
+            }
+        ]
+    }
+}

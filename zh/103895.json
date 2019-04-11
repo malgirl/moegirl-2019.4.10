@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Mp3Player/sandbox","pageid":135318,"wikitext":{"*":"<div class=\"mp3player\" {{#forargs:\n| key\n| val\n|{{#if:{{{val|}}}|<nowiki/> data-{{#var:key}}=\"{{#var:val}}\"}}\n}}></div>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Columns-list","pageid":1484,"wikitext":{"*":"<includeonly><div class=\"columns-list\" style=\"-moz-column-count:{{#if:{{{2|}}}|{{{1|2}}}|2}}; -webkit-column-count:{{#if:{{{2|}}}|{{{1|2}}}|2}}; column-count:{{#if:{{{2|}}}|{{{1|2}}}|2}};\">{{{2|{{{1|}}} }}}</div></includeonly><noinclude>{{documentation}}</noinclude>"}}}

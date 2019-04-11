@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:ExampleArgs","pageid":142415,"wikitext":{"*":"local getArgs = require('Module:Arguments').getArgs\nlocal p = {}\n\nfunction p.main(frame)\n\tlocal args = getArgs(frame)\n\treturn p._main(args)\nend\n\nfunction p._main(args)\n\tlocal first = args[1] or ''\n\tlocal second = args[2] or ''\n\treturn first .. ' ' .. second\nend\n\nreturn p"}}}

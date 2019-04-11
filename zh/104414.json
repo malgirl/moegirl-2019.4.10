@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Till last year","pageid":255139,"wikitext":{"*":"<includeonly>{{#expr:{{CURRENTYEAR}}-1}}</includeonly><noinclude>{{documentation}}[[Category:\u8ba1\u7b97\u6a21\u677f]]</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:CGroupViewer","pageid":301524,"wikitext":{"*":"{{#invoke:CGroupViewer|main|{{#titleparts:{{FULLPAGENAME}}|1|2}}}}<noinclude>\n{{doc}}\n</noinclude>"}}}

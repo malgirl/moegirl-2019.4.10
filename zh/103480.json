@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Ifsubst","pageid":280678,"wikitext":{"*":"{{ {{{|safesubst:}}}#ifeq:{{ {{{|safesubst:}}}NAMESPACE}}|{{NAMESPACE}}\n |{{{no|{{{2|}}}}}}\n |{{{yes|{{{1|}}}}}}\n}}"}}}

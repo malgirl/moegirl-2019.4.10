@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Gadget-CleanDeleteReasons.js","pageid":99931,"wikitext":{"*":"$(function() {\n    if (mw.config.get('wgAction') == \"delete\" && $(\"#wpReason\").length > 0 && RegExp('(\u5185\u5bb9|page was empty|content before blanking was)', 'i').test($(\"#wpReason\").val())) $(\"#wpReason\").val('');\n});"}}}

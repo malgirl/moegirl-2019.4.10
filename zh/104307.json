@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Str find","pageid":8952,"wikitext":{"*":"{{#titleparts: {{str find/logic|{{{1|}}}|{{{2|}}}|{{str len|*{{{2|}}}*}}-2}}-1 | 1 }}<noinclude>{{Documentation}}[[Category:\u8f85\u52a9\u6a21\u677f]]</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Kwillusion/vector.js","pageid":237013,"wikitext":{"*":"f = setTimeout(function(){\n\twhile ($ === undefined){\n\t\t\n\t}\n\t\n\tconsole.info('launch user script');\n\t$('#pt-userpage > a').text($('#pt-userpage > a').text().toLowerCase());\n\t\n}, 10)"}}}

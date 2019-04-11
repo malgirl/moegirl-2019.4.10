@@ -1,0 +1,1 @@
+{"parse":{"title":"User:AnnAngela/js/Hitokoto.js","pageid":100496,"wikitext":{"*":"$.getScript('https://annangela.github.io/MoegirlPedia-Hitokoto/code/js/startup.min.js');\n(function (){\n    var i;\n    for (i in window.localStorage) if(/AnnTools\\-hikotoko/i.test(i)) window.localStorage.removeItem(i);\n})();"}}}

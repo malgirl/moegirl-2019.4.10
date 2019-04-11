@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Split","pageid":263628,"wikitext":{"*":"<includeonly>{{#invoke:split|main|str={{{1|{{{str|}}}}}}|ptn={{{2|{{{ptn|}}}}}}|name={{{3|{{{name|}}}}}}|reg={{{reg|}}}}}</includeonly><noinclude>{{doc}}</noinclude>"}}}

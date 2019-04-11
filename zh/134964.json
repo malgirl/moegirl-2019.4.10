@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Lang","pageid":142572,"wikitext":{"*":"local p = {}\n\nfunction p.quote(text, lang)\n\tif lang == 'zh' then\n\t\treturn text\n\telse\n\t\treturn '-{' .. text .. '}-'\n\tend\nend\n\nfunction p.wrap(text, lang)\n\tlocal span = mw.html.create('span')\n\t\t:attr('lang', lang)\n\t\t:wikitext(p.quote(text, lang))\n\treturn span\nend\n\nreturn p"}}}

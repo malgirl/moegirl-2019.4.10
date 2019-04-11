@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Cot","pageid":238215,"wikitext":{"*":"{{#switch:{{{2|deg}}}\n|#default={{#expr:1 / tan({{{1|pi/4}}})}}\n|rad={{#expr:1 / tan({{{1|pi/4}}})}}\n|deg={{#expr:1 / tan({{{1|45}}} * pi div 180)}}\n}}"}}}

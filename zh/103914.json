@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Mute","pageid":193131,"wikitext":{"*":"<span style=\"display:none\">{{#fornumargs: num| value| [[user:{{#var:value}}]]}}</span><noinclude>{{documentation}}</noinclude>"}}}

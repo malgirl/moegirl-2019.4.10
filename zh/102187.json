@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Gadget-heimu-toggle-defaultOn.js","pageid":145360,"wikitext":{"*":"if (mw.config.get('AnnToolsHeimuToggleDefaultOn')) $('#heimu_toggle').click();\nelse mw.config.set('AnnToolsHeimuToggleDefaultOn', true);"}}}

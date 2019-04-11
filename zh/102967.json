@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Category handler/numbered","pageid":280684,"wikitext":{"*":"{{#iferror: {{#expr: 1 + {{{data|}}} }} \n| {{{data|}}}   <!--Not a number, return \"data\" as is--> \n| {{{ {{{data|}}} |}}}   <!--\"data\" is a number, return that numbered parameter-->\n}}"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Sec","pageid":238217,"wikitext":{"*":"{{#switch:{{{2|deg}}}\n|#default={{#expr:1 / cos({{{1|0}}})}}\n|rad={{#expr:1 / cos({{{1|0}}})}}\n|deg={{#expr:1 / cos({{{1|0}}} * pi div 180)}}\n}}"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Str endswith","pageid":125623,"wikitext":{"*":"{{#ifeq: {{padleft:|{{#expr:{{str len |{{{1|}}}}}-{{str len |{{{2|}}}}} }}|{{{1|}}} }}{{{2|}}} | {{{1|}}} | yes}}<noinclude>[[\u5206\u7c7b:\u8f85\u52a9\u6a21\u677f]]</noinclude>"}}}

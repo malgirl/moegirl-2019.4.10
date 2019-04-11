@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:LOL \u76ae\u80a4","pageid":123217,"wikitext":{"*":"<includeonly><div>{{#forargs:| key\n| val\n|{{#if:{{#var:val|}}|<div style=\"display:inline-block; margin:5px;\">[[File:{{#var:val|}}.jpg|thumb|300px|none|<center>[[:File:{{#var:val|}}.jpg|{{#var:val|}}]]</center>]]</div>\n}}}}</div></includeonly><noinclude>{{documentation}}</noinclude>"}}}

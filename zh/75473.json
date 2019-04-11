@@ -1,0 +1,1 @@
+{"parse":{"title":"User:\u6771\u6771\u541b\u7684\u63d0\u7ebf\u6728\u5076/js/apiTest.js","pageid":284216,"wikitext":{"*":"$(function(){\n\tvar api = new mw.Api()\n\tapi.get({\n\t\t\"action\": \"query\",\n\t\t\"format\": \"json\",\n\t\t\"list\": \"watchlistraw\",\n\t\t\"utf8\": 1,\n\t\t\"wrlimit\": \"max\"\n\t}).done(function(data){\n\t\tconsole.log(data)\n\t})\n})"}}}

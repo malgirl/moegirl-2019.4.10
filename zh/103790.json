@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:LyricsKai/colors/hover/styles.css","pageid":305262,"wikitext":{"*":".bg_hover{\n\t/*\u7a7a*/\n}\n.bg_hover:hover{\n\tbackground-color: rgba(60,60,60,0.1);\n}"}}}

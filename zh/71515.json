@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Chazeon/common.css","pageid":199752,"wikitext":{"*":"html, body {\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n\n.mw-body h1, .mw-body h2 {\n    font-family: \"Palatino Linotype\", \"Linux Libertine\", Georgia, \"Times New Roman\", Times, \"FZYaSong-M-GBK\", serif;\n    line-height: 1.5em;\n    font-weight: normal;\n}"}}}

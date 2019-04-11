@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Multicol","pageid":309526,"wikitext":{"*":"<includeonly><templatestyles src=\"Multicol/styles.css\"/><div>\n{| class=\"{{{class|}}} multicol\" role=\"presentation\" style=\"width: {{{1|100%}}}\"\n|-\n| style=\"padding-right:{{{2|1em}}};\" |<div></includeonly><noinclude>\n{{documentation}}</noinclude>"}}}

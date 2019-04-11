@@ -1,0 +1,1 @@
+{"parse":{"title":"User:SolidBlock/common.css","pageid":204344,"wikitext":{"*":".scrollDiv li{\n\tlist-style:none none;\n}\ndiv.vectorTabs li.selected{\n\tbackground-image:-webkit-linear-gradient(top,white,rgba(247,251,255,0.8));\n}\n.mw-body{\n\tborder:none;\n}"}}}

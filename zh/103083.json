@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Csc","pageid":238219,"wikitext":{"*":"{{#switch:{{{2|deg}}}\n|#default={{#expr:1 / sin({{{1|90}}})}}\n|rad={{#expr:1 / sin({{{1|90}}})}}\n|deg={{#expr:1 / sin({{{1|90}}} * pi div 180)}}\n}}"}}}

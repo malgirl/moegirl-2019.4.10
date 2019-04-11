@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:ColoredTable","pageid":141465,"wikitext":{"*":"<includeonly>{{#widget:TableColor|name={{{name|{{{color}}}}}}|border={{{color}}}|header={{{header|{{{color}}}}}}|body={{{body|f3f3f3}}}}}</includeonly>\n<noinclude>{{Documentation}}[[\u5206\u7c7b:\u529f\u80fd\u6a21\u677f]]</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Cate","pageid":205245,"wikitext":{"*":"<includeonly>{{#fornumargs: num | value\n| {{#switch:{{#var:num|}}\n| 1={{#var:value}}\n| #default=[[Category:{{#var:value}}]]\n}}}}</includeonly><noinclude>[[Category:\u683c\u5f0f\u6a21\u677f]]{{doc}}</noinclude>"}}}

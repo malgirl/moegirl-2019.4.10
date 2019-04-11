@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Notqualifiedh","pageid":49025,"wikitext":{"*":"{{#if:{{{1|}}}|{{void}}{{{1}}}:}}<div style=\"margin: 0 auto; padding: 2px 10px; text-align: left; border: 1px solid #aaaaaa; border-collapse: collapse; {{#if:{{{1|}}}|margin-left: -2em;}}\"><noinclude></div>\n\n{{doc|Template:Votevoidf/doc}}\n</noinclude>"}}}

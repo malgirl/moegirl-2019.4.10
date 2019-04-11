@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Imbushuo/minervaneue.js","pageid":270284,"wikitext":{"*":"/* This workarounds Moegirlpedia's frontend caching policy by adding an external CSS file */\nmw.loader.load('https://ib-deployment.s3.amazonaws.com/Staging/OverrideLayout.css', 'text/css');"}}}

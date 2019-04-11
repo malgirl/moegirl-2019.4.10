@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Ns has subpages","pageid":85870,"wikitext":{"*":"{{#switch: {{NAMESPACE: {{{1|{{FULLPAGENAME}}}}}:Foo }}\n |{{ns:0}}<!--article-->\n |{{ns:File}}\n |{{ns:MediaWiki}}\n |{{ns:Category}} = <!--nothing-->\n |yes\n}}<noinclude>\n{{documentation}}\n\n</noinclude>"}}}

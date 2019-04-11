@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:TimeSinceLastEdit","pageid":9654,"wikitext":{"*":"<span class=\"lastEditTime\" data-last-edit-time=\"{{#time:U|{{REVISIONTIMESTAMP}}}}\"> -- </span>{{#widget:TimeSinceLastEdit}}<noinclude>[[Category:\u8f85\u52a9\u6a21\u677f]]</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Episodelist/footer","pageid":296758,"wikitext":{"*":"<includeonly>{{\n#if:{{{ExcludeTableTag|}}}||</table>}}</includeonly><noinclude>\n<p style=\"color:gray;font-style:italic;\">/* \u8be5\u6a21\u677f\u9700\u914d\u5408 [[../]] \u4f7f\u7528\u3002 */</p>\n{{documentation}}\n</noinclude>"}}}

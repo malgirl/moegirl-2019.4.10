@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:ColorToggle","pageid":146486,"wikitext":{"*":"<includeonly><span class=\"colorToggleBlock\" data-color=\"{{{1}}}\" style=\"color:{{{1}}};\">{{{2}}}</span></includeonly><noinclude>{{doc}}</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Unwiki","pageid":318928,"wikitext":{"*":"local module = {}\n\nlocal getArgs = require('Module:Arguments').getArgs\n\nfunction _main(args)\n\treturn mw.text.decode(mw.text.unstripNoWiki(args[1]))\nend\n\nfunction module.main(frame)\n\tlocal args = getArgs(frame)\n\treturn _main(args)\nend\n\nreturn module"}}}

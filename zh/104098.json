@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Purge","pageid":9653,"wikitext":{"*":"<span class=\"noprint plainlinks\" title=\"{{{2|}}}\">[{{fullurl:{{{page|{{FULLPAGENAME}}}}}|action=purge&_={{CURRENTTIMESTAMP}}}} {{{1|\u6e05\u9664\u7f13\u5b58}}}]</span><noinclude>{{Documentation}}</noinclude>"}}}

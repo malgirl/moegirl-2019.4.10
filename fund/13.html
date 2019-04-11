@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>View source for 经验:Wiki社会化推广程序实现思路 - Moegirlsaikou Foundation</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"经验:Wiki社会化推广程序实现思路","wgTitle":"经验:Wiki社会化推广程序实现思路","wgCurRevisionId":38,"wgRevisionId":0,"wgArticleId":14,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"经验:Wiki社会化推广程序实现思路","wgRelevantArticleId":14,"wgRequestId":"f0bc218b1cdcbe87e30969d4","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0g4oyza",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector" />
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" />
+<meta name="generator" content="MediaWiki 1.31.1" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Moegirlsaikou Foundation (en)" />
+<link rel="alternate" type="application/atom+xml" title="Moegirlsaikou Foundation Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="https://moegirl.org/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF" />
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-经验_Wiki社会化推广程序实现思路 rootpage-经验_Wiki社会化推广程序实现思路 skin-vector action-edit"> <div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+<a id="top"></a>
+<div id="siteNotice" class="mw-body-content">
+<div class='please-donate'>
+<div class='ads-main'>
+
+<script>
+		(function() {
+			var s = '_' + Math.random().toString(36).slice(2);
+			document.write('<div id="' + s + '"></div>');
+			(window.slotbydup=window.slotbydup || []).push({
+				id: '3876343',
+				container: s,
+				size: '728,90',
+				display: 'inlay-fix'
+			});
+		})();
+		</script>
+</div>
+</div></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">View source for 经验:Wiki社会化推广程序实现思路</h1> <div id="bodyContent" class="mw-body-content">
+<div id="contentSub">← <a href="/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF" title="经验:Wiki社会化推广程序实现思路">经验:Wiki社会化推广程序实现思路</a></div>
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in one of the groups: developer, staff.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="/Special:Preferences" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" class="mw-editfont-monospace" lang="en" dir="ltr" name="wpTextbox1">{{info|这篇条目和一般用户没有任何关系}}
+
+'''首先请君注意，这篇文章于2013年5月16日完成，这时候mediawiki版本是1.20.5'''。这篇文章使用的方法显然不是最好的，但是是萌百在无技术无人手无资金的状态下勉强能达到的最好的效果。
+
+整套思路是在百毒百科抄袭并且在百度搜索打压其他百科的情况下，通过社交网络获取流量和新人编辑。
+
+
+步骤如下：
+
+萌百更新→mediawiki自带RSS压制更新rss→中继程序处理→中继程序发送→指定微博账号更新
+
+== 中继步骤 ==
+其中最麻烦的地方是中继程序处理，一般需要下面至少三个功能：
+
+1、
+
+将
+ http://zh.moegirl.org/index.php?title=Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9&amp;feed=atom&amp;namespace=0
+里的这样的链接：
+ //zh.moegirl.org/index.php?title=%E9%98%BF%E5%8D%A1%E6%9E%97&amp;diff=140141&amp;oldid=140139 
+处理成正常的条目链接：（要注意转码，比如新浪就会将 阿卡林 当作文字发送，所以必须转成 %E9%98%BF%E5%8D%A1%E6%9E%97 才能当链接用）
+ http://zh.moegirl.org/%E9%98%BF%E5%8D%A1%E6%9E%97
+
+2、
+
+关键词过滤
+例如 R18 R-18 敏感内容 大陆官方认定的敏感词 过滤掉。检测要同时作在标题和summary上。 最好是能方便的添加和删除关键词以控制发出去的条目（比如某人写的特别烂的一个条目，为了不打击他的编辑热情而不删除，此时为了不影响百科流量，就不能让这样的烂条目被发出去。又或者观者已经审美疲劳不想再看到某个条目）
+
+中继程序如果可能应当放置在一个稳定方便的地方，比如SAE和GAE无需环境设置，并且不受服务器迁移，重装的影响。
+
+3、
+
+应当设置检测，4~8小时内不重复更新出已经刷出来的条目。
+
+总的来说，一个理想化的流程是：每20mins检查rss一次，取最新条目过2的关键词检测，通过后，对比3的8小时内已经发出过的条目，如果有重复就返回最开始，检测第二个条目。无重复那么执行1的链接处理，然后发布至社交网站。
+
+== 用户体验调整 ==
+由于萌百24小时都会有大量更改，
+
+更新频率最快不能小于20mins一次，信息量少的平台（比如微信）还有适当减少
+
+萌娘百科在2013年5月17日时使用的推送频率：
+
+渣浪/腾讯 0:00~07:00 每小时推送一条 07:00~23:59 20分钟一条
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Template used on this page:
+</p></div><ul>
+<li><a href="/Template:Info" title="Template:Info">Template:Info</a> (<a href="/index.php?title=Template:Info&amp;action=edit" title="Template:Info">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF" title="经验:Wiki社会化推广程序实现思路">经验:Wiki社会化推广程序实现思路</a>.</p>
+</div> <div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://moegirl.org/经验:Wiki社会化推广程序实现思路">https://moegirl.org/经验:Wiki社会化推广程序实现思路</a>" </div>
+<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div><div id='mw-data-after-content'>
+<div class='please-donate'>
+<div class='ads-main'>
+
+<script>
+		(function() {
+			var s = '_' + Math.random().toString(36).slice(2);
+			document.write('<div id="' + s + '"></div>');
+			(window.slotbydup=window.slotbydup || []).push({
+				id: '3876346',
+				container: s,
+				size: '728,90',
+				display: 'inlay-fix'
+			});
+		})();
+		</script>
+</div>
+</div>
+</div>
+<div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=%E7%BB%8F%E9%AA%8C%3AWiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li> </ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+<h3 id="p-variants-label">
+<span>Variants</span>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li id="ca-view" class="collapsible"><span><a href="/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF">Read</a></span></li><li id="ca-viewsource" class="collapsible selected"><span><a href="/index.php?title=%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/index.php?title=%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li> </ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+<h3 id="p-cactions-label"><span>More</span></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/index.php" id="searchform">
+<div id="simpleSearch">
+<input type="search" name="search" placeholder="Search Moegirlsaikou Foundation" title="Search Moegirlsaikou Foundation [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" /> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Mainpage" title="Visit the main page"></a></div>
+<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Mainpage" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" target="_blank" title="The place to find out">Help</a></li> </ul>
+</div>
+</div>
+<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="/index.php?title=%E7%BB%8F%E9%AA%8C:Wiki%E7%A4%BE%E4%BC%9A%E5%8C%96%E6%8E%A8%E5%B9%BF%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF&amp;action=info" title="More information about this page">Page information</a></li> </ul>
+</div>
+</div>
+<div class="portal" role="navigation" id="p-" aria-labelledby="p--label">
+<h3 id="p--label"></h3>
+<div class="body">
+</div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/Moegirlsaikou_Foundation:Privacy_policy" title="Moegirlsaikou Foundation:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/Moegirlsaikou_Foundation:About" title="Moegirlsaikou Foundation:About">About Moegirlsaikou Foundation</a></li>
+<li id="footer-places-disclaimer"><a href="/Moegirlsaikou_Foundation:General_disclaimer" title="Moegirlsaikou Foundation:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/" target="_blank"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a> </li>
+</ul>
+<div style="clear: both;"></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18669495-4', 'moegirl.org');
+  ga('send', 'pageview');
+
+</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":165});});</script>
+</body>
+</html>

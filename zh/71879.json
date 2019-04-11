@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Fishthirteen/test2","pageid":107617,"wikitext":{"*":"\n$( '<link rel=\"stylesheet\" type=\"text/css\" href=\"//moegirlpedia.annangela.moe/MoegirlOperationTool-master/ext.moegirlOperationTool.css\" />' ).appendTo( $('head') );\nmw.loader.load( '//moegirlpedia.annangela.moe/MoegirlOperationTool-master/ext.moegirlOperationTool.js' );"}}}

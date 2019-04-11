@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Shirrak/NoSubpage","pageid":205607,"wikitext":{"*":"var x = document.getElementsByClassName('subpages');\nif(x.length > 0){x[0].remove();}"}}}

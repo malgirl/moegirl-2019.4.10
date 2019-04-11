@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Cos","pageid":238207,"wikitext":{"*":"{{#switch:{{{2|deg}}}\n|#default={{#expr:cos({{{1|0}}})}}\n|rad={{#expr:cos({{{1|0}}})}}\n|deg={{#expr:cos({{{1|0}}} * pi div 180)}}\n}}"}}}

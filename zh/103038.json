@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Coloredlink","pageid":46595,"wikitext":{"*":"<includeonly>{{safesubst:</includeonly><includeonly>#ifeq:{{uc:{{{1}}}}}|#BA0000|{{red link|{{{2}}}|{{{3|{{{2}}}}}}}}|[[:{{{2}}}|<span style=\"color:{{{1}}}\">{{{3|{{{2}}}}}}</span>]]}}</includeonly><noinclude>\n{{Documentation}}[[Category:\u683c\u5f0f\u6a21\u677f]]</noinclude>"}}}

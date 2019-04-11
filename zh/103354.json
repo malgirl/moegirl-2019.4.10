@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:GitHub","pageid":197042,"wikitext":{"*":"{{#switch:{{{link}}}\n |hidden=\n |no=GitHub\u7684\n |[[GitHub]]\u7684\n}}[{{#ifeq:{{lc:{{Str left|{{{1|{{{url}}}}}}|4}}}} | http | {{{1|{{{url}}}}}} | https://github.com/{{{1|{{{url}}}}}}}} {{{label|{{{2|{{#titleparts:{{{1|page}}}|1|-1}}\u9801\u9762}}}}}}]<noinclude>\n{{Documentation}}</noinclude>"}}}

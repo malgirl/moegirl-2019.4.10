@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>View source for 经验:让Discuz用户登陆mediawiki的代码 - Moegirlsaikou Foundation</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"经验:让Discuz用户登陆mediawiki的代码","wgTitle":"经验:让Discuz用户登陆mediawiki的代码","wgCurRevisionId":39,"wgRevisionId":0,"wgArticleId":15,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"经验:让Discuz用户登陆mediawiki的代码","wgRelevantArticleId":15,"wgRequestId":"8c324f0491565574acb3469b","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0g4oyza",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector" />
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" />
+<meta name="generator" content="MediaWiki 1.31.1" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Moegirlsaikou Foundation (en)" />
+<link rel="alternate" type="application/atom+xml" title="Moegirlsaikou Foundation Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="https://moegirl.org/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81" />
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-经验_让Discuz用户登陆mediawiki的代码 rootpage-经验_让Discuz用户登陆mediawiki的代码 skin-vector action-edit"> <div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+<a id="top"></a>
+<div id="siteNotice" class="mw-body-content">
+<div class='please-donate'>
+<div class='ads-main'>
+
+<script>
+		(function() {
+			var s = '_' + Math.random().toString(36).slice(2);
+			document.write('<div id="' + s + '"></div>');
+			(window.slotbydup=window.slotbydup || []).push({
+				id: '3876343',
+				container: s,
+				size: '728,90',
+				display: 'inlay-fix'
+			});
+		})();
+		</script>
+</div>
+</div></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">View source for 经验:让Discuz用户登陆mediawiki的代码</h1> <div id="bodyContent" class="mw-body-content">
+<div id="contentSub">← <a href="/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81" title="经验:让Discuz用户登陆mediawiki的代码">经验:让Discuz用户登陆mediawiki的代码</a></div>
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in one of the groups: developer, staff.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="/Special:Preferences" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" class="mw-editfont-monospace" lang="en" dir="ltr" name="wpTextbox1">{{info|这篇条目和一般用户没有任何关系，仅仅是因为代码没有办法贴到wordpress上，而放在萌娘百科里了}}
+
+'''首先请君注意，这篇文章于2011年8月12日完成，这时候Discuz!版本是 X2  ，而mediawiki版本是1.17'''
+
+网上有很多2008年的内容（最先发在Discuz主论坛上的），本身代码就有小错误（或者说写的很不成熟吧），而且过了两年，两边数据库都有更改，特别是Discuz，整个X2数据表名全改了
+
+下面的方法来自：http://www.discuz.net/thread-927788-1-1.html （原代码中有很多小错误我都修改了）
+
+ 
+
+这段代码可以实现bbs.moegirl.org的用户，用在论坛注册的用户名，登陆zh.moegirl.org
+
+但是因为实在是不成熟，不能实现双向同步登陆登出。
+
+下面这段代码已知会和萌娘百科用的最新条目&amp;最热门条目插件冲突。1.18一定会报错。还需要程序员进一步更改或重写。
+
+
+
+首先把下面Auth_UCenter.php的那段代码命名为Auth_UCenter.php 保存到mediawiki安装目录的/extensions下（路径像这样/extensions/Auth_UCenter.php）
+
+然后在localsettings.php里添加下面这段代码，'''注意要修改ucenter所在数据库的数据库名，用户，以及密码'''：
+
+== localsettings.php里添加 ==
+&lt;pre>
+// UCenter User Database Plugin. (Requires MySQL Database)
+require_once './extensions/Auth_UCenter.php';
+
+$wgUCenter_WikiGroupID = ''; // GroupID of your UCenter group 保持为空，这个字段就算设置了也没用
+$wgUCenter_WikiGroupName = ''; // Name of your UCenter group 保持为空，这个字段就算设置了也没用
+// users need to be a member
+// of to use the wiki. (i.e. wiki)
+
+$wgUCenter_UseWikiGroup = false; // This tells the Plugin to require 保持false，这个字段就算设置了true也没用
+// a user to be a member of the above
+// UCenter group. (ie. wiki) Setting
+// this to false will let any UCenter
+// user edit the wiki.
+
+$wgUCenter_UseExtDatabase = true; // This tells the plugin that the UCenter tables 保持true，否则将导致中文用户名的用户在默认编码为latin的数据库中登录时出错
+// are in a different database then the wiki.
+// The default settings is false.
+
+$wgUCenter_Version = 'X2'; // This is what version of UCenter you are using.
+// Current valid values are 5.5 and 6
+
+/*-[NOTE: You only need the next four settings if you set $wgUCenter_UseExtDatabase to true.]-*/
+$wgUCenter_MySQL_Host = 'localhost'; // UCenter MySQL Host Name.
+$wgUCenter_MySQL_Username = ''; // UCenter MySQL Username.
+$wgUCenter_MySQL_Password = ''; // UCenter MySQL Password.
+$wgUCenter_MySQL_Database = ''; // UCenter MySQL Database Name.
+
+$wgUCenter_Charset = 'utf8'; // UCenter MySQL Database Name.
+$wgUCenter_UserTB = 'ucenter_members'; // Name of your UCenter user table. (i.e. bbs_members)
+$wgUCenter_UserFieldTB = 'ucenter_memberfields'; // Name of your SMF user table. (i.e. bbs_memberfields)
+$wgUCenter_GroupsTB = 'common_usergroup'; // Name of your Discuz groups table. (i.e. bbs_usergroups)
+$wgAuth = new Auth_UCenter(); // Auth_UCenter Plugin.
+&lt;/pre>
+
+
+
+== Auth_UCenter.php ==
+&lt;pre>
+&lt;?php
+
+    /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+    /**
+     * This file makes MediaWiki use a SMF user database to
+     * authenticate with. This forces users to have a SMF account
+     * in order to log into the wiki. This should also force the user to
+     * be in a group called wiki.
+     *
+     * This program is free software; you can redistribute it and/or modify
+     * it under the terms of the GNU General Public License as published by
+     * the Free Software Foundation; either version 2 of the License, or
+     * (at your option) any later version.
+     *
+     * This program is distributed in the hope that it will be useful,
+     * but WITHOUT ANY WARRANTY; without even the implied warranty of
+     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+     * GNU General Public License for more details.
+     *
+     * You should have received a copy of the GNU General Public License along
+     * with this program; if not, write to the Free Software Foundation, Inc.,
+     * 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+     * http://www.gnu.org/copyleft/gpl.html
+     *
+     * @package MediaWiki
+     * @subpackage Auth_SMF
+     * @author Nicholas Dunnaway
+     * @copyright 2004-2006 php|uber.leet
+     * @license http://www.gnu.org/copyleft/gpl.html
+     * @CVS: $Id: Auth_SMF.php,v 1.3 2007/04/05 22:17:56 nkd Exp $
+     * @link http://uber.leetphp.com
+     * @version $Revision: 1.3 $
+     *
+     * 
+     * @Modified By Hopesoft
+     * @link http://www.51ajax.com
+     * @2007-11-11
+     */
+
+    error_reporting(E_ALL); // Debug
+
+    // First check if class has already been defined.
+    if (!class_exists('AuthPlugin'))
+    {
+        /**
+         * Auth Plugin
+         *
+         */
+        require_once './includes/AuthPlugin.php';
+    }
+
+    /**
+     * Handles the Authentication with the UCenter database.
+     *
+     * @package MediaWiki
+     * @subpackage Auth_UCenter
+     */
+    class Auth_UCenter extends AuthPlugin
+    {
+
+        /**
+         * Add a user to the external authentication database.
+         * Return true if successful.
+         *
+         * NOTE: We are not allowed to add users to UCenter from the
+         * wiki so this always returns false.
+         *
+         * @param User $user
+         * @param string $password
+         * @return bool
+         * @access public
+         */
+        function addUser( $user, $password )
+        {
+            return false;
+        }
+
+                /**
+                 * Can users change their passwords?
+                 *
+                 * @return bool
+                 */
+                function allowPasswordChange()
+                {
+                        return true;
+                }
+
+        /**
+         * Check if a username+password pair is a valid login.
+         * The name will be normalized to MediaWiki's requirements, so
+         * you might need to munge it (for instance, for lowercase initial
+         * letters).
+         *
+         * @param string $username
+         * @param string $password
+         * @return bool
+         * @access public
+         * @todo Check if the password is being changed when it contains a slash or an escape char.
+         */
+        function authenticate($username, $password)
+        {
+
+            // Connect to the database.
+            $fresMySQLConnection = $this->connect();
+
+            // Clean $username and force lowercase username.
+            $username = htmlentities(strtolower($username), ENT_QUOTES, 'UTF-8');
+            $username = $username = str_replace('\'', '\\\'', $username); // Allow apostrophes (Escape them though)
+                                                
+                                                //Get salt;
+                                                $sql="SELECT salt FROM ". $GLOBALS['wgUCenter_UserTB'] . " WHERE username='".$username."'";
+                                                //echo $sql.'&lt;br />';
+                                                $salt=mysql_fetch_array(mysql_query($sql));
+                                                //echo $salt[0];
+                                                if(!$salt){
+                                                        return false;
+                                                }
+                                                
+            // Check MySQLVersion
+            if ($GLOBALS['gstrMySQLVersion'] >= 4.1)
+            {
+                // Check Database for username and password.
+                $fstrMySQLQuery = 'SELECT `username`, `password`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = CONVERT( _utf8 \'' . $username . '\' USING utf8 )
+                                   
+                                   LIMIT 1';
+            }
+            else
+            {
+                // Check Database for username and password.
+                $fstrMySQLQuery = 'SELECT `username`, `password`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = \'' . $username . '\'
+                                   LIMIT 1';
+            }
+
+
+            // Query Database.
+            $fresMySQLResult = mysql_query($fstrMySQLQuery, $fresMySQLConnection)
+                or die($this->mySQLError('Unable to view external table_5'));
+
+            while($faryMySQLResult = mysql_fetch_array($fresMySQLResult))
+            {
+                // print $this->md5_hmac($password, $username) . ':' . $faryMySQLResult['passwd'] . '&lt;br />'; // Debug
+
+                // Check if password submited matches the UCenter password.
+                // Also check if user is a member of the UCenter group 'wiki'.
+                
+                //if ($this->md5_hmac($password, $username) == //&lt;-
+                //echo 'PWD:'.md5(md5($password).$salt[0]).'&lt;br />';
+                //echo 'PWD2:'.$faryMySQLResult['password'].'&lt;br />';
+                //echo 'PWD3:'.$password.'&lt;br />';
+                if (md5(md5($password).$salt[0]) == //&lt;-
+                    $faryMySQLResult['password'] &amp;&amp; $this->isMemberOfWikiGroup($username))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /**
+         * Return true if the wiki should create a new local account automatically
+         * when asked to login a user who doesn't exist locally but does in the
+         * external auth database.
+         *
+         * If you don't automatically create accounts, you must still create
+         * accounts in some way. It's not possible to authenticate without
+         * a local account.
+         *
+         * This is just a question, and shouldn't perform any actions.
+         *
+         * NOTE: I have set this to true to allow the wiki to create accounts.
+         *       Without an accout in the wiki database a user will never be
+         *       able to login and use the wiki. I think the password does not
+         *       matter as long as authenticate() returns true.
+         *
+         * @return bool
+         * @access public
+         */
+        function autoCreate()
+        {
+            return true;
+        }
+
+        /**
+         * Check to see if external accounts can be created.
+         * Return true if external accounts can be created.
+         *
+         * NOTE: We are not allowed to add users to UCenter from the
+         * wiki so this always returns false.
+         *
+         * @return bool
+         * @access public
+         */
+        function canCreateAccounts()
+        {
+            return false;
+        }
+
+        /**
+         * Connect to the database. All of these settings are from the
+         * LocalSettings.php file. This assumes that the UCenter uses the same
+         * database/server as the wiki.
+         *
+         * {@source }
+         * @return resource
+         */
+        function connect()
+        {
+            $dbcharset = $GLOBALS['wgUCenter_Charset'];                
+            
+            // Check if the UCenter tables are in a different database then the Wiki.
+            if ($GLOBALS['wgUCenter_UseExtDatabase'] == true) {
+
+                // Connect to database. I supress the error here.
+                $fresMySQLConnection = @mysql_connect($GLOBALS['wgUCenter_MySQL_Host'],
+                                                      $GLOBALS['wgUCenter_MySQL_Username'],
+                                                      $GLOBALS['wgUCenter_MySQL_Password'],
+                                                      true);
+            if (mysql_get_server_info()>= 4.1)                        
+                                if($dbcharset) {                            
+                                        mysql_query("SET character_set_connection=$dbcharset, character_set_results=$dbcharset, character_set_client=binary");
+                                }                
+                
+                // Check if we are connected to the database.
+                if (!$fresMySQLConnection)
+                {
+                    $this->mySQLError('There was a problem when connecting to the UCenter database.&lt;br />' .
+                                      'Check your Host, Username, and Password settings.&lt;br />');
+                }
+
+                // Select Database
+                $db_selected = mysql_select_db($GLOBALS['wgUCenter_MySQL_Database'], $fresMySQLConnection);
+
+                // Check if we were able to select the database.
+                if (!$db_selected)
+                {
+                    $this->mySQLError('There was a problem when connecting to the UCenter database.&lt;br />' .
+                                      'The database ' . $GLOBALS['wgUCenter_MySQL_Database'] .
+                                      ' was not found.&lt;br />');
+                }
+
+            }
+            else
+            {
+
+                // Connect to database.
+                $fresMySQLConnection = mysql_connect($GLOBALS['wgDBserver'],
+                                                     $GLOBALS['wgDBuser'],
+                                                     $GLOBALS['wgDBpassword'],
+                                                     true);
+
+                // Check if we are connected to the database.
+                if (!$fresMySQLConnection)
+                {
+                    $this->mySQLError('There was a problem when connecting to the UCenter database.&lt;br />' .
+                                      'Check your Host, Username, and Password settings.&lt;br />');
+                }
+
+                // Select Database: This assumes the wiki and UCenter are in the same database.
+                $db_selected = mysql_select_db($GLOBALS['wgDBname']);
+
+                // Check if we were able to select the database.
+                if (!$db_selected)
+                {
+                    $this->mySQLError('There was a problem when connecting to the UCenter database.&lt;br />' .
+                                      'The database ' . $GLOBALS['wgDBname'] . ' was not found.&lt;br />');
+                }
+
+            }
+
+            $GLOBALS['gstrMySQLVersion'] = substr(mysql_get_server_info(), 0, 3); // Get the mysql version.
+
+            return $fresMySQLConnection;
+        }
+
+        /**
+         * If you want to munge the case of an account name before the final
+         * check, now is your chance.
+         */
+        function getCanonicalName( $username )
+        {
+
+            // Connect to the database.
+            $fresMySQLConnection = $this->connect();
+
+            // Clean $username and force lowercase username.
+            $username = htmlentities(strtolower($username), ENT_QUOTES, 'UTF-8');
+            $username = str_replace('\'', '\\\'', $username); // Allow apostrophes (Escape them though)
+
+            // Check MySQLVersion
+            if ($GLOBALS['gstrMySQLVersion'] >= 4.1)
+            {
+
+                // Check Database for username. We will return the correct casing of the name.
+                $fstrMySQLQuery = 'SELECT `username`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = CONVERT( _utf8 \'' . $username . '\' USING utf8 )
+                                   
+                                   LIMIT 1';
+            }
+            else
+            {
+
+                // Check Database for username. We will return the correct casing of the name.
+                $fstrMySQLQuery = 'SELECT `username`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = \'' . $username . '\'
+                                   LIMIT 1';
+            }            
+            
+            // Query Database.
+            $fresMySQLResult = mysql_query($fstrMySQLQuery, $fresMySQLConnection)
+                                                         or die($this->mySQLError('Unable to view external table_6'));
+
+            while($faryMySQLResult = mysql_fetch_assoc($fresMySQLResult))
+            {
+                return ucfirst($faryMySQLResult['username']);
+            }
+        }
+
+        /**
+         * When creating a user account, optionally fill in preferences and such.
+         * For instance, you might pull the email address or real name from the
+         * external user database.
+         *
+         * The User object is passed by reference so it can be modified; don't
+         * forget the &amp; on your function declaration.
+         *
+         * NOTE: This gets the email address from UCenter for the wiki account.
+         *
+         * @param User $user
+         * @access public
+         */
+        function initUser(&amp;$user)
+        {
+
+            // Connect to the database.
+            $fresMySQLConnection = $this->connect();
+
+            // Clean $username and force lowercase username.
+            $username = htmlentities(strtolower($user->mName), ENT_QUOTES, 'UTF-8');
+            $username = str_replace('\'', '\\\'', $username); // Allow apostrophes (Escape them though)
+
+            // Check MySQLVersion
+            if ($GLOBALS['gstrMySQLVersion'] >= 4.1)
+            {
+                // Check Database for username and email address.
+                $fstrMySQLQuery = 'SELECT f.`uid`,`username`, `email`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '` m
+                                   LEFT JOIN `' . $GLOBALS['wgUCenter_UserFieldTB'] . '` f ON m.uid = f.uid
+                                   WHERE `username` = CONVERT( _utf8 \'' . $username . '\' USING utf8 )
+                                   
+                                   LIMIT 1';
+            }
+            else
+            {
+                // Check Database for username and email address.
+                $fstrMySQLQuery = 'SELECT f.`uid`,`username`, `email`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   LEFT JOIN `' . $GLOBALS['wgUCenter_UserFieldTB'] . '` f ON m.uid = f.uid
+                                   WHERE `username` = \'' . $username . '\'
+                                   LIMIT 1';
+            }
+
+            // Query Database.
+            $fresMySQLResult = mysql_query($fstrMySQLQuery, $fresMySQLConnection)
+                or die($this->mySQLError('Unable to view external table_1'));
+
+            while($faryMySQLResult = mysql_fetch_array($fresMySQLResult))
+            {
+                $user->mEmail       = $faryMySQLResult['email']; // Set Email Address.
+                $user->mRealName    = $faryMySQLResult['username'];     // Set Real Name.
+                $user->mid    = $faryMySQLResult['uid'];     // Set user id.
+            }
+
+        }
+
+        /**
+         * Checks if the user is a member of the UCenter group called wiki.
+         *
+         * @param string $username
+         * @access public
+         * @return bool
+         * @todo Remove 2nd connection to database. For function isMemberOfWikiGroup()
+         *
+         */
+        function isMemberOfWikiGroup($username)
+        {
+                /*
+            // In LocalSettings.php you can control if being
+            // a member of a wiki is required or not.
+            if (isset($GLOBALS['wgUCenter_UseWikiGroup']) &amp;&amp; $GLOBALS['wgUCenter_UseWikiGroup'] === false)
+            {
+                return true;
+            }
+
+            // Connect to the database.
+            $fresMySQLConnection = $this->connect();
+
+            // Check MySQL Version
+            if ($GLOBALS['gstrMySQLVersion'] >= 4.1)
+            {
+                // Get all the groups the user is a member of.
+                $fstrMySQLQuery = 'SELECT `adminid`, `groupid`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = CONVERT( _utf8 \'' . $username . '\' USING utf8 )
+                                   
+                                   LIMIT 1';
+            }
+            else
+            {
+                // Get all the groups the user is a member of.
+                $fstrMySQLQuery = 'SELECT `adminid`, `groupid`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = \'' . $username . '\'
+                                   LIMIT 1';
+            }
+
+
+            // Query Database.
+            $fresMySQLResult = mysql_query($fstrMySQLQuery, $fresMySQLConnection)
+                               or die($this->mySQLError('Unable to view external table_2'));
+
+            while($faryMySQLResult = mysql_fetch_array($fresMySQLResult))
+            {                
+                $GroupID = $faryMySQLResult['groupid'];
+                                $AdminID = $faryMySQLResult['adminid'];
+            }          
+                        
+                    $wgUCenter_WikiGroupIDArray=explode(',',$GLOBALS['wgUCenter_WikiGroupID']);
+            if (in_array($GroupID,$wgUCenter_WikiGroupIDArray ) || $AdminID =="1") {
+                                return true;
+            }
+            else
+            {
+                    return false;        
+            }
+        */
+        return true;
+        }
+
+        /**
+         * This is the MD5 Encryption UCenter uses for passwords. Taken from Load.php
+         *
+         * @param string $data
+         * @param string $key
+         * @return string
+         */
+        function md5_hmac($data, $key)
+        {
+            // Check if the user has the cfg file setup correctly.
+            if (!isset($GLOBALS['wgUCenter_Version']))
+            {
+                die('&lt;br />Error: You did not set $wgUCenter_Version in your LocalSettings.php file.&lt;br />
+                     Please read the README file that came with the Auth_UCenter plug-in for more info.&lt;br />');
+            }
+
+            if (empty($GLOBALS['wgUCenter_Version']))
+            {
+                die('&lt;br />Error: You did not set $wgUCenter_Version in your LocalSettings.php file.&lt;br />
+                     Please read the README file that came with the Auth_UCenter plug-in for more info.&lt;br />');
+            }
+
+            // Check that a valid version was passed.
+            if ($GLOBALS['wgUCenter_Version'] != '1.0' &amp;&amp; $GLOBALS['wgUCenter_Version'] != '1.1')
+            {
+                die('&lt;br />Error: Value passed in $wgUCenter_Version is not valid.&lt;br />
+                     Please read the README file that came with the Auth_UCenter plug-in for more info.&lt;br />');
+            }
+
+            if ($GLOBALS['wgUCenter_Version'] == '1.0')
+            {
+                $key = strtolower($key);
+                    $key = str_pad(strlen($key) &lt;= 64 ? $key : pack('H*', md5($key)), 64, chr(0x00));
+                    return md5(($key ^ str_repeat(chr(0x5c), 64)) . pack('H*', md5(($key ^ str_repeat(chr(0x36), 64)). $data)));
+            }
+
+            if ($GLOBALS['wgUCenter_Version'] == '1.1')
+            {
+                return sha1(strtolower($key) . $data);
+            }
+
+            // This should never happen.
+            die('&lt;br />Error: Value passed in $wgUCenter_Version is not valid.&lt;br />
+                 Please read the README file that came with the Auth_UCenter plug-in for more info.&lt;br />');
+        }
+
+        /**
+         * Modify options in the login template.
+         *
+         * NOTE: Turned off some Template stuff here. Anyone who knows where
+         * to find all the template options please let me know. I was only able
+         * to find a few.
+         *
+         * @param UserLoginTemplate $template
+         * @access public
+         */
+        function modifyUITemplate( &amp;$template )
+        {
+            $template->set('usedomain',   false); // We do not want a domain name.
+            $template->set('create',      false); // Remove option to create new accounts from the wiki.
+            $template->set('useemail',    false); // Disable the mail new password box.
+        }
+
+        /**
+         * This prints an error when a MySQL error is found.
+         *
+         * @param string $message
+         * @access public
+         */
+        function mySQLError( $message )
+        {
+            echo $message . '&lt;br />';
+            echo 'MySQL Error Number: ' . mysql_errno() . '&lt;br />';
+            echo 'MySQL Error Message: ' . mysql_error() . '&lt;br />&lt;br />';
+            exit;
+        }
+
+        /**
+         * Set the domain this plugin is supposed to use when authenticating.
+         *
+         * NOTE: We do not use this.
+         *
+         * @param string $domain
+         * @access public
+         */
+        function setDomain( $domain )
+        {
+            $this->domain = $domain;
+        }
+
+            /**
+             * Set the given password in the authentication database.
+             * Return true if successful.
+             *
+             * NOTE: We only allow the user to change their password via phpBB.
+             *
+             * @param string $password
+             * @return bool
+             * @access public
+             */
+            function setPassword( $password )
+            {
+                    return true;
+            }
+
+        /**
+         * Return true to prevent logins that don't authenticate here from being
+         * checked against the local database's password fields.
+         *
+         * This is just a question, and shouldn't perform any actions.
+         *
+         * Note: This forces a user to pass Authentication with the above
+         *       function authenticate(). So if a user changes their UCenter
+         *       password, their old one will not work to log into the wiki.
+         *       Wiki does not have a way to update it's password when UCenter
+         *       does. This however does not matter.
+         *
+         * @return bool
+         * @access public
+         */
+        function strict()
+        {
+            return true;
+        }
+
+                /**
+                 * Update user information in the external authentication database.
+                 * Return true if successful.
+                 *
+                 * @param $user User object.
+                 * @return bool
+                 * @public
+                 */
+                function updateExternalDB( $user )
+                {
+                        return true;
+                }
+
+        /**
+         * When a user logs in, optionally fill in preferences and such.
+         * For instance, you might pull the email address or real name from the
+         * external user database.
+         *
+         * The User object is passed by reference so it can be modified; don't
+         * forget the &amp; on your function declaration.
+         *
+         * NOTE: Not useing right now.
+         *
+         * @param User $user
+         * @access public
+         */
+        function updateUser( &amp;$user )
+        {
+            return true;
+        }
+
+        /**
+         * Check whether there exists a user account with the given name.
+         * The name will be normalized to MediaWiki's requirements, so
+         * you might need to munge it (for instance, for lowercase initial
+         * letters).
+         *
+         * NOTE: MediaWiki checks its database for the username. If it has
+         *       no record of the username it then asks. "Is this really a
+         *       valid username?" If not then MediaWiki fails Authentication.
+         *
+         * @param string $username
+         * @return bool
+         * @access public
+         * @todo write this function.
+         */
+        function userExists($username)
+        {
+            // Connect to the database.
+            $fresMySQLConnection = $this->connect();
+
+            // Clean $username and force lowercase username.
+            $username = htmlentities(strtolower($username), ENT_QUOTES, 'UTF-8');
+            $username = str_replace('\'', '\\\'', $username); // Allow apostrophes (Escape them though)
+
+            // Check MySQL Version
+            if (mysql_get_server_info() >= 4.1)
+            {
+                // Check Database for username.
+                $fstrMySQLQuery = 'SELECT `username`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = CONVERT( _utf8 \'' . $username . '\' USING utf8 )
+                                   
+                                   LIMIT 1';
+            }
+            else
+            {
+                // Check Database for username.
+                $fstrMySQLQuery = 'SELECT `username`
+                                   FROM `' . $GLOBALS['wgUCenter_UserTB'] . '`
+                                   WHERE `username` = \'' . $username . '\'
+                                   LIMIT 1';
+            }
+                
+            // Query Database.
+            $fresMySQLResult = mysql_query($fstrMySQLQuery, $fresMySQLConnection)
+                                or die($this->mySQLError('Unable to view external table_4'));
+
+                               
+            while($faryMySQLResult = mysql_fetch_array($fresMySQLResult))
+            {
+                // print htmlentities(strtolower($username), ENT_QUOTES, 'UTF-8') . ' : ' . htmlentities(strtolower($faryMySQLResult['username']), ENT_QUOTES, 'UTF-8'); // Debug
+
+                // Double check match.             
+                if (htmlentities(strtolower($username), ENT_QUOTES, 'UTF-8') ==
+                    htmlentities(strtolower($faryMySQLResult['username']), ENT_QUOTES, 'UTF-8'))
+                {
+                    return true; // Pass
+                }
+            }
+            return false; // Fail
+        }
+
+        /**
+         * Check to see if the specific domain is a valid domain.
+         *
+         * @param string $domain
+         * @return bool
+         * @access public
+         */
+        function validDomain( $domain )
+        {
+            return true;
+        }
+
+    }
+
+?>
+&lt;/pre>
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Template used on this page:
+</p></div><ul>
+<li><a href="/Template:Info" title="Template:Info">Template:Info</a> (<a href="/index.php?title=Template:Info&amp;action=edit" title="Template:Info">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81" title="经验:让Discuz用户登陆mediawiki的代码">经验:让Discuz用户登陆mediawiki的代码</a>.</p>
+</div> <div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://moegirl.org/经验:让Discuz用户登陆mediawiki的代码">https://moegirl.org/经验:让Discuz用户登陆mediawiki的代码</a>" </div>
+<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div><div id='mw-data-after-content'>
+<div class='please-donate'>
+<div class='ads-main'>
+
+<script>
+		(function() {
+			var s = '_' + Math.random().toString(36).slice(2);
+			document.write('<div id="' + s + '"></div>');
+			(window.slotbydup=window.slotbydup || []).push({
+				id: '3876346',
+				container: s,
+				size: '728,90',
+				display: 'inlay-fix'
+			});
+		})();
+		</script>
+</div>
+</div>
+</div>
+<div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=%E7%BB%8F%E9%AA%8C%3A%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li> </ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+<h3 id="p-variants-label">
+<span>Variants</span>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li id="ca-view" class="collapsible"><span><a href="/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81">Read</a></span></li><li id="ca-viewsource" class="collapsible selected"><span><a href="/index.php?title=%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/index.php?title=%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li> </ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+<h3 id="p-cactions-label"><span>More</span></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/index.php" id="searchform">
+<div id="simpleSearch">
+<input type="search" name="search" placeholder="Search Moegirlsaikou Foundation" title="Search Moegirlsaikou Foundation [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" /> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Mainpage" title="Visit the main page"></a></div>
+<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Mainpage" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" target="_blank" title="The place to find out">Help</a></li> </ul>
+</div>
+</div>
+<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="/index.php?title=%E7%BB%8F%E9%AA%8C:%E8%AE%A9Discuz%E7%94%A8%E6%88%B7%E7%99%BB%E9%99%86mediawiki%E7%9A%84%E4%BB%A3%E7%A0%81&amp;action=info" title="More information about this page">Page information</a></li> </ul>
+</div>
+</div>
+<div class="portal" role="navigation" id="p-" aria-labelledby="p--label">
+<h3 id="p--label"></h3>
+<div class="body">
+</div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/Moegirlsaikou_Foundation:Privacy_policy" title="Moegirlsaikou Foundation:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/Moegirlsaikou_Foundation:About" title="Moegirlsaikou Foundation:About">About Moegirlsaikou Foundation</a></li>
+<li id="footer-places-disclaimer"><a href="/Moegirlsaikou_Foundation:General_disclaimer" title="Moegirlsaikou Foundation:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/" target="_blank"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a> </li>
+</ul>
+<div style="clear: both;"></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18669495-4', 'moegirl.org');
+  ga('send', 'pageview');
+
+</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":156});});</script>
+</body>
+</html>

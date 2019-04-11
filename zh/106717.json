@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u6c99\u76d2/doc","pageid":258500,"wikitext":{"*":"{{#ifeq:{{{1}}}|\u597d|{{color|green|\ud83d\udc4c\u5b8c\u5168ojbk}}|{{#ifeq:{{{1}}}|\u4e0d\u597d|{{color|red|\ud83d\udc4e\u6211\u62d2\u7edd}}|{{color|orange|\u2753\u6211\u6211\u6211\u2026\u6211\u4e5f\u4e0d\u77e5\u9053}}}}}}"}}}

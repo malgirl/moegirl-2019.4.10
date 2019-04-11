@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Sandbox/Imfrankliu/HeimuCount","pageid":175749,"wikitext":{"*":"local p = {}\n\nfunction p.parse(frame)\n\tlocal _, count = string.gsub(mw.title.getCurrentTitle():getContent(), \"{{\u9ed1\u5e55\", \"\")\n\treturn count > tonumber(frame.args[1])\nend\n\nreturn p"}}}

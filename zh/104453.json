@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Trim prefix","pageid":163393,"wikitext":{"*":"<noinclude>{{Documentation}}[[\u5206\u7c7b:\u8f85\u52a9\u6a21\u677f]]</noinclude>{{safesubst<noinclude/>:#invoke:String|replace|source={{{1|}}}|pattern=^(.*){{{c|:}}}(.*)$|replace=%{{{2|2}}}|plain=false}}"}}}

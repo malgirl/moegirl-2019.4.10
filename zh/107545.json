@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u8266C","pageid":126187,"wikitext":{"*":"{{#if: {{{1|}}} | [[\u8266\u968aCollection:{{{1}}}|{{#if:{{{2|}}}|{{{2}}}|{{{1}}}}}]] | [[\u8266\u968aCollection]] }}<noinclude>{{documentation}}</noinclude>"}}}

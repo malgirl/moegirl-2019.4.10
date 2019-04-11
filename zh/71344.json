@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Bbrabbit/lua/editHelper","pageid":221401,"wikitext":{"*":"local p = {}\n\nfunction p.hyperlink(href, text)\n    local s = \"<a href='\"..toString(href)..\"'/>\"..toString(text)..\"</a>\"\n    return s\nend"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:FriendlyTimeDelta","pageid":9656,"wikitext":{"*":"{{#ifexpr:{{{1|0}}} >= 86400|{{#expr:({{{1|0}}} div 86400 - 0.5) round 0}}\u65e5}}{{#ifexpr:{{{1|0}}} >= 3600|{{#expr:{{{1|0}}} div 3600 mod 24}}\u65f6}}{{#ifexpr:{{{1|0}}} >= 60|{{#expr:{{{1|0}}} div 60 mod 60}}\u5206}}{{#expr:{{{1|0}}} mod 60}}\u79d2<noinclude>{{Documentation}}</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Tan","pageid":238209,"wikitext":{"*":"{{#switch:{{{2|deg}}}\n|#default={{#expr:tan({{{1|0}}})}}\n|rad={{#expr:tan({{{1|0}}})}}\n|deg={{#expr:tan({{{1|0}}} * pi div 180)}}\n}}"}}}

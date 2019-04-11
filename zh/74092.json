@@ -1,0 +1,1 @@
+{"parse":{"title":"User:\u4e00\u679a\u989c\u827a\u541b/common.js","pageid":124508,"wikitext":{"*":"mw.loader.load('https://wikiplus-app.smartgslb.com/Main.js');\n\nmw.loader.load('User:AnnAngela/js/SendWelcomeMessage.js');\n\nmw.loader.load('User:Nbdd0121/tools/wikihighlight-bootstrap.js');"}}}

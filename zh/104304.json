@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Str crop/subst","pageid":143826,"wikitext":{"*":"<includeonly>{{subst:str_left|{{{1}}}|{{subst:#expr:{{subst:str_len|{{{1}}}}}-{{{2}}}}}}}</includeonly><noinclude>\n\u672c\u6a21\u677f\u662f[[Template:Str_crop]]\u7684'''\u66ff\u6362\u5f15\u7528'''\u5f62\u5f0f\u3002\n[[\u5206\u7c7b:\u8f85\u52a9\u6a21\u677f]]\n</noinclude>"}}}

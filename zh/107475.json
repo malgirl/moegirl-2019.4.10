@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u80cc\u666f\u56fe\u7247/page.css","pageid":305610,"wikitext":{"*":"@keyframes show{\n  from{\n    opacity: 0;\n  }\n}\n\n@keyframes shrink{\n  from{\n    transform: scale(1.15);\n  }\n}\n\n@keyframes blur{\n  from{\n    filter: blur(5px);\n  }\n}"}}}

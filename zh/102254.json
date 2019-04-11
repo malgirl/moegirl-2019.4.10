@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Group-widgeteditor.css","pageid":127691,"wikitext":{"*":"/* CSS placed here will affect widget editors only */\n/* \u7981\u6b62\u7a7awidget\u4f7f\u7528Wikiplus\u521b\u5efa */\n.noWidget #Wikiplus-Edit-TopBtn {\n    display: none;\n}"}}}

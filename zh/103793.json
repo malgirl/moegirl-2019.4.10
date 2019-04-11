@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:LyricsKai2","pageid":205355,"wikitext":{"*":"<includeonly><div style=\"display:inline-block;width:{{#if:{{{width|}}}|{{{width}}}|calc(100% - {{{reserveWidth|0px}}})}};min-width:300px;\">{{#invoke:Lyrics2|lyrics}}</div></includeonly><noinclude>\n{{\u6a21\u5757:Lyrics/doc}}[[\u5206\u985e:\u97f3\u6a02\u4fe1\u606f\u6a21\u677f]]\n</noinclude>"}}}

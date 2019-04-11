@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Gadget-Searchbox-integration.css","pageid":110637,"wikitext":{"*":"#p-personal,\n#p-personal ul {\n    float: left;\n}\n#p-personal ul {\n    padding-left: 0;\n}\n#p-search {\n    margin-right: .5em;\n}\n#searchform,\n#simpleSearch {\n    margin-top: 0 !important;\n}"}}}

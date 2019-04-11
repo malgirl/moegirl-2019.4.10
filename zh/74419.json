@@ -1,0 +1,1 @@
+{"parse":{"title":"User:\u5149\u901f\u706b\u7bad/common.js","pageid":218161,"wikitext":{"*":"$('#mw-content-text a').attr('target', '_blank');\n$('#mw-content-text a[href*=\"#\"]').attr('target', '');"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Rubya","pageid":303230,"wikitext":{"*":"<includeonly>{{#fornumargs: num | value\n|{{split|{{#var:value}}|[_\u3001]|reg=on}}<!--\n--><span style=\"{{#var:foo3}}\">{{lang|{{{lang|ja}}}|{{ruby|{{#var:foo1}}|{{#var:foo2}}}}}}</span>}}</includeonly><noinclude>{{doc}}</noinclude>"}}}

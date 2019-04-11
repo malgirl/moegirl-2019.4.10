@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Category","pageid":158408,"wikitext":{"*":"local p = {};\n\nfunction p.strip(frame)\n\tlocal text = frame.args[1]\n\ttext = mw.ustring.gsub(text, '%[%[[Cc]ategory:[^%]]*%]%]', '')\n\ttext = mw.ustring.gsub(text, '%[%[\u5206[\u7c7b\u985e]:[^%]]*%]%]', '')\n\treturn text\nend\n\nreturn p"}}}

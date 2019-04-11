@@ -1,0 +1,1 @@
+{"parse":{"title":"\u6a21\u5757:Str test","pageid":321200,"wikitext":{"*":"local module = {}\n\nfunction module.main(frame)\n\tlocal args = frame.args\n\tlocal str = args[1]\n\tlocal ptn = mw.text.decode(mw.text.unstripNoWiki(args[2]))\n\tif mw.ustring.find(str, ptn) == nil \n\tthen return ''\n\telse return 1 end\nend\n\nreturn module"}}}

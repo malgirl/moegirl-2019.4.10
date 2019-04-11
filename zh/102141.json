@@ -1,0 +1,1 @@
+{"parse":{"title":"MediaWiki:Gadget-Searchbox-integration.js","pageid":110636,"wikitext":{"*":"$(function () {\n    $('#p-search').prependTo('#p-personal');\n});"}}}

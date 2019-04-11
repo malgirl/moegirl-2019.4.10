@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Reply to","pageid":64794,"wikitext":{"*":"{{#if:{{{1|<noinclude>$</noinclude>}}}|@{{#forargs:| key\n| val\n|{{#ifeq:{{#var:key}}|1||\uff0c}}[[user:{{#var:val}}|{{#var:val}}]]\n}}|}}<noinclude>\n{{documentation}}\n[[\u5206\u985e:\u8a0e\u8ad6\u6a21\u677f]]</noinclude>"}}}

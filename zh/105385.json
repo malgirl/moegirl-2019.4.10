@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:\u533a\u57df\u5f39\u5e55/styles.css","pageid":308362,"wikitext":{"*":"@keyframes toright{\n  0% {\n    left: 100%;\n  }\n  100% {\n    left: -20em;\n  }\n}\n\n.ldanmaku{\n  position: absolute;\n  left: 100%;\n  white-space: nowrap;\n  z-index: 1000;\n  line-height: 1;\n  opacity: 0.7;\n}"}}}

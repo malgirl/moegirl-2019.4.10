@@ -1,0 +1,1 @@
+{"parse":{"title":"User:LittleMoeNewBot/common.js","pageid":250935,"wikitext":{"*":"// Loader for Monaco editor\nmw.loader.load('/User:Imbushuo/MonacoEditor.js?action=raw&ctype=text/javascript');"}}}

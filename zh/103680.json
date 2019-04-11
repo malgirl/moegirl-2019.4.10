@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Link","pageid":204286,"wikitext":{"*":"<includeonly>{{#ifexist:{{{1}}}|[[{{{1}}}{{#if:{{{2|}}}|{{!}}{{{2|}}}}}]]|{{{2|{{{1}}}}}}}}</includeonly><noinclude>[[Category:\u683c\u5f0f\u6a21\u677f]]{{doc}}</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"CLOCKWORK RABBIT/styles.css","pageid":320930,"wikitext":{"*":"input[type=\"submit\"][name=\"fulltext\"]{\n\tdisplay: none;\n}\n\n@keyframes cr-bob{\n\tfrom{\n\t\ttop: calc(-1em * 0.625);\n\t}\n\t\n\tto{\n\t\ttop: calc(1em * 0.625);\n\t}\n}\n\n.cr-bob{\n\tposition: relative;\n\tfont-size: 16px;\n\tanimation: cr-bob 2s infinite alternate;\n}"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:CatPageLink","pageid":131980,"wikitext":{"*":"<includeonly><div id=\"CatPageLinkDataSet\" style=\"display:none;\" {{#if:{{{3|}}}|data-column=\"true\"|}}>{{#forargs:|key|val|{{#if:{{#var:val|}}|<span>{{#var:val|}}</span>|}}}}</div>{{#Widget:CatPageLink}}</includeonly><noinclude>\n\n[[Category:\u9801\u9762\u6a21\u677f]]\n</noinclude>"}}}

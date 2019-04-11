@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Clear/sandbox","pageid":167365,"wikitext":{"*":"<includeonly><div style=\"clear: {{#ifeq:{{{1|}}}||both|{{{1|both}}}}}; {{{2|}}}\"></div></includeonly><noinclude>\n{{documentation}}\n</noinclude>"}}}

@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Trim suffix","pageid":149314,"wikitext":{"*":"<noinclude>{{Documentation}}[[\u5206\u7c7b:\u8f85\u52a9\u6a21\u677f]]</noinclude>{{safesubst<noinclude/>:#invoke:String|replace|source={{{1|}}}|pattern=^(%s*)(.*)(%(.*%))(%s*)$|replace=%2|plain=false}}"}}}

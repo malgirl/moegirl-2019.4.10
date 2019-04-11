@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Imbushuo/MonacoProxyStub.js","pageid":221849,"wikitext":{"*":"self.MonacoEnvironment={baseUrl:\"https://imbushuos3.azureedge.net/Monaco/0.10.0-1/\"};importScripts(\"https://imbushuos3.azureedge.net/Monaco/0.10.0-1/vs/base/worker/workerMain.js\");"}}}

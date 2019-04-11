@@ -1,0 +1,4143 @@
+{
+    "batchcomplete": "", 
+    "query": {
+        "dbrepllag": [
+            {
+                "host": "", 
+                "lag": -1
+            }
+        ], 
+        "extensions": [
+            {
+                "author": "Fish Thirteen, The Little Moe New LLC", 
+                "description": "Show advertisement in the page header and page footer in Moegirlpedia", 
+                "name": "MoegirlAD", 
+                "type": "parserhook", 
+                "url": "https://github.com/FishThirteen/MoegirlAD", 
+                "vcs-date": "2017-07-13T13:37:37Z", 
+                "vcs-system": "git", 
+                "vcs-version": "f8bd48d181f2c5900e692b5e9265a6e62a383777", 
+                "version": 0.42
+            }, 
+            {
+                "author": "[https://www.sergeychernyshev.com Sergey Chernyshev], Yaron Koren, ...", 
+                "descriptionmsg": "widgets-desc", 
+                "license": "/Special:Version/License/Widgets", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Widgets", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Widgets", 
+                "vcs-date": "2018-04-11T12:08:15Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Widgets/+/72d1e24629e1866f9b9842a15a9c5f777b9ff1e6", 
+                "vcs-version": "72d1e24629e1866f9b9842a15a9c5f777b9ff1e6", 
+                "version": "1.3.0"
+            }, 
+            {
+                "author": "David M. Sledge, [http://www.mediawiki.org/wiki/User:Danwe Daniel Werner]", 
+                "descriptionmsg": "loops-desc", 
+                "license": "/Special:Version/License/Loops", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Loops", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Loops", 
+                "vcs-date": "2018-03-14T13:00:10Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Loops/+/56162f2cb79f5c8d25622134d4088bf163601a47", 
+                "vcs-version": "56162f2cb79f5c8d25622134d4088bf163601a47", 
+                "version": "0.5.1"
+            }, 
+            {
+                "author": "Jim R. Wilson (wilson.jim.r<at>gmail.com), Vitaliy Filippov (vitalif<at>mail.ru)", 
+                "description": "Adds a parser function for search and replace using regular expressions.", 
+                "name": "RegexParserFunctions", 
+                "type": "parserhook", 
+                "url": "http://wiki.4intra.net/RegexParserFunctions", 
+                "version": "2015-12-02"
+            }, 
+            {
+                "author": "Brion Vibber", 
+                "descriptionmsg": "charinsert-desc", 
+                "license": "/Special:Version/License/CharInsert", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "CharInsert", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CharInsert", 
+                "vcs-date": "2018-04-13T22:20:38Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CharInsert/+/b5f34be424a64063a240e1524ae6f41e5ea3f4e6", 
+                "vcs-version": "b5f34be424a64063a240e1524ae6f41e5ea3f4e6"
+            }, 
+            {
+                "author": "Tim Starling", 
+                "descriptionmsg": "imagemap_desc", 
+                "license": "/Special:Version/License/ImageMap", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "ImageMap", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ImageMap", 
+                "vcs-date": "2018-05-05T04:39:21Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ImageMap/+/6ca1ad79b0afb0d7b80f4ffccd844cc557e22db9", 
+                "vcs-version": "6ca1ad79b0afb0d7b80f4ffccd844cc557e22db9"
+            }, 
+            {
+                "author": "\u00c6var Arnfj\u00f6r\u00f0 Bjarmason, Andrew Garrett, Brion Vibber, Ed Sanders, Marius Hoch, Steve Sanbeg, Trevor Parscal, ...", 
+                "credits": "/Special:Version/Credits/Cite", 
+                "descriptionmsg": "cite-desc", 
+                "license": "/Special:Version/License/Cite", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Cite", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Cite", 
+                "vcs-date": "2018-04-17T20:24:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Cite/+/20e26df4fc2cc3dbd65c01b2a2873ea1f8f5916f", 
+                "vcs-version": "20e26df4fc2cc3dbd65c01b2a2873ea1f8f5916f"
+            }, 
+            {
+                "author": "Nikola Smolenski, Brion Vibber, Steve Sanbeg", 
+                "descriptionmsg": "poem-desc", 
+                "license": "/Special:Version/License/Poem", 
+                "license-name": "CC0-1.0", 
+                "name": "Poem", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Poem", 
+                "vcs-date": "2018-05-05T20:04:02Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Poem/+/c4098df5ea8132826164f71c0c18b54ae8450edf", 
+                "vcs-version": "c4098df5ea8132826164f71c0c18b54ae8450edf"
+            }, 
+            {
+                "author": "Ross McClure, Jack Phoenix, ...", 
+                "descriptionmsg": "randomselection-desc", 
+                "license": "/Special:Version/License/RandomSelection", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "RandomSelection", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:RandomSelection", 
+                "vcs-date": "2018-03-10T02:56:33Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/RandomSelection/+/c4c799f11b2e5ca41b5382331f418fa8bc8d869b", 
+                "vcs-version": "c4c799f11b2e5ca41b5382331f418fa8bc8d869b", 
+                "version": "2.2.2"
+            }, 
+            {
+                "author": "Erik Moeller, Leonardo Pimenta, Rob Church, Trevor Parscal, DaSch", 
+                "descriptionmsg": "inputbox-desc", 
+                "license": "/Special:Version/License/InputBox", 
+                "license-name": "MIT", 
+                "name": "InputBox", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:InputBox", 
+                "vcs-date": "2018-05-05T04:46:27Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/InputBox/+/dfec2613ddd6b2bfc6cf291be74429b5bfebea89", 
+                "vcs-version": "dfec2613ddd6b2bfc6cf291be74429b5bfebea89", 
+                "version": "0.3.0"
+            }, 
+            {
+                "author": "Brad Jorsch, Marc A. Pelletier", 
+                "descriptionmsg": "templatestyles-desc", 
+                "license": "/Special:Version/License/TemplateStyles", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TemplateStyles", 
+                "namemsg": "templatestyles", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TemplateStyles", 
+                "vcs-date": "2018-04-18T17:14:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TemplateStyles/+/e5da5c0c186c0a1c9d67d9e8375084febda38f46", 
+                "vcs-version": "e5da5c0c186c0a1c9d67d9e8375084febda38f46", 
+                "version": "1.0"
+            }, 
+            {
+                "author": "Tim Starling, Robert Rohde, Ross McClure, Juraj Simlovic", 
+                "descriptionmsg": "pfunc_desc", 
+                "license": "/Special:Version/License/ParserFunctions", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "ParserFunctions", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ParserFunctions", 
+                "vcs-date": "2018-05-05T04:35:42Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ParserFunctions/+/7ec426b9a1d5fabfa8ba79e08806c5b3f796837a", 
+                "vcs-version": "7ec426b9a1d5fabfa8ba79e08806c5b3f796837a", 
+                "version": "1.6.0"
+            }, 
+            {
+                "author": "[http://en.wikinews.org/wiki/User:Amgine Amgine], [http://en.wikinews.org/wiki/User:IlyaHaykinson IlyaHaykinson]", 
+                "descriptionmsg": "intersection-desc", 
+                "license": "/Special:Version/License/DynamicPageList", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "DynamicPageList", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Intersection", 
+                "vcs-date": "2018-04-14T09:25:47Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/intersection/+/15e446a825e0d1e0c1d3bf7b22bbfd238cc58385", 
+                "vcs-version": "15e446a825e0d1e0c1d3bf7b22bbfd238cc58385", 
+                "version": "1.7.0"
+            }, 
+            {
+                "author": "Daniel Kinzler", 
+                "descriptionmsg": "categorytree-desc", 
+                "license": "/Special:Version/License/CategoryTree", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "CategoryTree", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CategoryTree", 
+                "vcs-date": "2018-04-17T00:31:23Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CategoryTree/+/c24e5edb2fd97da91cb659f2582439a7ff791e94", 
+                "vcs-version": "c24e5edb2fd97da91cb659f2582439a7ff791e94"
+            }, 
+            {
+                "author": "Rob Adams, Tom Hempel, Xiloynaha, [https://www.mediawiki.org/wiki/User:Danwe Daniel Werner], [https://www.mediawiki.org/wiki/User:MGChecker MGChecker], ...", 
+                "descriptionmsg": "variables-desc", 
+                "license": "/Special:Version/License/Variables", 
+                "license-name": "ISC", 
+                "name": "Variables", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Variables", 
+                "vcs-date": "2018-04-25T15:59:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Variables/+/872663b8a3075c2bdec36a16c04838f944bfa679", 
+                "vcs-version": "872663b8a3075c2bdec36a16c04838f944bfa679", 
+                "version": "2.4.0"
+            }, 
+            {
+                "author": "Victor Vasiliev, Tim Starling, Brad Jorsch", 
+                "descriptionmsg": "scribunto-desc", 
+                "license": "/Special:Version/License/Scribunto", 
+                "license-name": "GPL-2.0-or-later AND MIT", 
+                "name": "Scribunto", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Scribunto", 
+                "vcs-date": "2018-05-15T15:24:47Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Scribunto/+/106fbf4df8f759e4e2eaa7b753fb38978f9780b4", 
+                "vcs-version": "106fbf4df8f759e4e2eaa7b753fb38978f9780b4"
+            }, 
+            {
+                "author": "Dariusz Siedlecki, Jack Phoenix, Thomas Gries", 
+                "descriptionmsg": "ajaxpoll-desc", 
+                "name": "AJAX Poll", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:AJAX_Poll", 
+                "vcs-date": "2018-07-04T14:48:57Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/AJAXPoll/+/97573a4e7d06f4b7819adf079834df647b6b8bff", 
+                "vcs-version": "97573a4e7d06f4b7819adf079834df647b6b8bff", 
+                "version": "1.9.0"
+            }, 
+            {
+                "author": "[https://imbushuo.net Bingxing Wang(The Little Moe New LLC)], [https://lmn.cat The Little Moe New LLC], Scott Schiller", 
+                "descriptionmsg": "sm2shim-desc", 
+                "license": "/Special:Version/License/Sm2Shim", 
+                "license-name": "BSD-2-Clause", 
+                "name": "Sm2Shim", 
+                "type": "parserhook", 
+                "url": "https://github.com/imbushuo/MediaWiki-Sm2Shim", 
+                "vcs-date": "2017-03-04T13:05:28Z", 
+                "vcs-system": "git", 
+                "vcs-version": "4bdc9c946eed9489a7d3101f1fcd1a2c696e1bb9", 
+                "version": "3100.304.457.10400"
+            }, 
+            {
+                "author": "Timo Tijhof, Moriel Schottlender, James D. Forrester, Trevor Parscal, Bartosz Dziewo\u0144ski, Marielle Volz, ...", 
+                "descriptionmsg": "templatedata-desc", 
+                "license": "/Special:Version/License/TemplateData", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TemplateData", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TemplateData", 
+                "vcs-date": "2018-07-13T18:58:56Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TemplateData/+/61adb162404776c792c8adb3149d03e704746658", 
+                "vcs-version": "61adb162404776c792c8adb3149d03e704746658", 
+                "version": "0.1.2"
+            }, 
+            {
+                "author": "Adam Nielsen, ...", 
+                "descriptionmsg": "masseditregex-desc", 
+                "license": "/Special:Version/License/MassEditRegex", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "MassEditRegex", 
+                "namemsg": "masseditregex-extensionname", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:MassEditRegex", 
+                "vcs-date": "2018-03-21T21:32:05Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/MassEditRegex/+/fcc91e5fcecc0fb17f691b85addad622287be72a", 
+                "vcs-version": "fcc91e5fcecc0fb17f691b85addad622287be72a", 
+                "version": "8.3.0"
+            }, 
+            {
+                "author": "Tim Laqua", 
+                "descriptionmsg": "contributionscores-desc", 
+                "name": "Contribution Scores", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Contribution_Scores", 
+                "vcs-date": "2018-04-13T23:50:59Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ContributionScores/+/319a4b66aa2931341eb18a343f55250b4a0528b6", 
+                "vcs-version": "319a4b66aa2931341eb18a343f55250b4a0528b6", 
+                "version": "1.25.0"
+            }, 
+            {
+                "author": "Brad Jorsch", 
+                "descriptionmsg": "templatesandbox-desc", 
+                "license": "/Special:Version/License/TemplateSandbox", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TemplateSandbox", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TemplateSandbox", 
+                "vcs-date": "2018-04-14T06:59:37Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TemplateSandbox/+/ade8482eefc3cc3a650e3032e746342c32b73dbb", 
+                "vcs-version": "ade8482eefc3cc3a650e3032e746342c32b73dbb", 
+                "version": "1.1.0"
+            }, 
+            {
+                "author": "Stephanie Amanda Stevens, Alexandre Emsenhuber, Robin Pepermans, Siebrand Mazeland, Platonides, Raimond Spekking, Sam Reed, Jack Phoenix, Calimonius the Estrange, ...", 
+                "descriptionmsg": "interwiki-desc", 
+                "license": "/Special:Version/License/Interwiki", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Interwiki", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Interwiki", 
+                "vcs-date": "2018-05-05T04:38:11Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Interwiki/+/b78d2d1d83f403241a5c882c62fcb5019fdcf5a2", 
+                "vcs-version": "b78d2d1d83f403241a5c882c62fcb5019fdcf5a2", 
+                "version": "3.1 20160307"
+            }, 
+            {
+                "author": "Andrew Garrett, Ryan Kaldari, Benny Situ, Luke Welling, Kunal Mehta, Moriel Schottlender, Jon Robson", 
+                "descriptionmsg": "echo-desc", 
+                "license": "/Special:Version/License/Echo", 
+                "license-name": "MIT", 
+                "name": "Echo", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Echo", 
+                "vcs-date": "2018-12-27T21:15:48Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Echo/+/b56ec9b435c52a744cf7bdc3217e752df8742238", 
+                "vcs-version": "b56ec9b435c52a744cf7bdc3217e752df8742238"
+            }, 
+            {
+                "author": "Gary Guo", 
+                "descriptionmsg": "avatar_desc", 
+                "license": "/Special:Version/License/Avatar", 
+                "license-name": "BSD-2-Clause", 
+                "name": "Avatar", 
+                "type": "specialpage", 
+                "url": "https://github.com/nbdd0121/MW-Avatar", 
+                "vcs-date": "2018-05-19T19:53:04Z", 
+                "vcs-system": "git", 
+                "vcs-version": "8c77212b250e99d5d7706c875fbd360c4855193a", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Gary Guo", 
+                "descriptionmsg": "flowthread_desc", 
+                "license": "/Special:Version/License/FlowThread", 
+                "license-name": "BSD-2-Clause", 
+                "name": "FlowThread", 
+                "type": "specialpage", 
+                "url": "https://github.com/nbdd0121/MW-FlowThread", 
+                "vcs-date": "2019-02-28T11:23:14Z", 
+                "vcs-system": "git", 
+                "vcs-version": "05ae7c7d0e37affde63cf122dd2b01a4a8edc89f", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Brion Vibber, Jeroen De Dauw", 
+                "descriptionmsg": "nuke-desc", 
+                "license": "/Special:Version/License/Nuke", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Nuke", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Nuke", 
+                "vcs-date": "2018-05-05T04:37:59Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Nuke/+/c6ec842cc2abed2be7a83abd03781517072d3e67", 
+                "vcs-version": "c6ec842cc2abed2be7a83abd03781517072d3e67", 
+                "version": "1.3.0"
+            }, 
+            {
+                "author": "\u00c6var Arnfj\u00f6r\u00f0 Bjarmason, Aaron Schulz", 
+                "descriptionmsg": "renameuser-desc", 
+                "license": "/Special:Version/License/Renameuser", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Renameuser", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Renameuser", 
+                "vcs-date": "2018-05-05T20:04:09Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Renameuser/+/f8e515711db88fdd2aae02b760d2e11df3d70489", 
+                "vcs-version": "f8e515711db88fdd2aae02b760d2e11df3d70489"
+            }, 
+            {
+                "author": "Yaron Koren, Niklas Laxstr\u00f6m, ...", 
+                "descriptionmsg": "replacetext-desc", 
+                "license": "/Special:Version/License/Replace_Text", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Replace Text", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Replace_Text", 
+                "vcs-date": "2018-05-16T15:05:42Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ReplaceText/+/a027ec972c1d98e92483230e1cbf71cc08a31150", 
+                "vcs-version": "a027ec972c1d98e92483230e1cbf71cc08a31150", 
+                "version": "1.4.1"
+            }, 
+            {
+                "author": "Tim Starling, Aaron Schulz", 
+                "descriptionmsg": "checkuser-desc", 
+                "license": "/Special:Version/License/CheckUser", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "CheckUser", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CheckUser", 
+                "vcs-date": "2018-04-13T22:20:52Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CheckUser/+/b98e6a483c3840b52ffb79eda666496a48ae5dfc", 
+                "vcs-version": "b98e6a483c3840b52ffb79eda666496a48ae5dfc", 
+                "version": "2.4"
+            }, 
+            {
+                "author": "Tim Laqua, Thomas Gries, Matthew April", 
+                "descriptionmsg": "usermerge-desc", 
+                "license": "/Special:Version/License/UserMerge", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "UserMerge", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:UserMerge", 
+                "vcs-date": "2018-05-18T07:23:56Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/UserMerge/+/a641f0ce9bea6da5c9cbb79679fb6f0f6814dbb3", 
+                "vcs-version": "a641f0ce9bea6da5c9cbb79679fb6f0f6814dbb3", 
+                "version": "1.10.1"
+            }, 
+            {
+                "author": "Bartek \u0141api\u0144ski, ...", 
+                "descriptionmsg": "deletebatch-desc", 
+                "license": "/Special:Version/License/DeleteBatch", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "DeleteBatch", 
+                "namemsg": "deletebatch-extensionname", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:DeleteBatch", 
+                "vcs-date": "2018-03-22T21:08:50Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/DeleteBatch/+/d2391414fb8af3944503ded4241d7c2973da6cff", 
+                "vcs-version": "d2391414fb8af3944503ded4241d7c2973da6cff", 
+                "version": "1.7.1"
+            }, 
+            {
+                "author": "Trevor Parscal, Roan Kattouw, ...", 
+                "descriptionmsg": "vector-skin-desc", 
+                "license": "/Special:Version/License/Vector", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Vector", 
+                "namemsg": "skinname-vector", 
+                "type": "skin", 
+                "url": "https://www.mediawiki.org/wiki/Skin:Vector", 
+                "vcs-date": "2018-04-17T20:03:33Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/skins/Vector/+/f0327dc5558395186eddd3911508817482cd4bc4", 
+                "vcs-version": "f0327dc5558395186eddd3911508817482cd4bc4"
+            }, 
+            {
+                "author": "Derk-Jan Hartman, Trevor Parscal, Roan Kattouw, Nimish Gautam, Adam Miller", 
+                "descriptionmsg": "wikieditor-desc", 
+                "license": "/Special:Version/License/WikiEditor", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "WikiEditor", 
+                "type": "editor", 
+                "url": "https://www.mediawiki.org/wiki/Extension:WikiEditor", 
+                "vcs-date": "2018-05-05T20:03:48Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/WikiEditor/+/277159cd3ae6fdafb7f49db3dbfedfa023e81d35", 
+                "vcs-version": "277159cd3ae6fdafb7f49db3dbfedfa023e81d35", 
+                "version": "0.5.1"
+            }, 
+            {
+                "author": "Brion Vibber, Derk-Jan Hartman, [https://ace.c9.io/ authors of Ace]", 
+                "descriptionmsg": "codeeditor-desc", 
+                "license": "/Special:Version/License/CodeEditor", 
+                "license-name": "GPL-2.0-or-later AND BSD-3-Clause", 
+                "name": "CodeEditor", 
+                "type": "editor", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CodeEditor", 
+                "vcs-date": "2018-05-05T04:39:35Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/CodeEditor/+/886d7971ae1b04edc463bc7e11d7f5d282ae4f10", 
+                "vcs-version": "886d7971ae1b04edc463bc7e11d7f5d282ae4f10"
+            }, 
+            {
+                "author": "Alex Monk, Bartosz Dziewo\u0144ski, Christian Williams, David Lynch, Ed Sanders, Inez Korczy\u0144ski, James D. Forrester, Moriel Schottlender, Roan Kattouw, Rob Moen, Timo Tijhof, Trevor Parscal, C. Scott Ananian, ...", 
+                "credits": "/Special:Version/Credits/VisualEditor", 
+                "descriptionmsg": "visualeditor-desc", 
+                "license": "/Special:Version/License/VisualEditor", 
+                "license-name": "MIT", 
+                "name": "VisualEditor", 
+                "type": "editor", 
+                "url": "https://www.mediawiki.org/wiki/Extension:VisualEditor", 
+                "vcs-date": "2018-05-30T22:14:33Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/VisualEditor/+/13a585a7ec0d73f06ba221b4763ba82a4ed1af66", 
+                "vcs-version": "13a585a7ec0d73f06ba221b4763ba82a4ed1af66", 
+                "version": "0.1.0"
+            }, 
+            {
+                "author": "Daniel Kinzler, Max Semenik", 
+                "descriptionmsg": "gadgets-desc", 
+                "license": "/Special:Version/License/Gadgets", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Gadgets", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Gadgets", 
+                "vcs-date": "2018-05-05T04:39:31Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Gadgets/+/bac29aee151272c14b0675af2f4c273dc3139a1b", 
+                "vcs-version": "bac29aee151272c14b0675af2f4c273dc3139a1b"
+            }, 
+            {
+                "author": "TCB team (Wikimedia Deutschland), Addshore, Leszek Manicki, Jakob Warkotsch, Tobias Gritschacher, Christoph Jauera", 
+                "descriptionmsg": "revisionslider-desc", 
+                "name": "RevisionSlider", 
+                "namemsg": "revisionslider", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:RevisionSlider", 
+                "vcs-date": "2018-04-14T05:54:18Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/RevisionSlider/+/0ba3b58a51c0960eb6d603720e37860afd8996e1", 
+                "vcs-version": "0ba3b58a51c0960eb6d603720e37860afd8996e1", 
+                "version": "1.0.0"
+            }, 
+            {
+                "author": "Ryan Kaldari, Jan Paul Posma, Sam Reed", 
+                "credits": "/Special:Version/Credits/WikiLove", 
+                "descriptionmsg": "wikilove-desc", 
+                "license": "/Special:Version/License/WikiLove", 
+                "license-name": "MIT", 
+                "name": "WikiLove", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:WikiLove", 
+                "vcs-date": "2018-04-16T20:12:17Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/WikiLove/+/db613867ad7ca17e3a54950bf0f9941ba3c0818d", 
+                "vcs-version": "db613867ad7ca17e3a54950bf0f9941ba3c0818d", 
+                "version": "1.3.1"
+            }, 
+            {
+                "author": "Ryan Kaldari, Benjamin Chen, Wctaiwan", 
+                "descriptionmsg": "thanks-desc", 
+                "license": "/Special:Version/License/Thanks", 
+                "license-name": "MIT", 
+                "name": "Thanks", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Thanks", 
+                "vcs-date": "2018-04-23T22:44:32Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/Thanks/+/a845a4693038ad831153253769e53e099c47a190", 
+                "vcs-version": "a845a4693038ad831153253769e53e099c47a190", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Andrew Garrett", 
+                "descriptionmsg": "globalblocking-desc", 
+                "license": "/Special:Version/License/GlobalBlocking", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "GlobalBlocking", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:GlobalBlocking", 
+                "vcs-date": "2018-04-17T20:25:07Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/GlobalBlocking/+/6969b15d17b34a136e72396bb96c93ae9af819c7", 
+                "vcs-version": "6969b15d17b34a136e72396bb96c93ae9af819c7"
+            }, 
+            {
+                "author": "MarkTraceur (Mark Holmquist), Gilles Dubuc, Gerg\u0151 Tisza, Aaron Arcos, Zeljko Filipin, Pau Giner, theopolisme, MatmaRex, apsdehal, vldandrew, Ebrahim Byagowi, Dereckson, Brion VIBBER, Yuki Shira, Yaroslav Melnychuk, tonythomas01, Raimond Spekking, Kunal Mehta, Jeff Hall, Christian Aistleitner, Amir E. Aharoni", 
+                "credits": "/Special:Version/Credits/MultimediaViewer", 
+                "descriptionmsg": "multimediaviewer-desc", 
+                "license": "/Special:Version/License/MultimediaViewer", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "MultimediaViewer", 
+                "type": "other", 
+                "url": "https://mediawiki.org/wiki/Extension:MultimediaViewer", 
+                "vcs-date": "2018-05-11T19:57:10Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/MultimediaViewer/+/1273d3e0b2189e33fed0567f589a3e7bc4ae6d4e", 
+                "vcs-version": "1273d3e0b2189e33fed0567f589a3e7bc4ae6d4e"
+            }, 
+            {
+                "author": "[[mw:User:X-Savitar|Derick Alangi]], [[mw:User:Zoglun|Zoglun]]", 
+                "descriptionmsg": "sparkpost-desc", 
+                "license": "/Special:Version/License/SparkPost", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "SparkPost", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:SparkPost", 
+                "vcs-date": "2019-03-02T16:25:27Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/SparkPost/+/43685207e5d2d1dcc9186564398821e56021e044", 
+                "vcs-version": "43685207e5d2d1dcc9186564398821e56021e044", 
+                "version": "1.1"
+            }, 
+            {
+                "name": "ReCaptchaNoCaptcha", 
+                "type": "other"
+            }, 
+            {
+                "author": "Max Semenik", 
+                "descriptionmsg": "pageimages-desc", 
+                "license": "/Special:Version/License/PageImages", 
+                "license-name": "WTFPL", 
+                "name": "PageImages", 
+                "type": "api", 
+                "url": "https://www.mediawiki.org/wiki/Extension:PageImages", 
+                "vcs-date": "2018-04-14T05:25:26Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/PageImages/+/34b0dd5ff6eac7bf4eb1f8d7a940e959d3fa6759", 
+                "vcs-version": "34b0dd5ff6eac7bf4eb1f8d7a940e959d3fa6759"
+            }, 
+            {
+                "author": "Brion Vibber", 
+                "descriptionmsg": "antispoof-desc", 
+                "license": "/Special:Version/License/AntiSpoof", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "AntiSpoof", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:AntiSpoof", 
+                "vcs-date": "2018-04-14T20:13:32Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/AntiSpoof/+/48ed1f851e2d68e541bf7dbdfe73e6439c858f8c", 
+                "vcs-version": "48ed1f851e2d68e541bf7dbdfe73e6439c858f8c"
+            }, 
+            {
+                "author": "Victor Vasiliev, Fran Rogers", 
+                "descriptionmsg": "titleblacklist-desc", 
+                "license": "/Special:Version/License/TitleBlacklist", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TitleBlacklist", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TitleBlacklist", 
+                "vcs-date": "2018-05-05T20:04:15Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TitleBlacklist/+/1143a1f61e049e4f8e4de317e7299091a2ca0707", 
+                "vcs-version": "1143a1f61e049e4f8e4de317e7299091a2ca0707", 
+                "version": "1.5.0"
+            }, 
+            {
+                "author": "Tim Starling, John Du Hart, Daniel Kinzler", 
+                "descriptionmsg": "spam-blacklist-desc", 
+                "license": "/Special:Version/License/SpamBlacklist", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "SpamBlacklist", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:SpamBlacklist", 
+                "vcs-date": "2018-05-05T20:04:04Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/SpamBlacklist/+/f6fa789ad2c07a4fe89e4d1e636aea1126f26afc", 
+                "vcs-version": "f6fa789ad2c07a4fe89e4d1e636aea1126f26afc"
+            }, 
+            {
+                "author": "Andrew Garrett, River Tarnell, Victor Vasiliev, Marius Hoch", 
+                "descriptionmsg": "abusefilter-desc", 
+                "license": "/Special:Version/License/Abuse_Filter", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "Abuse Filter", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:AbuseFilter", 
+                "vcs-date": "2018-05-01T15:49:07Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/AbuseFilter/+/e4118b1f685aa64aa0b6916623704e0195a4fc80", 
+                "vcs-version": "e4118b1f685aa64aa0b6916623704e0195a4fc80"
+            }, 
+            {
+                "author": "Brion Vibber, Florian Schmidt, Sam Reed, ...", 
+                "credits": "/Special:Version/Credits/ConfirmEdit", 
+                "descriptionmsg": "captcha-desc", 
+                "license": "/Special:Version/License/ConfirmEdit", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "ConfirmEdit", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit", 
+                "vcs-date": "2018-05-05T04:36:24Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/ConfirmEdit/+/b52469cf5716165dcf55e0db103d45af045b2acc", 
+                "vcs-version": "b52469cf5716165dcf55e0db103d45af045b2acc", 
+                "version": "1.5.1"
+            }, 
+            {
+                "author": "Michael Dale, Tim Starling, James Heinrich, Jan Gerber, Brion Vibber, Derk-Jan Hartman", 
+                "descriptionmsg": "timedmediahandler-desc", 
+                "license": "/Special:Version/License/TimedMediaHandler", 
+                "license-name": "GPL-2.0-or-later", 
+                "name": "TimedMediaHandler", 
+                "namemsg": "timedmediahandler-extensionname", 
+                "type": "media", 
+                "url": "https://www.mediawiki.org/wiki/Extension:TimedMediaHandler", 
+                "vcs-date": "2018-04-15T18:52:11Z", 
+                "vcs-system": "git", 
+                "vcs-url": "https://gerrit.wikimedia.org/g/mediawiki/extensions/TimedMediaHandler/+/e94b2321888e4b678842e09fdb2be7ff8a7cd380", 
+                "vcs-version": "e94b2321888e4b678842e09fdb2be7ff8a7cd380", 
+                "version": "0.5.0"
+            }
+        ], 
+        "fileextensions": [
+            {
+                "ext": "ogg"
+            }, 
+            {
+                "ext": "ogv"
+            }, 
+            {
+                "ext": "oga"
+            }, 
+            {
+                "ext": "flac"
+            }, 
+            {
+                "ext": "opus"
+            }, 
+            {
+                "ext": "wav"
+            }, 
+            {
+                "ext": "webm"
+            }, 
+            {
+                "ext": "mp3"
+            }, 
+            {
+                "ext": "png"
+            }, 
+            {
+                "ext": "gif"
+            }, 
+            {
+                "ext": "jpg"
+            }, 
+            {
+                "ext": "jpeg"
+            }, 
+            {
+                "ext": "webp"
+            }, 
+            {
+                "ext": "svg"
+            }, 
+            {
+                "ext": "pdf"
+            }, 
+            {
+                "ext": "ppt"
+            }, 
+            {
+                "ext": "jp2"
+            }, 
+            {
+                "ext": "doc"
+            }, 
+            {
+                "ext": "docx"
+            }, 
+            {
+                "ext": "xls"
+            }, 
+            {
+                "ext": "xlsx"
+            }, 
+            {
+                "ext": "psd"
+            }, 
+            {
+                "ext": "sai"
+            }, 
+            {
+                "ext": "swf"
+            }, 
+            {
+                "ext": "mp4"
+            }
+        ], 
+        "general": {
+            "allcentralidlookupproviders": [
+                "local"
+            ], 
+            "articlepath": "/$1", 
+            "base": "https://en.moegirl.org/Mainpage", 
+            "case": "first-letter", 
+            "categorycollation": "uppercase", 
+            "centralidlookupprovider": "local", 
+            "citeresponsivereferences": "", 
+            "dbtype": "mysql", 
+            "dbversion": "5.5.62-0+deb8u1-log", 
+            "externalimages": [
+                ""
+            ], 
+            "fallback": [], 
+            "fallback8bitEncoding": "windows-1252", 
+            "favicon": "https://img.moegirl.org/favicon.ico", 
+            "fixarabicunicode": "", 
+            "fixmalayalamunicode": "", 
+            "galleryoptions": {
+                "captionLength": "", 
+                "imageHeight": 120, 
+                "imageWidth": 120, 
+                "imagesPerRow": 0, 
+                "mode": "traditional", 
+                "showBytes": "", 
+                "showDimensions": ""
+            }, 
+            "generator": "MediaWiki 1.31.1", 
+            "git-branch": "REL1_31", 
+            "git-hash": "a4c806563471b16c644186618b39b84069c0d04c", 
+            "imagelimits": [
+                {
+                    "height": 240, 
+                    "width": 320
+                }, 
+                {
+                    "height": 480, 
+                    "width": 640
+                }, 
+                {
+                    "height": 600, 
+                    "width": 800
+                }, 
+                {
+                    "height": 768, 
+                    "width": 1024
+                }, 
+                {
+                    "height": 1024, 
+                    "width": 1280
+                }
+            ], 
+            "interwikimagic": "", 
+            "invalidusernamechars": "@:", 
+            "lang": "en", 
+            "langconversion": "", 
+            "legaltitlechars": " %!\"$&'()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+", 
+            "linkprefix": "", 
+            "linkprefixcharset": "", 
+            "linktrail": "/^([a-z]+)(.*)$/sD", 
+            "logo": "https://img.moegirl.org/logo/enMoegirl2015.png", 
+            "magiclinks": [], 
+            "mainpage": "Mainpage", 
+            "maxarticlesize": 2097152, 
+            "maxuploadsize": 104857600, 
+            "minuploadchunksize": 1024, 
+            "phpsapi": "fpm-fcgi", 
+            "phpversion": "7.0.33-1~dotdeb+8.1", 
+            "script": "/index.php", 
+            "scriptpath": "", 
+            "server": "https://en.moegirl.org", 
+            "servername": "en.moegirl.org", 
+            "sitename": "Moegirlpedia", 
+            "thumblimits": [
+                120, 
+                150, 
+                180, 
+                200, 
+                250, 
+                300
+            ], 
+            "time": "2019-04-10T08:53:56Z", 
+            "timeoffset": -300, 
+            "timezone": "America/Chicago", 
+            "titleconversion": "", 
+            "uploadsenabled": "", 
+            "variantarticlepath": false, 
+            "wikiid": "enmoegirl", 
+            "writeapi": ""
+        }, 
+        "interwikimap": [
+            {
+                "prefix": "acronym", 
+                "url": "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym=$1"
+            }, 
+            {
+                "prefix": "acwiki", 
+                "url": "http://wiki.acfun.tv/index.php/$1"
+            }, 
+            {
+                "prefix": "arxiv", 
+                "url": "http://www.arxiv.org/abs/$1"
+            }, 
+            {
+                "prefix": "biliwiki", 
+                "url": "http://biliwiki.org/$1"
+            }, 
+            {
+                "prefix": "c2find", 
+                "url": "http://c2.com/cgi/wiki?FindPage&value=$1"
+            }, 
+            {
+                "prefix": "cache", 
+                "url": "http://www.google.com/search?q=cache:$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "cm", 
+                "trans": "", 
+                "url": "https://commons.moegirl.org/$1"
+            }, 
+            {
+                "api": "https://commons.wikimedia.org/w/api.php", 
+                "local": "", 
+                "prefix": "commons", 
+                "url": "https://commons.wikimedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "dictionary", 
+                "url": "http://www.dict.org/bin/Dict?Database=*&Form=Dict1&Strategy=*&Query=$1"
+            }, 
+            {
+                "prefix": "doi", 
+                "url": "http://dx.doi.org/$1"
+            }, 
+            {
+                "api": "http://drumcorpswiki.com/api.php", 
+                "prefix": "drumcorpswiki", 
+                "url": "http://www.drumcorpswiki.com/$1"
+            }, 
+            {
+                "prefix": "dwjwiki", 
+                "url": "http://www.suberic.net/cgi-bin/dwj/wiki.cgi?$1"
+            }, 
+            {
+                "api": "http://enciclopedia.us.es/api.php", 
+                "prefix": "elibre", 
+                "url": "http://enciclopedia.us.es/index.php/$1"
+            }, 
+            {
+                "prefix": "emacswiki", 
+                "url": "http://www.emacswiki.org/cgi-bin/wiki.pl?$1"
+            }, 
+            {
+                "language": "English", 
+                "local": "", 
+                "prefix": "en", 
+                "trans": "", 
+                "url": "https://en.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "enmoe", 
+                "trans": "", 
+                "url": "https://en.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "enwiki", 
+                "url": "https://en.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "foldoc", 
+                "url": "http://foldoc.org/?$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "foundation", 
+                "trans": "", 
+                "url": "https://moegirl.org/$1"
+            }, 
+            {
+                "prefix": "foxwiki", 
+                "url": "http://fox.wikis.com/wc.dll?Wiki~$1"
+            }, 
+            {
+                "prefix": "freebsdman", 
+                "url": "http://www.FreeBSD.org/cgi/man.cgi?apropos=1&query=$1"
+            }, 
+            {
+                "prefix": "gentoo-wiki", 
+                "url": "http://gentoo-wiki.com/$1"
+            }, 
+            {
+                "prefix": "google", 
+                "url": "http://www.google.com/search?q=$1"
+            }, 
+            {
+                "prefix": "googlegroups", 
+                "url": "http://groups.google.com/groups?q=$1"
+            }, 
+            {
+                "prefix": "hammondwiki", 
+                "url": "http://www.dairiki.org/HammondWiki/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "hmoe", 
+                "url": "https://www.hmoegirl.com/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "hmoegirl", 
+                "url": "https://www.hmoegirl.com/$1"
+            }, 
+            {
+                "api": "http://www.hrwiki.org/w/api.php", 
+                "prefix": "hrwiki", 
+                "url": "http://www.hrwiki.org/wiki/$1"
+            }, 
+            {
+                "prefix": "imdb", 
+                "url": "http://www.imdb.com/find?q=$1&tt=on"
+            }, 
+            {
+                "language": "\u65e5\u672c\u8a9e", 
+                "local": "", 
+                "prefix": "ja", 
+                "trans": "", 
+                "url": "https://ja.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "jamoe", 
+                "trans": "", 
+                "url": "https://ja.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "jawiki", 
+                "url": "https://ja.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "kmwiki", 
+                "url": "http://kmwiki.wikispaces.com/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "library", 
+                "trans": "", 
+                "url": "https://library.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "linuxwiki", 
+                "url": "http://linuxwiki.de/$1"
+            }, 
+            {
+                "prefix": "lojban", 
+                "url": "http://www.lojban.org/tiki/tiki-index.php?page=$1"
+            }, 
+            {
+                "prefix": "lqwiki", 
+                "url": "http://wiki.linuxquestions.org/wiki/$1"
+            }, 
+            {
+                "prefix": "meatball", 
+                "url": "http://www.usemod.com/cgi-bin/mb.pl?$1"
+            }, 
+            {
+                "api": "https://www.mediawiki.org/w/api.php", 
+                "prefix": "mediawikiwiki", 
+                "url": "https://www.mediawiki.org/wiki/$1"
+            }, 
+            {
+                "api": "http://en.memory-alpha.org/api.php", 
+                "prefix": "memoryalpha", 
+                "url": "http://en.memory-alpha.org/wiki/$1"
+            }, 
+            {
+                "prefix": "metawiki", 
+                "url": "http://sunir.org/apps/meta.pl?$1"
+            }, 
+            {
+                "api": "https://meta.wikimedia.org/w/api.php", 
+                "prefix": "metawikimedia", 
+                "url": "https://meta.wikimedia.org/wiki/$1"
+            }, 
+            {
+                "api": "https://wiki.mozilla.org/api.php", 
+                "prefix": "mozillawiki", 
+                "url": "http://wiki.mozilla.org/$1"
+            }, 
+            {
+                "api": "https://www.mediawiki.org/w/api.php", 
+                "prefix": "mw", 
+                "url": "https://www.mediawiki.org/wiki/$1"
+            }, 
+            {
+                "prefix": "oeis", 
+                "url": "http://oeis.org/$1"
+            }, 
+            {
+                "prefix": "openwiki", 
+                "url": "http://openwiki.com/ow.asp?$1"
+            }, 
+            {
+                "prefix": "pmid", 
+                "url": "https://www.ncbi.nlm.nih.gov/pubmed/$1?dopt=Abstract"
+            }, 
+            {
+                "prefix": "pythoninfo", 
+                "url": "http://wiki.python.org/moin/$1"
+            }, 
+            {
+                "prefix": "rfc", 
+                "url": "https://tools.ietf.org/html/rfc$1"
+            }, 
+            {
+                "api": "http://s23.org/w/api.php", 
+                "prefix": "s23wiki", 
+                "url": "http://s23.org/wiki/$1"
+            }, 
+            {
+                "prefix": "seattlewireless", 
+                "url": "http://seattlewireless.net/$1"
+            }, 
+            {
+                "prefix": "senseislibrary", 
+                "url": "http://senseis.xmp.net/?$1"
+            }, 
+            {
+                "api": "http://www.shoutwiki.com/w/api.php", 
+                "prefix": "shoutwiki", 
+                "url": "http://www.shoutwiki.com/wiki/$1"
+            }, 
+            {
+                "prefix": "sourceforge", 
+                "url": "http://sourceforge.net/$1"
+            }, 
+            {
+                "prefix": "squeak", 
+                "url": "http://wiki.squeak.org/squeak/$1"
+            }, 
+            {
+                "prefix": "theopedia", 
+                "url": "http://www.theopedia.com/$1"
+            }, 
+            {
+                "api": "http://tmbw.net/wiki/api.php", 
+                "prefix": "tmbw", 
+                "url": "http://www.tmbw.net/wiki/$1"
+            }, 
+            {
+                "prefix": "tmnet", 
+                "url": "http://www.technomanifestos.net/?$1"
+            }, 
+            {
+                "prefix": "twiki", 
+                "url": "http://twiki.org/cgi-bin/view/$1"
+            }, 
+            {
+                "api": "http://en.uncyclopedia.co/w/api.php", 
+                "prefix": "uncyclopedia", 
+                "url": "http://en.uncyclopedia.co/wiki/$1"
+            }, 
+            {
+                "api": "http://wiki.beyondunreal.com/w/api.php", 
+                "prefix": "unreal", 
+                "url": "http://wiki.beyondunreal.com/$1"
+            }, 
+            {
+                "prefix": "usemod", 
+                "url": "http://www.usemod.com/cgi-bin/wiki.pl?$1"
+            }, 
+            {
+                "prefix": "wiki", 
+                "url": "http://c2.com/cgi/wiki?$1"
+            }, 
+            {
+                "prefix": "wikia", 
+                "url": "http://www.wikia.com/wiki/c:$1"
+            }, 
+            {
+                "api": "https://en.wikibooks.org/w/api.php", 
+                "prefix": "wikibooks", 
+                "url": "https://en.wikibooks.org/wiki/$1"
+            }, 
+            {
+                "api": "https://www.wikidata.org/w/api.php", 
+                "prefix": "wikidata", 
+                "url": "https://www.wikidata.org/wiki/$1"
+            }, 
+            {
+                "prefix": "wikif1", 
+                "url": "http://www.wikif1.org/$1"
+            }, 
+            {
+                "api": "http://www.wikihow.com/api.php", 
+                "prefix": "wikihow", 
+                "url": "http://www.wikihow.com/$1"
+            }, 
+            {
+                "api": "https://wikimediafoundation.org/w/api.php", 
+                "prefix": "wikimedia", 
+                "url": "https://wikimediafoundation.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikinews.org/w/api.php", 
+                "prefix": "wikinews", 
+                "url": "https://en.wikinews.org/wiki/$1"
+            }, 
+            {
+                "prefix": "wikinfo", 
+                "url": "http://wikinfo.co/English/index.php/$1"
+            }, 
+            {
+                "api": "https://en.wikipedia.org/w/api.php", 
+                "prefix": "wikipedia", 
+                "url": "https://en.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikiquote.org/w/api.php", 
+                "prefix": "wikiquote", 
+                "url": "https://en.wikiquote.org/wiki/$1"
+            }, 
+            {
+                "api": "https://wikisource.org/w/api.php", 
+                "prefix": "wikisource", 
+                "url": "https://wikisource.org/wiki/$1"
+            }, 
+            {
+                "api": "https://species.wikimedia.org/w/api.php", 
+                "prefix": "wikispecies", 
+                "url": "https://species.wikimedia.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikiversity.org/w/api.php", 
+                "prefix": "wikiversity", 
+                "url": "https://en.wikiversity.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wikivoyage.org/w/api.php", 
+                "prefix": "wikivoyage", 
+                "url": "https://en.wikivoyage.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wiktionary.org/w/api.php", 
+                "prefix": "wikt", 
+                "url": "https://en.wiktionary.org/wiki/$1"
+            }, 
+            {
+                "api": "https://en.wiktionary.org/w/api.php", 
+                "prefix": "wiktionary", 
+                "url": "https://en.wiktionary.org/wiki/$1"
+            }, 
+            {
+                "language": "\u4e2d\u6587", 
+                "local": "", 
+                "prefix": "zh", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhmoe", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhmoegirl", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhtest", 
+                "url": "https://zhtest.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "zhwiki", 
+                "url": "https://zh.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "\u6587\u5e93", 
+                "trans": "", 
+                "url": "https://library.moegirl.org/$1"
+            }, 
+            {
+                "prefix": "\u7ef4\u57fa\u4e2d\u6587", 
+                "url": "https://zh.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "\u7ef4\u57fa\u65e5\u6587", 
+                "url": "https://ja.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "prefix": "\u7ef4\u57fa\u82f1\u6587", 
+                "url": "https://en.wikipedia.org/wiki/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "\u840c\u5a18\u5171\u4eab", 
+                "trans": "", 
+                "url": "https://commons.moegirl.org/$1"
+            }, 
+            {
+                "local": "", 
+                "prefix": "\u840c\u767e", 
+                "trans": "", 
+                "url": "https://zh.moegirl.org/$1"
+            }
+        ], 
+        "magicwords": [
+            {
+                "aliases": [
+                    "choose"
+                ], 
+                "name": "choose"
+            }, 
+            {
+                "aliases": [
+                    "expr"
+                ], 
+                "name": "expr"
+            }, 
+            {
+                "aliases": [
+                    "if"
+                ], 
+                "name": "if"
+            }, 
+            {
+                "aliases": [
+                    "ifeq"
+                ], 
+                "name": "ifeq"
+            }, 
+            {
+                "aliases": [
+                    "ifexpr"
+                ], 
+                "name": "ifexpr"
+            }, 
+            {
+                "aliases": [
+                    "iferror"
+                ], 
+                "name": "iferror"
+            }, 
+            {
+                "aliases": [
+                    "switch"
+                ], 
+                "name": "switch"
+            }, 
+            {
+                "aliases": [
+                    "#default"
+                ], 
+                "name": "default"
+            }, 
+            {
+                "aliases": [
+                    "ifexist"
+                ], 
+                "name": "ifexist"
+            }, 
+            {
+                "aliases": [
+                    "time"
+                ], 
+                "name": "time"
+            }, 
+            {
+                "aliases": [
+                    "timel"
+                ], 
+                "name": "timel"
+            }, 
+            {
+                "aliases": [
+                    "rel2abs"
+                ], 
+                "name": "rel2abs"
+            }, 
+            {
+                "aliases": [
+                    "titleparts"
+                ], 
+                "name": "titleparts"
+            }, 
+            {
+                "aliases": [
+                    "len"
+                ], 
+                "name": "len"
+            }, 
+            {
+                "aliases": [
+                    "pos"
+                ], 
+                "name": "pos"
+            }, 
+            {
+                "aliases": [
+                    "rpos"
+                ], 
+                "name": "rpos"
+            }, 
+            {
+                "aliases": [
+                    "sub"
+                ], 
+                "name": "sub"
+            }, 
+            {
+                "aliases": [
+                    "count"
+                ], 
+                "name": "count"
+            }, 
+            {
+                "aliases": [
+                    "replace"
+                ], 
+                "name": "replace"
+            }, 
+            {
+                "aliases": [
+                    "explode"
+                ], 
+                "name": "explode"
+            }, 
+            {
+                "aliases": [
+                    "urldecode"
+                ], 
+                "name": "urldecode"
+            }, 
+            {
+                "aliases": [
+                    "categorytree"
+                ], 
+                "name": "categorytree"
+            }, 
+            {
+                "aliases": [
+                    "var"
+                ], 
+                "name": "var"
+            }, 
+            {
+                "aliases": [
+                    "var_final"
+                ], 
+                "name": "var_final"
+            }, 
+            {
+                "aliases": [
+                    "vardefine"
+                ], 
+                "name": "vardefine"
+            }, 
+            {
+                "aliases": [
+                    "vardefineecho"
+                ], 
+                "name": "vardefineecho"
+            }, 
+            {
+                "aliases": [
+                    "varexists"
+                ], 
+                "name": "varexists"
+            }, 
+            {
+                "aliases": [
+                    "invoke"
+                ], 
+                "name": "invoke"
+            }, 
+            {
+                "aliases": [
+                    "noplayer"
+                ], 
+                "name": "timedmedia_noplayer"
+            }, 
+            {
+                "aliases": [
+                    "noicon"
+                ], 
+                "name": "timedmedia_noicon"
+            }, 
+            {
+                "aliases": [
+                    "thumbtime=$1"
+                ], 
+                "name": "timedmedia_thumbtime"
+            }, 
+            {
+                "aliases": [
+                    "start=$1"
+                ], 
+                "name": "timedmedia_starttime"
+            }, 
+            {
+                "aliases": [
+                    "end=$1"
+                ], 
+                "name": "timedmedia_endtime"
+            }, 
+            {
+                "aliases": [
+                    "disablecontrols=$1"
+                ], 
+                "name": "timedmedia_disablecontrols"
+            }, 
+            {
+                "aliases": [
+                    "__NOAD__"
+                ], 
+                "case-sensitive": "", 
+                "name": "noad"
+            }, 
+            {
+                "aliases": [
+                    "widget"
+                ], 
+                "name": "widget"
+            }, 
+            {
+                "aliases": [
+                    "while"
+                ], 
+                "name": "while"
+            }, 
+            {
+                "aliases": [
+                    "dowhile"
+                ], 
+                "name": "dowhile"
+            }, 
+            {
+                "aliases": [
+                    "loop"
+                ], 
+                "name": "loop"
+            }, 
+            {
+                "aliases": [
+                    "forargs"
+                ], 
+                "name": "forargs"
+            }, 
+            {
+                "aliases": [
+                    "fornumargs"
+                ], 
+                "name": "fornumargs"
+            }, 
+            {
+                "aliases": [
+                    "cscore"
+                ], 
+                "name": "cscore"
+            }, 
+            {
+                "aliases": [
+                    "#REDIRECT"
+                ], 
+                "name": "redirect"
+            }, 
+            {
+                "aliases": [
+                    "__NOTOC__"
+                ], 
+                "name": "notoc"
+            }, 
+            {
+                "aliases": [
+                    "__NOGALLERY__"
+                ], 
+                "name": "nogallery"
+            }, 
+            {
+                "aliases": [
+                    "__FORCETOC__"
+                ], 
+                "name": "forcetoc"
+            }, 
+            {
+                "aliases": [
+                    "__TOC__"
+                ], 
+                "name": "toc"
+            }, 
+            {
+                "aliases": [
+                    "__NOEDITSECTION__"
+                ], 
+                "name": "noeditsection"
+            }, 
+            {
+                "aliases": [
+                    "!"
+                ], 
+                "case-sensitive": "", 
+                "name": "!"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTMONTH", 
+                    "CURRENTMONTH2"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonth"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonth1"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTMONTHNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthname"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTMONTHNAMEGEN"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthnamegen"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTMONTHABBREV"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthabbrev"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentday"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentday2"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTDAYNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentdayname"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentyear"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTTIME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenttime"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTHOUR"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenthour"
+            }, 
+            {
+                "aliases": [
+                    "LOCALMONTH", 
+                    "LOCALMONTH2"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonth"
+            }, 
+            {
+                "aliases": [
+                    "LOCALMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonth1"
+            }, 
+            {
+                "aliases": [
+                    "LOCALMONTHNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthname"
+            }, 
+            {
+                "aliases": [
+                    "LOCALMONTHNAMEGEN"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthnamegen"
+            }, 
+            {
+                "aliases": [
+                    "LOCALMONTHABBREV"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthabbrev"
+            }, 
+            {
+                "aliases": [
+                    "LOCALDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "localday"
+            }, 
+            {
+                "aliases": [
+                    "LOCALDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "localday2"
+            }, 
+            {
+                "aliases": [
+                    "LOCALDAYNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localdayname"
+            }, 
+            {
+                "aliases": [
+                    "LOCALYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "localyear"
+            }, 
+            {
+                "aliases": [
+                    "LOCALTIME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localtime"
+            }, 
+            {
+                "aliases": [
+                    "LOCALHOUR"
+                ], 
+                "case-sensitive": "", 
+                "name": "localhour"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFPAGES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofpages"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFARTICLES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofarticles"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFFILES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberoffiles"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFUSERS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofusers"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFACTIVEUSERS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofactiveusers"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFEDITS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofedits"
+            }, 
+            {
+                "aliases": [
+                    "PAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagename"
+            }, 
+            {
+                "aliases": [
+                    "PAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagenamee"
+            }, 
+            {
+                "aliases": [
+                    "NAMESPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespace"
+            }, 
+            {
+                "aliases": [
+                    "NAMESPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespacee"
+            }, 
+            {
+                "aliases": [
+                    "NAMESPACENUMBER"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespacenumber"
+            }, 
+            {
+                "aliases": [
+                    "TALKSPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkspace"
+            }, 
+            {
+                "aliases": [
+                    "TALKSPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkspacee"
+            }, 
+            {
+                "aliases": [
+                    "SUBJECTSPACE", 
+                    "ARTICLESPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectspace"
+            }, 
+            {
+                "aliases": [
+                    "SUBJECTSPACEE", 
+                    "ARTICLESPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectspacee"
+            }, 
+            {
+                "aliases": [
+                    "FULLPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "fullpagename"
+            }, 
+            {
+                "aliases": [
+                    "FULLPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "fullpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "SUBPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "subpagename"
+            }, 
+            {
+                "aliases": [
+                    "SUBPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "ROOTPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "rootpagename"
+            }, 
+            {
+                "aliases": [
+                    "ROOTPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "rootpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "BASEPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "basepagename"
+            }, 
+            {
+                "aliases": [
+                    "BASEPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "basepagenamee"
+            }, 
+            {
+                "aliases": [
+                    "TALKPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkpagename"
+            }, 
+            {
+                "aliases": [
+                    "TALKPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "SUBJECTPAGENAME", 
+                    "ARTICLEPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectpagename"
+            }, 
+            {
+                "aliases": [
+                    "SUBJECTPAGENAMEE", 
+                    "ARTICLEPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "MSG:"
+                ], 
+                "name": "msg"
+            }, 
+            {
+                "aliases": [
+                    "SUBST:"
+                ], 
+                "name": "subst"
+            }, 
+            {
+                "aliases": [
+                    "SAFESUBST:"
+                ], 
+                "name": "safesubst"
+            }, 
+            {
+                "aliases": [
+                    "MSGNW:"
+                ], 
+                "name": "msgnw"
+            }, 
+            {
+                "aliases": [
+                    "thumb", 
+                    "thumbnail"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_thumbnail"
+            }, 
+            {
+                "aliases": [
+                    "thumbnail=$1", 
+                    "thumb=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_manualthumb"
+            }, 
+            {
+                "aliases": [
+                    "right"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_right"
+            }, 
+            {
+                "aliases": [
+                    "left"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_left"
+            }, 
+            {
+                "aliases": [
+                    "none"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_none"
+            }, 
+            {
+                "aliases": [
+                    "$1px"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_width"
+            }, 
+            {
+                "aliases": [
+                    "center", 
+                    "centre"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_center"
+            }, 
+            {
+                "aliases": [
+                    "frame", 
+                    "framed", 
+                    "enframed"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_framed"
+            }, 
+            {
+                "aliases": [
+                    "frameless"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_frameless"
+            }, 
+            {
+                "aliases": [
+                    "lang=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_lang"
+            }, 
+            {
+                "aliases": [
+                    "page=$1", 
+                    "page $1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_page"
+            }, 
+            {
+                "aliases": [
+                    "upright", 
+                    "upright=$1", 
+                    "upright $1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_upright"
+            }, 
+            {
+                "aliases": [
+                    "border"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_border"
+            }, 
+            {
+                "aliases": [
+                    "baseline"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_baseline"
+            }, 
+            {
+                "aliases": [
+                    "sub"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_sub"
+            }, 
+            {
+                "aliases": [
+                    "super", 
+                    "sup"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_super"
+            }, 
+            {
+                "aliases": [
+                    "top"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_top"
+            }, 
+            {
+                "aliases": [
+                    "text-top"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_text_top"
+            }, 
+            {
+                "aliases": [
+                    "middle"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_middle"
+            }, 
+            {
+                "aliases": [
+                    "bottom"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_bottom"
+            }, 
+            {
+                "aliases": [
+                    "text-bottom"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_text_bottom"
+            }, 
+            {
+                "aliases": [
+                    "link=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_link"
+            }, 
+            {
+                "aliases": [
+                    "alt=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_alt"
+            }, 
+            {
+                "aliases": [
+                    "class=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_class"
+            }, 
+            {
+                "aliases": [
+                    "INT:"
+                ], 
+                "name": "int"
+            }, 
+            {
+                "aliases": [
+                    "SITENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "sitename"
+            }, 
+            {
+                "aliases": [
+                    "NS:"
+                ], 
+                "name": "ns"
+            }, 
+            {
+                "aliases": [
+                    "NSE:"
+                ], 
+                "name": "nse"
+            }, 
+            {
+                "aliases": [
+                    "LOCALURL:"
+                ], 
+                "name": "localurl"
+            }, 
+            {
+                "aliases": [
+                    "LOCALURLE:"
+                ], 
+                "name": "localurle"
+            }, 
+            {
+                "aliases": [
+                    "ARTICLEPATH"
+                ], 
+                "name": "articlepath"
+            }, 
+            {
+                "aliases": [
+                    "PAGEID"
+                ], 
+                "name": "pageid"
+            }, 
+            {
+                "aliases": [
+                    "SERVER"
+                ], 
+                "name": "server"
+            }, 
+            {
+                "aliases": [
+                    "SERVERNAME"
+                ], 
+                "name": "servername"
+            }, 
+            {
+                "aliases": [
+                    "SCRIPTPATH"
+                ], 
+                "name": "scriptpath"
+            }, 
+            {
+                "aliases": [
+                    "STYLEPATH"
+                ], 
+                "name": "stylepath"
+            }, 
+            {
+                "aliases": [
+                    "GRAMMAR:"
+                ], 
+                "name": "grammar"
+            }, 
+            {
+                "aliases": [
+                    "GENDER:"
+                ], 
+                "name": "gender"
+            }, 
+            {
+                "aliases": [
+                    "BIDI:"
+                ], 
+                "name": "bidi"
+            }, 
+            {
+                "aliases": [
+                    "__NOTITLECONVERT__", 
+                    "__NOTC__"
+                ], 
+                "name": "notitleconvert"
+            }, 
+            {
+                "aliases": [
+                    "__NOCONTENTCONVERT__", 
+                    "__NOCC__"
+                ], 
+                "name": "nocontentconvert"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTWEEK"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentweek"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTDOW"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentdow"
+            }, 
+            {
+                "aliases": [
+                    "LOCALWEEK"
+                ], 
+                "case-sensitive": "", 
+                "name": "localweek"
+            }, 
+            {
+                "aliases": [
+                    "LOCALDOW"
+                ], 
+                "case-sensitive": "", 
+                "name": "localdow"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONID"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionid"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionday"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionday2"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONMONTH"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionmonth"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionmonth1"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionyear"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisiontimestamp"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONUSER"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionuser"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONSIZE"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionsize"
+            }, 
+            {
+                "aliases": [
+                    "PLURAL:"
+                ], 
+                "name": "plural"
+            }, 
+            {
+                "aliases": [
+                    "FULLURL:"
+                ], 
+                "name": "fullurl"
+            }, 
+            {
+                "aliases": [
+                    "FULLURLE:"
+                ], 
+                "name": "fullurle"
+            }, 
+            {
+                "aliases": [
+                    "CANONICALURL:"
+                ], 
+                "name": "canonicalurl"
+            }, 
+            {
+                "aliases": [
+                    "CANONICALURLE:"
+                ], 
+                "name": "canonicalurle"
+            }, 
+            {
+                "aliases": [
+                    "LCFIRST:"
+                ], 
+                "name": "lcfirst"
+            }, 
+            {
+                "aliases": [
+                    "UCFIRST:"
+                ], 
+                "name": "ucfirst"
+            }, 
+            {
+                "aliases": [
+                    "LC:"
+                ], 
+                "name": "lc"
+            }, 
+            {
+                "aliases": [
+                    "UC:"
+                ], 
+                "name": "uc"
+            }, 
+            {
+                "aliases": [
+                    "RAW:"
+                ], 
+                "name": "raw"
+            }, 
+            {
+                "aliases": [
+                    "DISPLAYTITLE"
+                ], 
+                "case-sensitive": "", 
+                "name": "displaytitle"
+            }, 
+            {
+                "aliases": [
+                    "R"
+                ], 
+                "case-sensitive": "", 
+                "name": "rawsuffix"
+            }, 
+            {
+                "aliases": [
+                    "NOSEP"
+                ], 
+                "name": "nocommafysuffix"
+            }, 
+            {
+                "aliases": [
+                    "__NEWSECTIONLINK__"
+                ], 
+                "case-sensitive": "", 
+                "name": "newsectionlink"
+            }, 
+            {
+                "aliases": [
+                    "__NONEWSECTIONLINK__"
+                ], 
+                "case-sensitive": "", 
+                "name": "nonewsectionlink"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTVERSION"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentversion"
+            }, 
+            {
+                "aliases": [
+                    "URLENCODE:"
+                ], 
+                "name": "urlencode"
+            }, 
+            {
+                "aliases": [
+                    "ANCHORENCODE"
+                ], 
+                "name": "anchorencode"
+            }, 
+            {
+                "aliases": [
+                    "CURRENTTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenttimestamp"
+            }, 
+            {
+                "aliases": [
+                    "LOCALTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "localtimestamp"
+            }, 
+            {
+                "aliases": [
+                    "DIRECTIONMARK", 
+                    "DIRMARK"
+                ], 
+                "case-sensitive": "", 
+                "name": "directionmark"
+            }, 
+            {
+                "aliases": [
+                    "#LANGUAGE:"
+                ], 
+                "name": "language"
+            }, 
+            {
+                "aliases": [
+                    "CONTENTLANGUAGE", 
+                    "CONTENTLANG"
+                ], 
+                "case-sensitive": "", 
+                "name": "contentlanguage"
+            }, 
+            {
+                "aliases": [
+                    "PAGELANGUAGE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagelanguage"
+            }, 
+            {
+                "aliases": [
+                    "PAGESINNAMESPACE:", 
+                    "PAGESINNS:"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesinnamespace"
+            }, 
+            {
+                "aliases": [
+                    "NUMBEROFADMINS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofadmins"
+            }, 
+            {
+                "aliases": [
+                    "FORMATNUM"
+                ], 
+                "name": "formatnum"
+            }, 
+            {
+                "aliases": [
+                    "PADLEFT"
+                ], 
+                "name": "padleft"
+            }, 
+            {
+                "aliases": [
+                    "PADRIGHT"
+                ], 
+                "name": "padright"
+            }, 
+            {
+                "aliases": [
+                    "special"
+                ], 
+                "name": "special"
+            }, 
+            {
+                "aliases": [
+                    "speciale"
+                ], 
+                "name": "speciale"
+            }, 
+            {
+                "aliases": [
+                    "DEFAULTSORT:", 
+                    "DEFAULTSORTKEY:", 
+                    "DEFAULTCATEGORYSORT:"
+                ], 
+                "case-sensitive": "", 
+                "name": "defaultsort"
+            }, 
+            {
+                "aliases": [
+                    "FILEPATH:"
+                ], 
+                "name": "filepath"
+            }, 
+            {
+                "aliases": [
+                    "tag"
+                ], 
+                "name": "tag"
+            }, 
+            {
+                "aliases": [
+                    "__HIDDENCAT__"
+                ], 
+                "case-sensitive": "", 
+                "name": "hiddencat"
+            }, 
+            {
+                "aliases": [
+                    "PAGESINCATEGORY", 
+                    "PAGESINCAT"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesincategory"
+            }, 
+            {
+                "aliases": [
+                    "PAGESIZE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesize"
+            }, 
+            {
+                "aliases": [
+                    "__INDEX__"
+                ], 
+                "case-sensitive": "", 
+                "name": "index"
+            }, 
+            {
+                "aliases": [
+                    "__NOINDEX__"
+                ], 
+                "case-sensitive": "", 
+                "name": "noindex"
+            }, 
+            {
+                "aliases": [
+                    "NUMBERINGROUP", 
+                    "NUMINGROUP"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberingroup"
+            }, 
+            {
+                "aliases": [
+                    "__STATICREDIRECT__"
+                ], 
+                "case-sensitive": "", 
+                "name": "staticredirect"
+            }, 
+            {
+                "aliases": [
+                    "PROTECTIONLEVEL"
+                ], 
+                "case-sensitive": "", 
+                "name": "protectionlevel"
+            }, 
+            {
+                "aliases": [
+                    "PROTECTIONEXPIRY"
+                ], 
+                "case-sensitive": "", 
+                "name": "protectionexpiry"
+            }, 
+            {
+                "aliases": [
+                    "CASCADINGSOURCES"
+                ], 
+                "case-sensitive": "", 
+                "name": "cascadingsources"
+            }, 
+            {
+                "aliases": [
+                    "formatdate", 
+                    "dateformat"
+                ], 
+                "name": "formatdate"
+            }, 
+            {
+                "aliases": [
+                    "PATH"
+                ], 
+                "name": "url_path"
+            }, 
+            {
+                "aliases": [
+                    "WIKI"
+                ], 
+                "name": "url_wiki"
+            }, 
+            {
+                "aliases": [
+                    "QUERY"
+                ], 
+                "name": "url_query"
+            }, 
+            {
+                "aliases": [
+                    "noerror"
+                ], 
+                "name": "defaultsort_noerror"
+            }, 
+            {
+                "aliases": [
+                    "noreplace"
+                ], 
+                "name": "defaultsort_noreplace"
+            }, 
+            {
+                "aliases": [
+                    "noerror"
+                ], 
+                "name": "displaytitle_noerror"
+            }, 
+            {
+                "aliases": [
+                    "noreplace"
+                ], 
+                "name": "displaytitle_noreplace"
+            }, 
+            {
+                "aliases": [
+                    "all"
+                ], 
+                "name": "pagesincategory_all"
+            }, 
+            {
+                "aliases": [
+                    "pages"
+                ], 
+                "name": "pagesincategory_pages"
+            }, 
+            {
+                "aliases": [
+                    "subcats"
+                ], 
+                "name": "pagesincategory_subcats"
+            }, 
+            {
+                "aliases": [
+                    "files"
+                ], 
+                "name": "pagesincategory_files"
+            }
+        ], 
+        "namespacealiases": [
+            {
+                "*": "Image", 
+                "id": 6
+            }, 
+            {
+                "*": "Image talk", 
+                "id": 7
+            }
+        ], 
+        "namespaces": {
+            "-1": {
+                "*": "Special", 
+                "canonical": "Special", 
+                "case": "first-letter", 
+                "id": -1
+            }, 
+            "-2": {
+                "*": "Media", 
+                "canonical": "Media", 
+                "case": "first-letter", 
+                "id": -2
+            }, 
+            "0": {
+                "*": "", 
+                "case": "first-letter", 
+                "content": "", 
+                "id": 0, 
+                "subpages": ""
+            }, 
+            "1": {
+                "*": "Talk", 
+                "canonical": "Talk", 
+                "case": "first-letter", 
+                "id": 1, 
+                "subpages": ""
+            }, 
+            "10": {
+                "*": "Template", 
+                "canonical": "Template", 
+                "case": "first-letter", 
+                "id": 10, 
+                "subpages": ""
+            }, 
+            "11": {
+                "*": "Template talk", 
+                "canonical": "Template talk", 
+                "case": "first-letter", 
+                "id": 11, 
+                "subpages": ""
+            }, 
+            "12": {
+                "*": "Help", 
+                "canonical": "Help", 
+                "case": "first-letter", 
+                "id": 12, 
+                "subpages": ""
+            }, 
+            "13": {
+                "*": "Help talk", 
+                "canonical": "Help talk", 
+                "case": "first-letter", 
+                "id": 13, 
+                "subpages": ""
+            }, 
+            "14": {
+                "*": "Category", 
+                "canonical": "Category", 
+                "case": "first-letter", 
+                "id": 14
+            }, 
+            "15": {
+                "*": "Category talk", 
+                "canonical": "Category talk", 
+                "case": "first-letter", 
+                "id": 15, 
+                "subpages": ""
+            }, 
+            "2": {
+                "*": "User", 
+                "canonical": "User", 
+                "case": "first-letter", 
+                "id": 2, 
+                "subpages": ""
+            }, 
+            "2300": {
+                "*": "Gadget", 
+                "canonical": "Gadget", 
+                "case": "first-letter", 
+                "id": 2300
+            }, 
+            "2301": {
+                "*": "Gadget talk", 
+                "canonical": "Gadget talk", 
+                "case": "first-letter", 
+                "id": 2301
+            }, 
+            "2302": {
+                "*": "Gadget definition", 
+                "canonical": "Gadget definition", 
+                "case": "case-sensitive", 
+                "defaultcontentmodel": "GadgetDefinition", 
+                "id": 2302
+            }, 
+            "2303": {
+                "*": "Gadget definition talk", 
+                "canonical": "Gadget definition talk", 
+                "case": "case-sensitive", 
+                "id": 2303
+            }, 
+            "274": {
+                "*": "Widget", 
+                "canonical": "Widget", 
+                "case": "first-letter", 
+                "id": 274
+            }, 
+            "275": {
+                "*": "Widget talk", 
+                "canonical": "Widget talk", 
+                "case": "first-letter", 
+                "id": 275, 
+                "subpages": ""
+            }, 
+            "3": {
+                "*": "User talk", 
+                "canonical": "User talk", 
+                "case": "first-letter", 
+                "id": 3, 
+                "subpages": ""
+            }, 
+            "4": {
+                "*": "Moegirlpedia", 
+                "canonical": "Project", 
+                "case": "first-letter", 
+                "id": 4, 
+                "subpages": ""
+            }, 
+            "5": {
+                "*": "Moegirlpedia talk", 
+                "canonical": "Project talk", 
+                "case": "first-letter", 
+                "id": 5, 
+                "subpages": ""
+            }, 
+            "6": {
+                "*": "File", 
+                "canonical": "File", 
+                "case": "first-letter", 
+                "id": 6
+            }, 
+            "7": {
+                "*": "File talk", 
+                "canonical": "File talk", 
+                "case": "first-letter", 
+                "id": 7, 
+                "subpages": ""
+            }, 
+            "710": {
+                "*": "TimedText", 
+                "canonical": "TimedText", 
+                "case": "first-letter", 
+                "id": 710
+            }, 
+            "711": {
+                "*": "TimedText talk", 
+                "canonical": "TimedText talk", 
+                "case": "first-letter", 
+                "id": 711
+            }, 
+            "8": {
+                "*": "MediaWiki", 
+                "canonical": "MediaWiki", 
+                "case": "first-letter", 
+                "id": 8, 
+                "subpages": ""
+            }, 
+            "828": {
+                "*": "Module", 
+                "canonical": "Module", 
+                "case": "first-letter", 
+                "id": 828, 
+                "subpages": ""
+            }, 
+            "829": {
+                "*": "Module talk", 
+                "canonical": "Module talk", 
+                "case": "first-letter", 
+                "id": 829, 
+                "subpages": ""
+            }, 
+            "9": {
+                "*": "MediaWiki talk", 
+                "canonical": "MediaWiki talk", 
+                "case": "first-letter", 
+                "id": 9, 
+                "subpages": ""
+            }
+        }, 
+        "rightsinfo": {
+            "text": "Creative Commons Attribution Share Alike", 
+            "url": ""
+        }, 
+        "skins": [
+            {
+                "*": "Vector", 
+                "code": "vector", 
+                "default": ""
+            }, 
+            {
+                "*": "Fallback", 
+                "code": "fallback", 
+                "unusable": ""
+            }, 
+            {
+                "*": "ApiOutput", 
+                "code": "apioutput", 
+                "unusable": ""
+            }
+        ], 
+        "specialpagealiases": [
+            {
+                "aliases": [
+                    "BrokenRedirects"
+                ], 
+                "realname": "BrokenRedirects"
+            }, 
+            {
+                "aliases": [
+                    "DeadendPages"
+                ], 
+                "realname": "Deadendpages"
+            }, 
+            {
+                "aliases": [
+                    "DoubleRedirects"
+                ], 
+                "realname": "DoubleRedirects"
+            }, 
+            {
+                "aliases": [
+                    "LongPages"
+                ], 
+                "realname": "Longpages"
+            }, 
+            {
+                "aliases": [
+                    "AncientPages"
+                ], 
+                "realname": "Ancientpages"
+            }, 
+            {
+                "aliases": [
+                    "LonelyPages", 
+                    "OrphanedPages"
+                ], 
+                "realname": "Lonelypages"
+            }, 
+            {
+                "aliases": [
+                    "FewestRevisions"
+                ], 
+                "realname": "Fewestrevisions"
+            }, 
+            {
+                "aliases": [
+                    "WithoutInterwiki"
+                ], 
+                "realname": "Withoutinterwiki"
+            }, 
+            {
+                "aliases": [
+                    "ProtectedPages"
+                ], 
+                "realname": "Protectedpages"
+            }, 
+            {
+                "aliases": [
+                    "ProtectedTitles"
+                ], 
+                "realname": "Protectedtitles"
+            }, 
+            {
+                "aliases": [
+                    "ShortPages"
+                ], 
+                "realname": "Shortpages"
+            }, 
+            {
+                "aliases": [
+                    "UncategorizedCategories"
+                ], 
+                "realname": "Uncategorizedcategories"
+            }, 
+            {
+                "aliases": [
+                    "UncategorizedFiles", 
+                    "UncategorizedImages"
+                ], 
+                "realname": "Uncategorizedimages"
+            }, 
+            {
+                "aliases": [
+                    "UncategorizedPages"
+                ], 
+                "realname": "Uncategorizedpages"
+            }, 
+            {
+                "aliases": [
+                    "UncategorizedTemplates"
+                ], 
+                "realname": "Uncategorizedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "UnusedCategories"
+                ], 
+                "realname": "Unusedcategories"
+            }, 
+            {
+                "aliases": [
+                    "UnusedFiles", 
+                    "UnusedImages"
+                ], 
+                "realname": "Unusedimages"
+            }, 
+            {
+                "aliases": [
+                    "UnusedTemplates"
+                ], 
+                "realname": "Unusedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "UnwatchedPages"
+                ], 
+                "realname": "Unwatchedpages"
+            }, 
+            {
+                "aliases": [
+                    "WantedCategories"
+                ], 
+                "realname": "Wantedcategories"
+            }, 
+            {
+                "aliases": [
+                    "WantedFiles"
+                ], 
+                "realname": "Wantedfiles"
+            }, 
+            {
+                "aliases": [
+                    "WantedPages", 
+                    "BrokenLinks"
+                ], 
+                "realname": "Wantedpages"
+            }, 
+            {
+                "aliases": [
+                    "WantedTemplates"
+                ], 
+                "realname": "Wantedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "AllPages"
+                ], 
+                "realname": "Allpages"
+            }, 
+            {
+                "aliases": [
+                    "PrefixIndex"
+                ], 
+                "realname": "Prefixindex"
+            }, 
+            {
+                "aliases": [
+                    "Categories"
+                ], 
+                "realname": "Categories"
+            }, 
+            {
+                "aliases": [
+                    "ListRedirects"
+                ], 
+                "realname": "Listredirects"
+            }, 
+            {
+                "aliases": [
+                    "PagesWithProp", 
+                    "Pageswithprop", 
+                    "PagesByProp", 
+                    "Pagesbyprop"
+                ], 
+                "realname": "PagesWithProp"
+            }, 
+            {
+                "aliases": [
+                    "TrackingCategories"
+                ], 
+                "realname": "TrackingCategories"
+            }, 
+            {
+                "aliases": [
+                    "UserLogin", 
+                    "Login"
+                ], 
+                "realname": "Userlogin"
+            }, 
+            {
+                "aliases": [
+                    "UserLogout", 
+                    "Logout"
+                ], 
+                "realname": "Userlogout"
+            }, 
+            {
+                "aliases": [
+                    "CreateAccount"
+                ], 
+                "realname": "CreateAccount"
+            }, 
+            {
+                "aliases": [
+                    "LinkAccounts"
+                ], 
+                "realname": "LinkAccounts"
+            }, 
+            {
+                "aliases": [
+                    "UnlinkAccounts"
+                ], 
+                "realname": "UnlinkAccounts"
+            }, 
+            {
+                "aliases": [
+                    "ChangeCredentials"
+                ], 
+                "realname": "ChangeCredentials"
+            }, 
+            {
+                "aliases": [
+                    "RemoveCredentials"
+                ], 
+                "realname": "RemoveCredentials"
+            }, 
+            {
+                "aliases": [
+                    "ActiveUsers"
+                ], 
+                "realname": "Activeusers"
+            }, 
+            {
+                "aliases": [
+                    "Block", 
+                    "BlockIP", 
+                    "BlockUser"
+                ], 
+                "realname": "Block"
+            }, 
+            {
+                "aliases": [
+                    "Unblock"
+                ], 
+                "realname": "Unblock"
+            }, 
+            {
+                "aliases": [
+                    "BlockList", 
+                    "ListBlocks", 
+                    "IPBlockList"
+                ], 
+                "realname": "BlockList"
+            }, 
+            {
+                "aliases": [
+                    "AutoblockList", 
+                    "ListAutoblocks"
+                ], 
+                "realname": "AutoblockList"
+            }, 
+            {
+                "aliases": [
+                    "ChangePassword", 
+                    "ResetPass", 
+                    "ResetPassword"
+                ], 
+                "realname": "ChangePassword"
+            }, 
+            {
+                "aliases": [
+                    "BotPasswords"
+                ], 
+                "realname": "BotPasswords"
+            }, 
+            {
+                "aliases": [
+                    "PasswordReset"
+                ], 
+                "realname": "PasswordReset"
+            }, 
+            {
+                "aliases": [
+                    "DeletedContributions"
+                ], 
+                "realname": "DeletedContributions"
+            }, 
+            {
+                "aliases": [
+                    "Preferences"
+                ], 
+                "realname": "Preferences"
+            }, 
+            {
+                "aliases": [
+                    "ResetTokens"
+                ], 
+                "realname": "ResetTokens"
+            }, 
+            {
+                "aliases": [
+                    "Contributions", 
+                    "Contribs"
+                ], 
+                "realname": "Contributions"
+            }, 
+            {
+                "aliases": [
+                    "ListGroupRights", 
+                    "UserGroupRights"
+                ], 
+                "realname": "Listgrouprights"
+            }, 
+            {
+                "aliases": [
+                    "ListGrants"
+                ], 
+                "realname": "Listgrants"
+            }, 
+            {
+                "aliases": [
+                    "ListUsers", 
+                    "UserList"
+                ], 
+                "realname": "Listusers"
+            }, 
+            {
+                "aliases": [
+                    "ListAdmins"
+                ], 
+                "realname": "Listadmins"
+            }, 
+            {
+                "aliases": [
+                    "ListBots"
+                ], 
+                "realname": "Listbots"
+            }, 
+            {
+                "aliases": [
+                    "UserRights", 
+                    "MakeSysop", 
+                    "MakeBot"
+                ], 
+                "realname": "Userrights"
+            }, 
+            {
+                "aliases": [
+                    "EditWatchlist"
+                ], 
+                "realname": "EditWatchlist"
+            }, 
+            {
+                "aliases": [
+                    "NewFiles", 
+                    "NewImages"
+                ], 
+                "realname": "Newimages"
+            }, 
+            {
+                "aliases": [
+                    "Log", 
+                    "Logs"
+                ], 
+                "realname": "Log"
+            }, 
+            {
+                "aliases": [
+                    "Watchlist"
+                ], 
+                "realname": "Watchlist"
+            }, 
+            {
+                "aliases": [
+                    "NewPages"
+                ], 
+                "realname": "Newpages"
+            }, 
+            {
+                "aliases": [
+                    "RecentChanges"
+                ], 
+                "realname": "Recentchanges"
+            }, 
+            {
+                "aliases": [
+                    "RecentChangesLinked", 
+                    "RelatedChanges"
+                ], 
+                "realname": "Recentchangeslinked"
+            }, 
+            {
+                "aliases": [
+                    "Tags"
+                ], 
+                "realname": "Tags"
+            }, 
+            {
+                "aliases": [
+                    "ListFiles", 
+                    "FileList", 
+                    "ImageList"
+                ], 
+                "realname": "Listfiles"
+            }, 
+            {
+                "aliases": [
+                    "FilePath"
+                ], 
+                "realname": "Filepath"
+            }, 
+            {
+                "aliases": [
+                    "MediaStatistics"
+                ], 
+                "realname": "MediaStatistics"
+            }, 
+            {
+                "aliases": [
+                    "MIMESearch"
+                ], 
+                "realname": "MIMEsearch"
+            }, 
+            {
+                "aliases": [
+                    "FileDuplicateSearch"
+                ], 
+                "realname": "FileDuplicateSearch"
+            }, 
+            {
+                "aliases": [
+                    "Upload"
+                ], 
+                "realname": "Upload"
+            }, 
+            {
+                "aliases": [
+                    "UploadStash"
+                ], 
+                "realname": "UploadStash"
+            }, 
+            {
+                "aliases": [
+                    "ListDuplicatedFiles", 
+                    "ListFileDuplicates"
+                ], 
+                "realname": "ListDuplicatedFiles"
+            }, 
+            {
+                "aliases": [
+                    "ApiSandbox"
+                ], 
+                "realname": "ApiSandbox"
+            }, 
+            {
+                "aliases": [
+                    "Statistics", 
+                    "Stats"
+                ], 
+                "realname": "Statistics"
+            }, 
+            {
+                "aliases": [
+                    "AllMessages"
+                ], 
+                "realname": "Allmessages"
+            }, 
+            {
+                "aliases": [
+                    "Version"
+                ], 
+                "realname": "Version"
+            }, 
+            {
+                "aliases": [
+                    "LockDB"
+                ], 
+                "realname": "Lockdb"
+            }, 
+            {
+                "aliases": [
+                    "UnlockDB"
+                ], 
+                "realname": "Unlockdb"
+            }, 
+            {
+                "aliases": [
+                    "LinkSearch"
+                ], 
+                "realname": "LinkSearch"
+            }, 
+            {
+                "aliases": [
+                    "Random", 
+                    "RandomPage"
+                ], 
+                "realname": "Randompage"
+            }, 
+            {
+                "aliases": [
+                    "RandomInCategory"
+                ], 
+                "realname": "RandomInCategory"
+            }, 
+            {
+                "aliases": [
+                    "RandomRedirect"
+                ], 
+                "realname": "Randomredirect"
+            }, 
+            {
+                "aliases": [
+                    "RandomRootpage"
+                ], 
+                "realname": "Randomrootpage"
+            }, 
+            {
+                "aliases": [
+                    "GoToInterwiki"
+                ], 
+                "realname": "GoToInterwiki"
+            }, 
+            {
+                "aliases": [
+                    "MostLinkedCategories", 
+                    "MostUsedCategories"
+                ], 
+                "realname": "Mostlinkedcategories"
+            }, 
+            {
+                "aliases": [
+                    "MostLinkedFiles", 
+                    "MostFiles", 
+                    "MostImages"
+                ], 
+                "realname": "Mostimages"
+            }, 
+            {
+                "aliases": [
+                    "MostInterwikis"
+                ], 
+                "realname": "Mostinterwikis"
+            }, 
+            {
+                "aliases": [
+                    "MostLinkedPages", 
+                    "MostLinked"
+                ], 
+                "realname": "Mostlinked"
+            }, 
+            {
+                "aliases": [
+                    "MostTranscludedPages", 
+                    "MostLinkedTemplates", 
+                    "MostUsedTemplates"
+                ], 
+                "realname": "Mostlinkedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "MostCategories"
+                ], 
+                "realname": "Mostcategories"
+            }, 
+            {
+                "aliases": [
+                    "MostRevisions"
+                ], 
+                "realname": "Mostrevisions"
+            }, 
+            {
+                "aliases": [
+                    "ComparePages"
+                ], 
+                "realname": "ComparePages"
+            }, 
+            {
+                "aliases": [
+                    "Export"
+                ], 
+                "realname": "Export"
+            }, 
+            {
+                "aliases": [
+                    "Import"
+                ], 
+                "realname": "Import"
+            }, 
+            {
+                "aliases": [
+                    "Undelete"
+                ], 
+                "realname": "Undelete"
+            }, 
+            {
+                "aliases": [
+                    "WhatLinksHere"
+                ], 
+                "realname": "Whatlinkshere"
+            }, 
+            {
+                "aliases": [
+                    "MergeHistory"
+                ], 
+                "realname": "MergeHistory"
+            }, 
+            {
+                "aliases": [
+                    "ExpandTemplates"
+                ], 
+                "realname": "ExpandTemplates"
+            }, 
+            {
+                "aliases": [
+                    "BookSources"
+                ], 
+                "realname": "Booksources"
+            }, 
+            {
+                "aliases": [
+                    "ApiHelp"
+                ], 
+                "realname": "ApiHelp"
+            }, 
+            {
+                "aliases": [
+                    "BlankPage"
+                ], 
+                "realname": "Blankpage"
+            }, 
+            {
+                "aliases": [
+                    "Diff"
+                ], 
+                "realname": "Diff"
+            }, 
+            {
+                "aliases": [
+                    "EditTags"
+                ], 
+                "realname": "EditTags"
+            }, 
+            {
+                "aliases": [
+                    "EmailUser", 
+                    "Email"
+                ], 
+                "realname": "Emailuser"
+            }, 
+            {
+                "aliases": [
+                    "MovePage"
+                ], 
+                "realname": "Movepage"
+            }, 
+            {
+                "aliases": [
+                    "MyContributions"
+                ], 
+                "realname": "Mycontributions"
+            }, 
+            {
+                "aliases": [
+                    "MyLanguage"
+                ], 
+                "realname": "MyLanguage"
+            }, 
+            {
+                "aliases": [
+                    "MyPage"
+                ], 
+                "realname": "Mypage"
+            }, 
+            {
+                "aliases": [
+                    "MyTalk"
+                ], 
+                "realname": "Mytalk"
+            }, 
+            {
+                "aliases": [
+                    "MyUploads", 
+                    "MyFiles"
+                ], 
+                "realname": "Myuploads"
+            }, 
+            {
+                "aliases": [
+                    "AllMyUploads", 
+                    "AllMyFiles"
+                ], 
+                "realname": "AllMyUploads"
+            }, 
+            {
+                "aliases": [
+                    "PermanentLink", 
+                    "PermaLink"
+                ], 
+                "realname": "PermanentLink"
+            }, 
+            {
+                "aliases": [
+                    "Redirect"
+                ], 
+                "realname": "Redirect"
+            }, 
+            {
+                "aliases": [
+                    "RevisionDelete"
+                ], 
+                "realname": "Revisiondelete"
+            }, 
+            {
+                "aliases": [
+                    "RunJobs"
+                ], 
+                "realname": "RunJobs"
+            }, 
+            {
+                "aliases": [
+                    "SpecialPages"
+                ], 
+                "realname": "Specialpages"
+            }, 
+            {
+                "aliases": [
+                    "PageData"
+                ], 
+                "realname": "PageData"
+            }, 
+            {
+                "aliases": [
+                    "Search"
+                ], 
+                "realname": "Search"
+            }, 
+            {
+                "aliases": [
+                    "ConfirmEmail"
+                ], 
+                "realname": "Confirmemail"
+            }, 
+            {
+                "aliases": [
+                    "InvalidateEmail"
+                ], 
+                "realname": "Invalidateemail"
+            }, 
+            {
+                "aliases": [
+                    "ChangeEmail"
+                ], 
+                "realname": "ChangeEmail"
+            }, 
+            {
+                "aliases": [
+                    "ChangeContentModel"
+                ], 
+                "realname": "ChangeContentModel"
+            }, 
+            {
+                "aliases": [
+                    "Gadgets"
+                ], 
+                "realname": "Gadgets"
+            }, 
+            {
+                "aliases": [
+                    "GadgetUsage"
+                ], 
+                "realname": "GadgetUsage"
+            }, 
+            {
+                "aliases": [
+                    "TemplateSandbox"
+                ], 
+                "realname": "TemplateSandbox"
+            }, 
+            {
+                "aliases": [
+                    "CategoryTree"
+                ], 
+                "realname": "CategoryTree"
+            }, 
+            {
+                "aliases": [
+                    "Interwiki"
+                ], 
+                "realname": "Interwiki"
+            }, 
+            {
+                "aliases": [
+                    "Notifications"
+                ], 
+                "realname": "Notifications"
+            }, 
+            {
+                "aliases": [
+                    "DisplayNotificationsConfiguration"
+                ], 
+                "realname": "DisplayNotificationsConfiguration"
+            }, 
+            {
+                "aliases": [
+                    "NotificationsMarkRead"
+                ], 
+                "realname": "NotificationsMarkRead"
+            }, 
+            {
+                "aliases": [
+                    "Thanks"
+                ], 
+                "realname": "Thanks"
+            }, 
+            {
+                "aliases": [
+                    "UploadAvatar"
+                ], 
+                "realname": "UploadAvatar"
+            }, 
+            {
+                "aliases": [
+                    "ViewAvatar"
+                ], 
+                "realname": "ViewAvatar"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadExport"
+                ], 
+                "realname": "FlowThreadExport"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadImport"
+                ], 
+                "realname": "FlowThreadImport"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadManage"
+                ], 
+                "realname": "FlowThreadManage"
+            }, 
+            {
+                "aliases": [
+                    "FlowThreadLink"
+                ], 
+                "realname": "FlowThreadLink"
+            }, 
+            {
+                "aliases": [
+                    "Nuke"
+                ], 
+                "realname": "Nuke"
+            }, 
+            {
+                "aliases": [
+                    "RenameUser"
+                ], 
+                "realname": "Renameuser"
+            }, 
+            {
+                "aliases": [
+                    "ReplaceText"
+                ], 
+                "realname": "ReplaceText"
+            }, 
+            {
+                "aliases": [
+                    "CheckUser"
+                ], 
+                "realname": "CheckUser"
+            }, 
+            {
+                "aliases": [
+                    "CheckUserLog"
+                ], 
+                "realname": "CheckUserLog"
+            }, 
+            {
+                "aliases": [
+                    "UserMerge"
+                ], 
+                "realname": "UserMerge"
+            }, 
+            {
+                "aliases": [
+                    "GlobalBlock"
+                ], 
+                "realname": "GlobalBlock"
+            }, 
+            {
+                "aliases": [
+                    "GlobalBlockList"
+                ], 
+                "realname": "GlobalBlockList"
+            }, 
+            {
+                "aliases": [
+                    "GlobalBlockWhitelist", 
+                    "GlobalBlockStatus", 
+                    "DisableGlobalBlock"
+                ], 
+                "realname": "GlobalBlockStatus"
+            }, 
+            {
+                "aliases": [
+                    "GlobalUnblock", 
+                    "RemoveGlobalBlock"
+                ], 
+                "realname": "RemoveGlobalBlock"
+            }, 
+            {
+                "aliases": [
+                    "AbuseLog"
+                ], 
+                "realname": "AbuseLog"
+            }, 
+            {
+                "aliases": [
+                    "AbuseFilter"
+                ], 
+                "realname": "AbuseFilter"
+            }, 
+            {
+                "aliases": [
+                    "OrphanedTimedText"
+                ], 
+                "realname": "OrphanedTimedText"
+            }, 
+            {
+                "aliases": [
+                    "TimedMediaHandler"
+                ], 
+                "realname": "TimedMediaHandler"
+            }, 
+            {
+                "aliases": [
+                    "Captcha"
+                ], 
+                "realname": "Captcha"
+            }, 
+            {
+                "aliases": [
+                    "DeleteBatch"
+                ], 
+                "realname": "DeleteBatch"
+            }, 
+            {
+                "aliases": [
+                    "CollabPad", 
+                    "Collab_Pad"
+                ], 
+                "realname": "CollabPad"
+            }, 
+            {
+                "aliases": [
+                    "MassEditRegex"
+                ], 
+                "realname": "MassEditRegex"
+            }, 
+            {
+                "aliases": [
+                    "ContributionScores"
+                ], 
+                "realname": "ContributionScores"
+            }
+        ], 
+        "statistics": {
+            "activeusers": 5, 
+            "admins": 11, 
+            "articles": 339, 
+            "edits": 11647, 
+            "images": 455, 
+            "jobs": 0, 
+            "pages": 1309, 
+            "users": 2585
+        }, 
+        "usergroups": [
+            {
+                "name": "*", 
+                "rights": [
+                    "createaccount", 
+                    "read", 
+                    "writeapi", 
+                    "viewmywatchlist", 
+                    "editmywatchlist", 
+                    "viewmyprivateinfo", 
+                    "editmyprivateinfo", 
+                    "editmyoptions", 
+                    "ajaxpoll-vote", 
+                    "ajaxpoll-view-results", 
+                    "abusefilter-log-detail", 
+                    "abusefilter-view", 
+                    "abusefilter-log"
+                ]
+            }, 
+            {
+                "name": "user", 
+                "number": 2585, 
+                "rights": [
+                    "read", 
+                    "edit", 
+                    "createpage", 
+                    "createtalk", 
+                    "writeapi", 
+                    "upload", 
+                    "reupload-shared", 
+                    "minoredit", 
+                    "editmyusercss", 
+                    "editmyuserjson", 
+                    "editmyuserjs", 
+                    "purge", 
+                    "sendemail", 
+                    "applychangetags", 
+                    "changetags", 
+                    "editcontentmodel", 
+                    "comment", 
+                    "ajaxpoll-vote", 
+                    "ajaxpoll-view-results", 
+                    "avatarupload", 
+                    "spamblacklistlog"
+                ]
+            }, 
+            {
+                "name": "autoconfirmed", 
+                "rights": [
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "upload_by_url", 
+                    "movefile", 
+                    "move", 
+                    "move-categorypages", 
+                    "move-rootuserpages", 
+                    "move-subpages", 
+                    "skipcaptcha", 
+                    "transcode-reset"
+                ]
+            }, 
+            {
+                "name": "bot", 
+                "number": 14, 
+                "rights": [
+                    "bot", 
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "nominornewtalk", 
+                    "autopatrol", 
+                    "suppressredirect", 
+                    "apihighlimits", 
+                    "writeapi", 
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "add": [
+                    "patroller", 
+                    "goodeditor"
+                ], 
+                "name": "sysop", 
+                "number": 11, 
+                "remove": [
+                    "goodeditor"
+                ], 
+                "rights": [
+                    "block", 
+                    "createaccount", 
+                    "delete", 
+                    "bigdelete", 
+                    "deletedhistory", 
+                    "deletedtext", 
+                    "undelete", 
+                    "editinterface", 
+                    "editusercss", 
+                    "edituserjson", 
+                    "edituserjs", 
+                    "import", 
+                    "importupload", 
+                    "move", 
+                    "move-subpages", 
+                    "move-rootuserpages", 
+                    "move-categorypages", 
+                    "patrol", 
+                    "autopatrol", 
+                    "protect", 
+                    "editprotected", 
+                    "rollback", 
+                    "upload", 
+                    "reupload", 
+                    "reupload-shared", 
+                    "unwatchedpages", 
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "ipblock-exempt", 
+                    "blockemail", 
+                    "markbotedits", 
+                    "apihighlimits", 
+                    "browsearchive", 
+                    "noratelimit", 
+                    "movefile", 
+                    "unblockself", 
+                    "suppressredirect", 
+                    "mergehistory", 
+                    "managechangetags", 
+                    "deletechangetags", 
+                    "patrolleredit", 
+                    "editwidgets", 
+                    "interwiki", 
+                    "ajaxpoll-view-results-before-vote", 
+                    "masseditregex", 
+                    "passwordreset", 
+                    "abusefilter-modify", 
+                    "abusefilter-private", 
+                    "abusefilter-modify-restricted", 
+                    "abusefilter-revert", 
+                    "avataradmin", 
+                    "commentadmin", 
+                    "commentadmin-restricted", 
+                    "nuke", 
+                    "replacetext", 
+                    "override-antispoof", 
+                    "tboverride", 
+                    "titleblacklistlog", 
+                    "globalblock-whitelist", 
+                    "abusefilter-log-detail", 
+                    "transcode-reset", 
+                    "transcode-status", 
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "name": "bureaucrat", 
+                "number": 3, 
+                "rights": [
+                    "userrights", 
+                    "noratelimit", 
+                    "usermerge", 
+                    "renameuser", 
+                    "override-antispoof", 
+                    "deletebatch"
+                ]
+            }, 
+            {
+                "name": "suppress", 
+                "number": 1, 
+                "rights": [
+                    "deleterevision", 
+                    "deletelogentry", 
+                    "hideuser", 
+                    "suppressrevision", 
+                    "suppressionlog", 
+                    "commentadmin"
+                ]
+            }, 
+            {
+                "add": [
+                    "goodeditor"
+                ], 
+                "name": "patroller", 
+                "number": 23, 
+                "remove": [
+                    "goodeditor"
+                ], 
+                "rights": [
+                    "rollback", 
+                    "autopatrol", 
+                    "patrol", 
+                    "skipcaptcha", 
+                    "noratelimit", 
+                    "patrolleredit", 
+                    "commentadmin-restricted"
+                ]
+            }, 
+            {
+                "name": "goodeditor", 
+                "number": 136, 
+                "rights": [
+                    "autopatrol"
+                ]
+            }, 
+            {
+                "name": "developer", 
+                "number": 1, 
+                "rights": [
+                    "siteadmin", 
+                    "createpage", 
+                    "createtalk", 
+                    "edit", 
+                    "upload", 
+                    "abusefilter-modify", 
+                    "abusefilter-private", 
+                    "abusefilter-modify-restricted", 
+                    "abusefilter-revert", 
+                    "editwidgets", 
+                    "editinterface"
+                ]
+            }, 
+            {
+                "name": "widgeteditor", 
+                "number": 8, 
+                "rights": [
+                    "editwidgets"
+                ]
+            }, 
+            {
+                "name": "emailconfirmed", 
+                "number": 0, 
+                "rights": [
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "name": "checkuser", 
+                "number": 1, 
+                "rights": [
+                    "checkuser", 
+                    "checkuser-log"
+                ]
+            }, 
+            {
+                "name": "steward", 
+                "number": 0, 
+                "rights": [
+                    "globalblock"
+                ]
+            }
+        ]
+    }
+}

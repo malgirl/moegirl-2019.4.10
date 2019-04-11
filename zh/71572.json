@@ -1,0 +1,1 @@
+{"parse":{"title":"User:Cotangent/common.js","pageid":212643,"wikitext":{"*":"mw.loader.load('https://wikiplus-app.smartgslb.com/Main.js');\n// \u73a9\u4e00\u73a9\u2026\u2026\n$(\".navbox,.references\").wrap(\"<small></small>\");"}}}

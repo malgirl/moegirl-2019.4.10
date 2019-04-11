@@ -1,0 +1,1 @@
+{"parse":{"title":"Template:Plain link","pageid":264548,"wikitext":{"*":"<includeonly><span class=\"plainlinks\">{{#if:{{{2|{{{NAME|{{{name|}}}}}}}}}\n |[{{{1|{{{URL|{{{url}}}}}}}}} {{{2|{{{NAME|{{{name|}}}}}}}}}]\n |[{{{1|{{{URL|{{{url}}}}}}}}}]\n}}</span></includeonly><noinclude>\n{{documentation}}\n</noinclude>"}}}
